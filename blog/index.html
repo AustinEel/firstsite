@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<head>
+  <!-- title and meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0" name="viewport">
+  <meta content="description" name="In this tutorial, we take a look at a beautiful parallax scrolling effect in the simplest of ways, with stationary backgrounds and scrolling content.">
+
+  <!-- css -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+  
+</head>
+
+<body>
+
+<div class="wrapper">
+  <main>  
+      {% include header.html %}
+      <section class="module content">
+          <div id="posts">
+            {% for post in paginator.posts %}
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {{ post.excerpt }}
+          {% endfor %}
+          <center>
+          <div class="pagination">
+            {% if paginator.previous_page %}
+              <a href="{{ paginator.previous_page_path }}" class="previous">&laquo; Previous</a>
+            {% endif %}
+        
+            <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+        
+            {% if paginator.next_page %}
+              <a href="{{ paginator.next_page_path }}" class="next">Next &raquo;</a>
+            {% endif %}
+          </div>
+        </center>
+        </ul>
+          </div>
+      </section>
+  </main>
+
+</div>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script>
+      $(document).foundation();
+    </script>
+</body>

@@ -1,0 +1,26 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ site.name }}</title>
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/css/base.css" type="text/css">    
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">    
+  </head>
+  <body>
+    <div id="body">
+
+      {{ content }}
+
+      <hr>
+      <center>
+      © {{ site.time | date: '%Y' }} {{ site.author }}.
+      <a href="https://twitter.com/{{ site.twitter }}">Follow me on Twitter</a></center>
+
+      <!-- add icons here -->
+    </div>
+  </body>
+</html>

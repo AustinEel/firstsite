@@ -1,0 +1,11 @@
+name: Bruin Sports Analytics
+author: Bruin Sports Analytics
+twitter: austinian_
+
+permalink: "/:title"
+
+paginate: 2
+paginate_path: "blog/:num"
+
+plugins:
+  - jekyll-paginate
