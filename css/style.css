@@ -43,7 +43,7 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("../img/core/1.jpg");
+  background-image: url("../assets/1.jpg");
 }
 #abtdescription {
   font-family: "Roboto Slab", serif;

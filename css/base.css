@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  height: 100%;
 }
 
 ol, ul {
@@ -83,6 +84,7 @@ body {
   PRIMARY STRUCTURE
 ============================================================ */
 .wrapper {
+  min-height: 100%;
   width: 100%;
   margin: 0 auto;
 }
@@ -115,8 +117,8 @@ main {
   padding: 0;
   width: 30px;
   height: 30px;
-  background-image: url("../img/core/icons-dark.png");
-  background-image: url("../img/core/icons-dark.svg"), none;
+  background-image: url("../assets/icons-dark.png");
+  background-image: url("../assets/icons-dark.svg"), none;
   opacity: 0.3;
 }
 .info-bar .cmn-tut {
@@ -179,8 +181,8 @@ header .social a {
   font-size: 0;
   text-indent: -9999px;
   background-size: 30px 30px;
-  background-image: url("../img/core/social-light.png");
-  background-image: url("../img/core/social-light.svg"), none;
+  background-image: url("../assets/social-light.png");
+  background-image: url("../assets/social-light.svg"), none;
   background-size: 180px 30px;
 }
 header .social a.fb {
@@ -241,6 +243,8 @@ header .social a:hover {
   FOOTER
 ============================================================ */
 footer {
+  position: absolute;
+  bottom: 0;
   padding: 20px 0;
 }
 footer .asides {

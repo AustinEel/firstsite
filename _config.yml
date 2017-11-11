@@ -1,6 +1,6 @@
 name: Bruin Sports Analytics
 author: Bruin Sports Analytics
-twitter: austinian_
+twitter: bruinsportsanalytics
 
 permalink: "/:title"
 
@@ -9,3 +9,5 @@ paginate_path: "blog/:num"
 
 plugins:
   - jekyll-paginate
+
+excerpt_separator: <!-- end excerpt here -->
