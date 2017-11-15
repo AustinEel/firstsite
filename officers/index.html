@@ -7,10 +7,8 @@ title: Officers
   <!-- title and meta -->
   <meta charset="utf-8">
   <meta content="width=device-width,initial-scale=1.0" name="viewport">
-  <meta content="description" name="In this tutorial, we take a look at a beautiful parallax scrolling effect in the simplest of ways, with stationary backgrounds and scrolling content.">
-
   <!-- css -->
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   
 </head>
 
@@ -18,14 +16,53 @@ title: Officers
 
 <div class="wrapper">
   <main>  
-      {% include header.html %}
-
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="img_avatar.png" alt="Avatar">
+            <div class="cardcontainer">
+              <h4><b>John Doe</b></h4> 
+              <p>Architect & Engineer</p> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="img_avatar.png" alt="Avatar">
+            <div class="cardcontainer">
+              <h4><b>John Doe</b></h4> 
+              <p>Architect & Engineer</p> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="img_avatar.png" alt="Avatar">
+            <div class="cardcontainer">
+              <h4><b>John Doe</b></h4> 
+              <p>Architect & Engineer</p> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          1 of 3
+        </div>
+        <div class="col">
+          2 of 3
+        </div>
+        <div class="col">
+          3 of 3
+        </div>
+      </div>
+    </div>
+      
   </main>
 
 </div>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-<script>
-      $(document).foundation();
-    </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 </body>

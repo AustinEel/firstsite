@@ -7,17 +7,13 @@ layout: default
   <meta charset="utf-8">
   <meta content="width=device-width,initial-scale=1.0" name="viewport">
   <meta content="description" name="In this tutorial, we take a look at a beautiful parallax scrolling effect in the simplest of ways, with stationary backgrounds and scrolling content.">
-
-  <!-- css -->
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
   
 </head>
 
 <body>
 
 <div class="wrapper">
-  <main>  
-      {% include header.html %}
+  <main>
       <section class="module content">
           <div id="posts">
             {% for post in paginator.posts %}
@@ -40,6 +36,7 @@ layout: default
         </ul>
           </div>
       </section>
+
   </main>
 
 </div>

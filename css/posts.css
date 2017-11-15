@@ -1,0 +1,15 @@
+#bodycontent {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+#pagetitle {
+    font-family: 'Roboto Slab', sans-serif;
+
+}
+
+#footer {
+    font-size: 12px;
+}

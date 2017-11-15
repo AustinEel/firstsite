@@ -2,11 +2,54 @@
 <html lang="en">
   <head>
     <title>Bruin Sports Analytics</title>
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <link rel="stylesheet" href="/css/base.css" type="text/css">    
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
-    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">    
+    <!-- <link rel="stylesheet" href="/css/base.css" type="text/css">     -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">    
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab"> 
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">    
+    <link rel="stylesheet" href="/css/style.css" type="text/css"> 
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   </head>
+  <header>
+    <!-- <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle></button>
+    <div class="title-bar-title">Menu</div>
+    </div> -->
+
+    <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper" id="navbar">
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <!-- <a href="http://dailybruin.com/" class="left"> -->
+              <img id="logo" src="assets/bsa_logo.png" />
+            <!-- </a> -->
+            <a href="http://localhost:4000" class="left navlink">
+              Bruin Sports Analytics
+            </a>
+            <ul id="days" class="right hide-on-med-and-down">
+              <li id="Blog"><a class="navlink" href="../blog">Blog</a></li>
+              <li id="Research"><a class="navlink" href="../../research">Research</a></li>
+              <li id="Officers"><a class="navlink" href="../../officers">Officers</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+
+    <!-- <div class="top-bar" id="main-menu">
+    <ul class="menu vertical medium-horizontal expanded medium-text-center" data-responsive-menu="drilldown medium-dropdown">
+    <li><a href="http://localhost:4000">Home</a>
+    </li>
+    <li><a href="../blog">Blog</a>
+    </li>
+    <li><a href="../../research">Research</a>
+    </li>
+    <li><a href="../../officers">Officers</a>
+    </li>
+    </ul>
+    </div> -->
+</header>
   <body>
     <div id="body">
 
@@ -18,6 +61,10 @@
 
   <!-- css -->
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+  <link rel="stylesheet" href="/css/style.css" type="text/css"> 
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   
 </head>
 
@@ -27,27 +74,9 @@
   <main>  
       <section class="module parallax parallax-1">
         <div class="container">
-          <h1>BSA</h1>
+          <h1>Bruin Sports Analytics<span class="typed"></span></h1>
         </div>
       </section>
-      <header>
-    <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
-    <button class="menu-icon" type="button" data-toggle></button>
-    <div class="title-bar-title">Menu</div>
-    </div>
-    <div class="top-bar" id="main-menu">
-    <ul class="menu vertical medium-horizontal expanded medium-text-center" data-responsive-menu="drilldown medium-dropdown">
-    <li><a href="http://localhost:4000">Home</a>
-    </li>
-    <li><a href="../blog">Blog</a>
-    </li>
-    <li><a href="../../research">Research</a>
-    </li>
-    <li><a href="../../officers">Officers</a>
-    </li>
-    </ul>
-    </div>
-</header>
       <section class="module content">
         <center>
           <div id="abtdescription">
@@ -67,11 +96,6 @@
       </section>
   </main>
 
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-<script>
-      $(document).foundation();
-    </script>
 </body>
 
 
