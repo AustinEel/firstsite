@@ -64,6 +64,14 @@ section.module.parallax-1 {
   padding-right: 20vw;
 }
 
+@media screen and (max-width: 480px) {
+  #abtdescription {
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  }
+}
+
+
 #abtdescription ul {
   list-style-position: inside;
   padding-top: 0px;
