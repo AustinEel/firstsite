@@ -14,19 +14,17 @@
 @media all and (max-width: 420px) {
     #bodycontent {
         font-family: 'Lora', serif;
-        font-size: 20px;
         padding-left: 10vw;
         padding-right: 10vw;
-        line-height: 35px;
+        line-height: 30px;
     }
-    .materialboxed {
-        max-width: 95%;
+    img {
+        max-width: 90%;
     }
   }
 
 #pagetitle {
     font-family: 'Roboto Slab', sans-serif;
-
 }
 
 #footer {

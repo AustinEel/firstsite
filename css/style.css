@@ -142,8 +142,3 @@ CARDS
   display: inline-block;
   top: 0;
 }
-
-.leftbox {
-  background-color: #000000;
-  z-index:10000;
-}
