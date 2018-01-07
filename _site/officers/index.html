@@ -21,7 +21,7 @@
         <nav>
           <div class="nav-wrapper" id="navbar">
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-              <img id="logo" src="assets/bsa_logo.png" />
+              <!-- <img id="logo" src="assets/bsa_logo.png" /> -->
             <!-- </a> -->
             <a href="http://localhost:4000" class="left navlink">
               Bruin Sports Analytics
@@ -57,7 +57,6 @@
   <meta charset="utf-8">
   <meta content="width=device-width,initial-scale=1.0" name="viewport">
   <!-- css -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   
 </head>
 
@@ -69,87 +68,201 @@
   <main>  
     <div class="container">
         <center>
-            <h1>Officers</h1>
+            <h1 id="abtdescription">Officers</h1>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <img src="../assets/konner.jpg" width=100 height=100 alt="Avatar">
+      <h4>Konner Macias</h4>
+      <p>I’m a third year Mathematics of Computer major and a Statistics minor at UCLA. I’m from the Sacramento Area and have grown up with sports my whole life. I mainly played junior competitive tennis and got good enough to receive some DII scholarships, but school will always come first! I am now the Team Captain of UCLA’s Competitive Club Tennis Team, and with a love for data science, I decided to combine my passions by creating Bruin Sports Analytics! If you see me around town, please make sure to say hi!</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Return</a>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+      <div class="modal-content">
+          <img src="../assets/jay.jpg" width=100 height=100 alt="Avatar">
+        <h4>Jay Xu</h4>
+        <p>Graduated from Brown University in 2015
+            - Majored in Statistics, Applied Mathematics, Mathematics-Economics
+            
+            Founded the Brown Sports Analytics Club and was its first president.
+            Web: brownsportsanalytics.com
+            Twitter: @BrownU_SAC
+            
+            Captained the Brown University Club Ice Hockey Team
+            
+            Currently, a PhD student in Biostatistics at UCLA
+            
+            Enjoy playing ice hockey and soccer in my free time.
+            </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Return</a>
+      </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <img src="../assets/akram.jpg" width=100 height=100 alt="Avatar">
+          <h4>Akram Almohalwas</h4>
+          <p>My name is Akram Almohalwas, I've been a lecturer at the statistics department at UCLA since 2010. I got promoted to a continuing lecturer last year. I had my PhD in mathematics with statistics concentration from Central Michigan University. I initially worked on data mining techniques applied on gene expression data while working on my PhD dissertation. I always loved sports and following different kind of sports, especially Tennis and Basketball. I thought that using my statistical knowledge and my love for the sport I've decided to help undergraduate student to conduct little research using NBA data. Students usually are asked to read some literature regarding data mining and NBA data related research. I usually provide the research ideas to students and guide them through the research process. I get the pleasure of witnessing the AHA moments when students statistics knowledge is put to use in real world applications. I'm happy to give my students the research experience regardless how little it can be.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Return</a>
+        </div>
+      </div>
+
+      <div id="modal4" class="modal">
+          <div class="modal-content">
+              <img src="../assets/daniel.jpg" width=100 height=100 alt="Avatar">
+            <h4>Daniel Meier</h4>
+            <p>Redwood City, CA native, Daniel Meier is a senior at UCLA this year studying Statistics. Daniel has enjoyed playing sports since he was six months old and has continued his passion for sports throughout UCLA by playing intramurals, umpiring and refereeing, working for the MLB, and performing sports analytics. Life-long San Francisco Giants fan, Daniel has always wanted to perform analytics for the Giants and help them win another World Series championship and ring. Daniel is also the Finance Chair for the Statistics Club at UCLA and a member of the Alpha Epsilon Pi fraternity. If you see him around campus, make sure to ask him about the Sandlot or The Price is Right.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Return</a>
+          </div>
+        </div>
+
+        <div id="modal5" class="modal">
+            <div class="modal-content">
+                <img src="../assets/jerry.jpg" width=100 height=100 alt="Avatar">
+              <h4>Jerry Rong</h4>
+              <p>My name is Jerry and I am a third-year Applied Mathematics and Business Economics double major. I am from Laguna Beach, California and I am a fan of the Los Angeles Lakers and the Baltimore Ravens. In my spare time I enjoy watching football and basketball and I am heavily invested in daily fantasy and the risk and reward associated with it. Aside from sports, I am interested in pursuing a career in quantitative analysis and information technology. </p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Return</a>
+            </div>
+          </div>
+
+          <div id="modal6" class="modal">
+              <div class="modal-content">
+                  <img src="../assets/kevin.jpg" width=100 height=100 alt="Avatar">
+                <h4>Kevin Chen</h4>
+                <p>A​Kevin Chen is a second year student pursuing a double major in statistics and economics. Upon graduation, he wants to work in basketball analytics and dreams of a job in the NBA in the future. His hobbies and interests include basketball, tennis, soccer, watching tv and movies, and hiking and road trips.</p>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Return</a>
+              </div>
+            </div>
+
+            <div id="modal7" class="modal">
+                <div class="modal-content">
+                    <img src="../assets/alex.jpg" width=100 height=100 alt="Avatar">
+                  <h4>Alex Soohoo</h4>
+                  <p>I am a second year chemical engineering major and statistics minor from Santa Monica. My favorite teams are the Lakers, Dodgers, and Cowboys, and I love to talk with anyone about anything within the realm of the NBA, MLB, and NFL. I'm very interested in sharing information that I think is important and meaningful to understanding different nuances of sports. Besides Bruin Sports Analytics, I am also involved in UCLA's chemical engineering society, ARC Medical Program, and Regents Scholar Society. Looking forward to a great year!</p>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Return</a>
+                </div>
+              </div>
+              <div id="modal8" class="modal">
+                  <div class="modal-content">
+                      <img src="../assets/shirley.jpg" width=100 height=100 alt="Avatar">
+                    <h4>Shirley Shi</h4>
+                    <p> I am second year, Applied Math and Statistics student. I am a fan of music, sports and innovation. As a tech person, I believe the power of big data and analytics will change sports. </p>
+                  </div>
+                  <div class="modal-footer">
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Return</a>
+                  </div>
+                </div>
+
+
+
             <div id="cards">
           <div class="row">
-            <center>
-            <div class="col-md-4">
+            <div class="col s12 m6 l4">
+                <a class="modal-trigger" href="#modal1">
               <div class="card">
-                <img src="../assets/image1.jpg" width=100 height=100 alt="Avatar">
+                <img src="../assets/konner.jpg" width=100 height=100 alt="Avatar">
                 <div class="cardcontainer">
                   <h4><b>Konner Macias</b></h4> 
                   <p>President</p> 
                 </div>
               </div>
+            </a>
             </div>
-            <div class="col-md-4">
+            <div class="col s12 m6 l4">
+                <a class="modal-trigger" href="#modal2">
               <div class="card">
-                <img src="../assets/image4.jpg" width=200 height=100 alt="Avatar">
+                <img src="../assets/jay.jpg" width=200 height=100 alt="Avatar">
                 <div class="cardcontainer">
                   <h4><b>Jay Xu</b></h4> 
                   <p>Vice President</p> 
                 </div>
               </div>
+              </a>
             </div>
-            <div class="col-md-4">
-              <div class="card">
-                <img src="../assets/image5.jpg" width=200 height=100 alt="Avatar">
-                <div class="cardcontainer">
-                  <h4><b>John Doe</b></h4> 
-                  <p>Architect & Engineer</p> 
-                </div>
-              </div>
-            </div>
-          </center>
-          </div>
-          <div class="row">
-              <div class="col-md-4">
+              <div class="col s12 m6 l4">
+                  <a class="modal-trigger" href="#modal3">
                 <div class="card">
-                  <img src="../assets/image1.jpg" width=200 height= 100 alt="Avatar">
+                  <img src="../assets/akram.jpg" width=200 height= 100 alt="Avatar">
                   <div class="cardcontainer">
                     <h4><b>Akram Almohalwas</b></h4> 
                     <p>Club Advisor</p> 
                   </div>
                 </div>
+                </a>
               </div>
-              <div class="col-md-4">
+              <div class="col s12 m6 l4">
+                  <a class="modal-trigger" href="#modal4">
                 <div class="card">
-                  <img src="../assets/image4.jpg" width=200 height=100 alt="Avatar">
+                  <img src="../assets/daniel.jpg" width=200 height=100 alt="Avatar">
                   <div class="cardcontainer">
                     <h4><b>Daniel Meier</b></h4> 
                     <p>Blog Chair</p> 
                   </div>
                 </div>
+                </a>
               </div>
-              <div class="col-md-4">
+              <div class="col s12 m6 l4">
+                  <a class="modal-trigger" href="#modal5">
                 <div class="card">
-                  <img src="../assets/image5.jpg" width=200 height=100 alt="Avatar">
+                  <img src="../assets/jerry.jpg" width=200 height=100 alt="Avatar">
                   <div class="cardcontainer">
-                    <h4><b>Kevin Chen</b></h4> 
+                    <h4><b>Jerry Rong</b></h4> 
                     <p>Professional Chair</p> 
                   </div>
                 </div>
+                </a>
               </div>
-              <div class="col-md-4">
+              <div class="col s12 m6 l4">
+                  <a class="modal-trigger" href="#modal6">
                   <div class="card">
-                    <img src="../assets/image5.jpg" width=200 height=100 alt="Avatar">
+                    <img src="../assets/kevin.jpg" width=200 height=100 alt="Avatar">
                     <div class="cardcontainer">
-                      <h4><b>Alex Soohoo</b></h4> 
+                      <h4><b>Kevin Chen</b></h4> 
                       <p>Professional Chair</p> 
                     </div>
                   </div>
+                  </a>
                 </div>
-                <div class="col-md-4">
+                <div class="col s12 m6 l4">
+                    <a class="modal-trigger" href="#modal7">
                     <div class="card">
-                      <img src="../assets/image5.jpg" width=200 height=100 alt="Avatar">
+                      <img src="../assets/alex.jpg" width=200 height=100 alt="Avatar">
                       <div class="cardcontainer">
-                        <h4><b>Shirley Shi</b></h4> 
-                        <p>Marketing Chair</p> 
+                        <h4><b>Alex Soohoo</b></h4> 
+                        <p>Professional Chair</p> 
                       </div>
                     </div>
+                    </a>
                   </div>
-
-            </div>
+                  <div class="col s12 m6 l4">
+                      <a class="modal-trigger" href="#modal8">
+                      <div class="card">
+                        <img src="../assets/shirley.jpg" width=200 height=100 alt="Avatar">
+                        <div class="cardcontainer">
+                          <h4><b>Shirley Shi</b></h4> 
+                          <p>Marketing Chair</p> 
+                        </div>
+                      </div>
+                      </a>
+                    </div>
+                </div>  
           </div>
           </center>
     </div>
@@ -160,6 +273,13 @@
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+          
+</script>
 
 </body>
 
