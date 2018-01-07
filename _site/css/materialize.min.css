@@ -4051,7 +4051,7 @@ nav ul a span.badge {
 
 nav {
     color: #fff;
-    background-color: #536895;
+    background-color: #62aef4;
     width: 100%;
     height: 56px;
     line-height: 56px
@@ -7475,7 +7475,7 @@ input[type=range]:focus::-ms-fill-upper {
     right: 0;
     height: 120vh;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 998;
+    z-index: 100;
     will-change: opacity
 }
 

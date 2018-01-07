@@ -131,3 +131,19 @@ CARDS
 .container {
   padding: 2px 16px;
 }
+
+#logo {
+  max-width: 55px;
+  display: inline-block;
+  float: left;
+}
+
+#homemenuitem {
+  display: inline-block;
+  top: 0;
+}
+
+.leftbox {
+  background-color: #000000;
+  z-index:10000;
+}
