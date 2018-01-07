@@ -5560,7 +5560,18 @@ button.btn-floating {
 }
 
 .modal .modal-content {
-    padding: 24px;
+    padding-top: 30px;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
+.officer-images {
+    max-width: 300px;
+    max-height: 150px;
+}
+
+.modal .modal-text {
+    text-align: justify;
 }
 
 .modal .modal-close {
