@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab"> 
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">    
     <link rel="stylesheet" href="/css/style.css" type="text/css"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
@@ -17,9 +18,8 @@
     <div class="title-bar-title">Menu</div>
     </div> -->
 
-    <div class="navbar-fixed">
         <nav>
-          <div class="nav-wrapper" id="navbar">
+          <div class="nav-wrapper">
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
               <!-- <img id="logo" src="assets/bsa_logo.png" /> -->
             <!-- </a> -->
@@ -31,14 +31,19 @@
               <li id="Research"><a class="navlink" href="../../research">Research</a></li>
               <li id="Officers"><a class="navlink" href="../../officers">Officers</a></li>
             </ul>
+
+            <ul class="side-nav" id="mobile-demo">
+              <li id="Blog"><a class="navlink" href="../blog">Blog</a></li>
+              <li id="Research"><a class="navlink" href="../../research">Research</a></li>
+              <li id="Officers"><a class="navlink" href="../../officers">Officers</a></li>
+            </ul>
           </div>
         </nav>
-      </div>
 
 
     <!-- <div class="top-bar" id="main-menu">
     <ul class="menu vertical medium-horizontal expanded medium-text-center" data-responsive-menu="drilldown medium-dropdown">
-    <li><a href="">Home</a>
+    <li><a href="http://localhost:4000">Home</a>
     </li>
     <li><a href="../blog">Blog</a>
     </li>
@@ -49,6 +54,15 @@
     </ul>
     </div> -->
 </header>
+
+<script>
+  $(document).ready(function(){
+  // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+  $('.modal').modal();
+  $(".button-collapse").sideNav();
+});
+        
+</script>
   <body>
     <div id="body">
 
