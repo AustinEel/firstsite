@@ -142,3 +142,9 @@ CARDS
   display: inline-block;
   top: 0;
 }
+
+figcaption {
+  font-size: 10px;
+  font-style: italic;
+  color: gray;
+}
