@@ -148,3 +148,8 @@ figcaption {
   font-style: italic;
   color: gray;
 }
+
+.articlelist > li {
+  list-style-type: disc !important;
+  font-size: .7em;
+}

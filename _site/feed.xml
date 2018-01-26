@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-01-14T10:51:19-08:00</updated><id>/</id><title type="html">Bruin Sports Analytics</title><author><name>Bruin Sports Analytics</name></author><entry><title type="html">An In-Depth Look at NCAA Pac-12 Women’s Soccer</title><link href="/wsoccer18" rel="alternate" type="text/html" title="An In-Depth Look at NCAA Pac-12 Women’s Soccer" /><published>2018-01-13T18:45:55-08:00</published><updated>2018-01-13T18:45:55-08:00</updated><id>/wsoccer18</id><content type="html" xml:base="/wsoccer18">&lt;figure&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-01-26T14:35:22-08:00</updated><id>http://localhost:4000/</id><title type="html">Bruin Sports Analytics</title><author><name>Bruin Sports Analytics</name></author><entry><title type="html">Predictions for the 2018 Australian Open</title><link href="http://localhost:4000/ao2018" rel="alternate" type="text/html" title="Predictions for the 2018 Australian Open" /><published>2018-01-25T22:55:20-08:00</published><updated>2018-01-25T22:55:20-08:00</updated><id>http://localhost:4000/ao2018</id><content type="html" xml:base="http://localhost:4000/ao2018">&lt;center&gt;&lt;img class=&quot;materialboxed&quot; src =&quot;/assets/ao18/cover.png&quot; alt=&quot;Australian Open 18&quot;&gt;&lt;/center&gt;
+
+&lt;p&gt;
+    In a game where individuals, not teams, play one another, parity should rule the day. However, living legends of tennis still remain amidst a flurry of youngsters emerging onto the scene. After eight days of action, the results provided a mix of predictable yet unpredictable results. Big names made it through with relative ease. Among them, Roger Federer and Rafael Nadal, the top two seeds in the tournament, have moved onto the quarterfinals. However, big names fell short, including a first-round exit from Wawrinka, a third-round exit from del Potro, and Chung’s fourth-round upset over Djokovic. The youngsters have also made statements on the court, with impressive wins from Dimitrov, Chung, Edmund, and Sandgren, while veteran players Berdych and Cilic have both put up solid performances to notch the remaining quarterfinal spots. We have chosen four players who have the best shot at being the 2018 Australian Open champion based on the numbers pulled from the ATP (Association of Tennis Professionals) and numbers from their recent matches from ESPN Courtcast. Rankings were based on data involving top 20 matchups within the past 52 weeks played on hard courts. With the stage set for the quarterfinals, we determined that Nadal, Dimitrov, Federer, and Chung stood the best shot of winning it all.
+&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;materialboxed&quot; src =&quot;/assets/ao18/nadal.png&quot; alt=&quot;Rafael Nadal&quot;&gt;&lt;/center&gt;
+
+&lt;p&gt;
+    As the #1 seed and one of the fan-favorites, Rafael Nadal will be looking for his second Australian Open title. After all, with respect to serving, he has a knack for not making mistakes and capitalizing on the offensive end. For instance, he ranks 5th in 1st serve percentage at 69.8%, so he consistently forces opponents to return his most difficult serves. As a result, he wins his service games 84.5% of the time, which gives him an 11th place ranking when playing against top 20 players. Nadal’s return game also makes him a superb defender. For example, he ranks 12th in 1st serve return points won with a 29.2% win percentage, so he keeps the ball in play and makes his opponent earn 1st serve points. Similarly, he is 10th in 2nd serve return points won at 51.6%, so he not only returns these serves, but he can become the aggressor even while on defense. For break points saved, he ranks 3rd at a clutch 73.3%.
+&lt;/p&gt;
+
+&lt;p&gt;
+    In his most recent match against #24 Diego Schwartzman, Nadal won in a grueling 4 sets. Nadal’s serving prowess prevailed, as he had 7 aces despite his opponent ranking 6th in return games won (38.6%). However, one concern that Rafa fans might have going forward is his stamina. The Schwartzman match was very taxing due to the frequency of long rallies and the four hours it took for the match to finish, so Nadal must be feeling the effects of running around under the Australian heat. But, given what he has proven over the years, this should be a minor issue for one of the game’s legends.
+&lt;/p&gt;
+
+&lt;center&gt;&lt;img class=&quot;materialboxed&quot; src =&quot;/assets/ao18/dimitrov.png&quot; alt=&quot;Grigor Dimitrov&quot;&gt;&lt;/center&gt;
+&lt;p&gt;Coming off an incredible 2017 season, Grigor Dimitrov as the #3 in the tournament is still searching for his first Grand Slam title. The Bulgarian has come onto the scene as of late, as his rapid ascent can be attributed to his youthful energy and skill. After all, his serving has been terrific, as he ranks 8th in 1st serve percentage at 66.0%. With this in mind, it makes sense that Dimitrov ranks 10th in service games won at an 85.4% clip. Aside from being a competent server, he also thrives in the return game. For instance, he ranks 10th in return games won at 22.6%, which shows that he can occasionally get a crucial break. Finally, in the under pressure category, Dimitrov saved 69.2% of his break points, good for 7th overall. &lt;/p&gt;
+&lt;p&gt;
+    In the fourth round against the Australian home favorite Nick Kyrgios, Dimitrov won in 4 sets, but it wasn’t easy by any means. Dimitrov had to win 3 tiebreaks to win each of his sets, which is a good sign for his performance in important moments. Also, Dimitrov slammed his way to 64 winners and won 68% of his net approaches, which demonstrates his poise with forehands, backhands, and volleys. However, one area of concern for Dimitrov has to be the amount of double faults that he accrues. After all, he did commit 7 of them against Kyrgios, and he has averaged an unusually high 4.1 double faults per match. If he can keep his serving hiccups in check, he should be a prime contender for the title.
+&lt;/p&gt;
+&lt;center&gt;&lt;img class=&quot;materialboxed&quot; src =&quot;/assets/ao18/roger.png&quot; alt=&quot;Roger Federer&quot;&gt;&lt;/center&gt;
+&lt;p&gt;
+    The defending champ, finishing off 2017 as the No. 2 seed, enters the quarterfinal looking for his 20th major title and 6th Australian Open trophy. At age 36, Roger Federer still looks in top shape. Against Fucsovics in the fourth round, Federer fired 34 winners and secured 67% of his 48 net approaches. Even still, Federer’s serve is still his best weapon, winning 83% of first serve points and 76% of his second serve points. These numbers shouldn’t surprise many, as Federer ranks fifth against the top 20 in service games won. 
+&lt;/p&gt;
+&lt;p&gt;
+    He doesn’t have that many weaknesses either. Upon significantly improving his backhand, Federer turned what was once a burden against baseline-hugging opponents into a formidable stroke. However, Federer continues to struggle with break-point conversions. Against Fucsovics, Federer had ten opportunities to break Fucsovic’s serve but only converted three of those points. In the past year, he only converted 36.2% of those opportunities, 46th among pros against the top 20. Still, expect Federer’s serve, forehand, net skills, and aggressive nature to propel him further into the tournament.
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;h4&gt;Against Fucsovics&lt;/h4&gt;
+    &lt;ul class=&quot;articlelist&quot;&gt;
+        &lt;li&gt;Aces: 6&lt;/li&gt;
+        &lt;li&gt;Double Faults: 2&lt;/li&gt;
+        &lt;li&gt;Break points: 3/10 (30%)&lt;/li&gt;
+        &lt;li&gt;Winners/Unforced Errors: 34/28&lt;/li&gt;
+        &lt;li&gt;1st serve points won: 40/48 (83%)&lt;/li&gt;
+        &lt;li&gt;2nd serve points won: 25/33 (76%)&lt;/li&gt;
+        &lt;li&gt;Net points won: 28/42 (67%)&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;h4&gt;Against Top 20 for past 52 weeks&lt;/h4&gt;
+    &lt;ul class=&quot;articlelist&quot;&gt;
+        &lt;li&gt;1st in 1st Serve Points won (79.9%)&lt;/li&gt;
+        &lt;li&gt;5th in 2nd Serve Points won (58.9%)&lt;/li&gt;
+        &lt;li&gt;5th in Service Games won (90.1%)&lt;/li&gt;
+        &lt;li&gt;6th in 1st Serve Return Points won (30.7%)&lt;/li&gt;
+        &lt;li&gt;16th in 2nd Serve Return Points won (50.6%)&lt;/li&gt;
+        &lt;li&gt;9th in Return Games won (23.1%)&lt;/li&gt;
+        &lt;li&gt;46th in Break Points Converted (36.2%)&lt;/li&gt;
+        &lt;li&gt;9th in Break Points Saved (68.6%)&lt;/li&gt;
+        &lt;li&gt;4th in Tiebreaks won (66.7%)&lt;/li&gt;
+        &lt;li&gt;1st in Deciding Sets Won&lt;/li&gt;
+        &lt;li&gt;Highest “Under Pressure” Rating (ATP)&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+&lt;center&gt;&lt;img class=&quot;materialboxed&quot; src =&quot;/assets/ao18/chung.png&quot; alt=&quot;Hyeon Chung&quot;&gt;&lt;/center&gt;
+&lt;p&gt;Hyeon Chung was probably was probably one of the more surprising quarterfinalists. After all, the 21 year-old entered his first Grand Slam quarterfinal, pulling the upset of the tournament by defeating his idol Novak Djokovic in the fourth round. The matchup was intriguing, as Chung’s baseline game closely mirrored Djokovic’s dominating playstyle when he was healthy, but he ultimately showed that he will be a force to be reckoned with. Among his weapons, Chung hit 47 winners and won 65% of his first serve points. Even though no part of his game sticks out as a dominating feature, Chung controlled the tempo of a majority of rallies and proved to be the better player under pressure, winning both tiebreaks in the match. At the same time, Chung was extremely efficient in break-point opportunities, stealing six of his ten chances against Djokovic.&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;h4&gt;Against Djokovic&lt;/h4&gt;
+        &lt;ul class=&quot;articlelist&quot;&gt;
+            &lt;li&gt;Aces: 1&lt;/li&gt;
+            &lt;li&gt;Double Faults: 2&lt;/li&gt;
+            &lt;li&gt;Break Points: 6/10 (60%)&lt;/li&gt;
+            &lt;li&gt;Winners/Unforced Errors: 47/37&lt;/li&gt;
+            &lt;li&gt;First Serve points won: 59/91 (65%)&lt;/li&gt;
+            &lt;li&gt;2nd Serve points won: 21/45 (47%)&lt;/li&gt;
+            &lt;li&gt;Net Points won: 12/21 (57%)&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;h4&gt;Against Top 20 in 2016&lt;/h4&gt;
+        &lt;ul class=&quot;articlelist&quot; &gt;
+            &lt;li&gt;68 in 1st Serve Points Won (67.7%)&lt;/li&gt;
+            &lt;li&gt;60th in 2nd Serve Points Won (47.2%)&lt;/li&gt;
+            &lt;li&gt;57th in Service Games won (74%)&lt;/li&gt;
+            &lt;li&gt;10th in 1st Serve Return Points won (29.8%)&lt;/li&gt;
+            &lt;li&gt;41st in 2nd Serve Return Points won (46.7%)&lt;/li&gt;
+            &lt;li&gt;20th in Return games won (19.2%)&lt;/li&gt;
+            &lt;li&gt;48th in Break Points Converted (35.2%)&lt;/li&gt;
+            &lt;li&gt;62th in Break Points Saved (56.1%)&lt;/li&gt;
+            &lt;li&gt;11th in Tiebreaks won&lt;/li&gt;
+            &lt;li&gt;5th in Deciding sets Won&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+    Perhaps the most glaring weakness of Chung’s game is his second serve. Against Djokovic, Chung only won 47% of his second serve points. Even though he made a solid 67% of his first serves in, expect Chung’s future opponents to capitalize on his 88.8 mph second serves. Even so, Chung’s consistency, precise strikes, and solid groundstrokes, if not flashy, should frustrate many opponents moving forward.
+&lt;/p&gt;
+
+
+
+&lt;div id=&quot;cited&quot;&gt;
+    &lt;p&gt;
+            Source: ATP
+    &lt;/p&gt;
+  &lt;/div&gt;</content><author><name>Alex Veroulis and Stephen Chen</name></author><summary type="html">In a game where individuals, not teams, play one another, parity should rule the day. However, living legends of tennis still remain amidst a flurry of youngsters emerging onto the scene. After eight days of action, the results provided a mix of predictable yet unpredictable results.</summary></entry><entry><title type="html">An In-Depth Look at NCAA Pac-12 Women’s Soccer</title><link href="http://localhost:4000/wsoccer18" rel="alternate" type="text/html" title="An In-Depth Look at NCAA Pac-12 Women’s Soccer" /><published>2018-01-13T18:45:55-08:00</published><updated>2018-01-13T18:45:55-08:00</updated><id>http://localhost:4000/wsoccer18</id><content type="html" xml:base="http://localhost:4000/wsoccer18">&lt;figure&gt;
 &lt;center&gt;&lt;img class=&quot;materialboxed&quot; src =&quot;/assets//wsoccer18/soccer.png&quot; alt=&quot;UCLA Women's Soccer&quot;&gt;&lt;/center&gt;
 &lt;figcaption&gt;Courtesy: UCLA&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -73,7 +170,7 @@ Additionally, positions must be taken into account when comparing players. Forwa
 &lt;/p&gt;
 &lt;p&gt;
     There is a lot more to explore that I will perhaps look at in future projects, such as a deeper analysis into the makeup of teams and how that translates to success over the course of a season. Or the turnover rate (quality of seniors lost/freshmen gained/transfers) and how that relates to placement the following year. And of course, there is always more data to be acquired. And perhaps scraping box scores to examine events in individual games on a per-minute basis, or expanding to other major conferences to get a sense of college soccer as a whole. Suffice to say, this was just scratching the surface of data analysis that can be applied to NCAA women's soccer.
-&lt;/p&gt;</content><author><name>Joey Maurer</name></author><summary type="html">Women’s collegiate soccer is thriving on the west coast. Less than two months ago, the championship game of the College Cup saw two Pac-12 powerhouses go head-to-head in Orlando, Florida. Stanford emerged with a 3-2 victory over UCLA to secure their second title since 2011 and the conference’s fourth in that seven-year span. Both teams are set up extremely well heading into next season, and the road to a national championship appears to run through California.</summary></entry><entry><title type="html">An Analysis of Pro Prospects in Bowl Games</title><link href="/proprospects2018" rel="alternate" type="text/html" title="An Analysis of Pro Prospects in Bowl Games" /><published>2018-01-09T17:25:17-08:00</published><updated>2018-01-09T17:25:17-08:00</updated><id>/proprospects2018</id><content type="html" xml:base="/proprospects2018">&lt;figure&gt;
+&lt;/p&gt;</content><author><name>Joey Maurer</name></author><summary type="html">Women’s collegiate soccer is thriving on the west coast. Less than two months ago, the championship game of the College Cup saw two Pac-12 powerhouses go head-to-head in Orlando, Florida. Stanford emerged with a 3-2 victory over UCLA to secure their second title since 2011 and the conference’s fourth in that seven-year span. Both teams are set up extremely well heading into next season, and the road to a national championship appears to run through California.</summary></entry><entry><title type="html">An Analysis of Pro Prospects in Bowl Games</title><link href="http://localhost:4000/proprospects2018" rel="alternate" type="text/html" title="An Analysis of Pro Prospects in Bowl Games" /><published>2018-01-09T17:25:17-08:00</published><updated>2018-01-09T17:25:17-08:00</updated><id>http://localhost:4000/proprospects2018</id><content type="html" xml:base="http://localhost:4000/proprospects2018">&lt;figure&gt;
     &lt;center&gt;&lt;img style=&quot;max-width: 95%&quot;; src =&quot;/assets/proprospects2018/banner.png&quot; alt=&quot;Pro Bowl Prospects&quot;&gt;&lt;/center&gt;
     &lt;figcaption&gt;Pro prospects nationwide.&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -156,7 +253,7 @@ Additionally, positions must be taken into account when comparing players. Forwa
 &lt;/p&gt;
 &lt;p&gt;
     Through an analysis of the top ten NFL quarterback prospects who played in bowl games, it is clear that these players did not live up to expectations in postseason play. Overall, these quarter-backs combined for a 2-8 record in bowl season, which shows that they were probably more fo-cused on the NFL than anything else. The only two winners were Josh Allen and Mason Rudolph, the only quarterbacks in the top ten who surpassed their regular season QBRs in postseason play. Also, the average QBR of 48.3 for the top ten quarterbacks in bowl games was significantly lower than their average QBR for the season as a whole, which was 69.0. Although these players are su-premely talented, these prospects clearly have other things on their minds that might be hindering their play. Whether they are thinking of avoiding injury or if they simply don’t care about the game’s result, the numbers support the idea that these players didn’t show the same level of com-mitment as they did in the regular season. 
-&lt;/p&gt;</content><author><name>Alex Veroulis</name></author><summary type="html">One hot topic for debate among coaches, fans, and analysts who follow college football centers around the role of pro prospects in postseason play (bowl games) and whether or not they should play. This is because several highly-touted players have opted to skip their bowl games to protect their health for their future in the NFL. This trend captures a very small portion of players who de-clare for the NFL Draft, but notable players such as Josh Rosen and Derwin James have skipped their games this year to prevent injuries.</summary></entry><entry><title type="html">Think Twice Against ESPN Fantasy Projections</title><link href="/thinktwice" rel="alternate" type="text/html" title="Think Twice Against ESPN Fantasy Projections" /><published>2017-09-19T15:20:51-07:00</published><updated>2017-09-19T15:20:51-07:00</updated><id>/thinktwice</id><content type="html" xml:base="/thinktwice">&lt;figure&gt;
+&lt;/p&gt;</content><author><name>Alex Veroulis</name></author><summary type="html">One hot topic for debate among coaches, fans, and analysts who follow college football centers around the role of pro prospects in postseason play (bowl games) and whether or not they should play. This is because several highly-touted players have opted to skip their bowl games to protect their health for their future in the NFL. This trend captures a very small portion of players who de-clare for the NFL Draft, but notable players such as Josh Rosen and Derwin James have skipped their games this year to prevent injuries.</summary></entry><entry><title type="html">Think Twice Against ESPN Fantasy Projections</title><link href="http://localhost:4000/thinktwice" rel="alternate" type="text/html" title="Think Twice Against ESPN Fantasy Projections" /><published>2017-09-19T15:20:51-07:00</published><updated>2017-09-19T15:20:51-07:00</updated><id>http://localhost:4000/thinktwice</id><content type="html" xml:base="http://localhost:4000/thinktwice">&lt;figure&gt;
 &lt;center&gt;&lt;img class=&quot;materialboxed&quot; src =&quot;/assets/avg-error.png&quot; alt=graph&gt;&lt;/center&gt;
 &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -194,7 +291,7 @@ Additionally, positions must be taken into account when comparing players. Forwa
     &lt;p&gt;
             Fantasy Points are based off the &lt;a href = &quot;http://games.espn.com/ffl/resources/help/content?name=scoring-settings-standard&quot;&gt;PPR Standard Scoring&lt;/a&gt;
     &lt;/p&gt;
-&lt;/div&gt;</content><author><name>Konner Macias</name></author><summary type="html">With the second week of the NFL concluding last night with a 24–10 victory for the Lions over the Giants, I decided to take a look at ESPN fantasy point projection accuracy thus far. ESPN is one of the leading hosts for fantasy football leagues around the country with millions of people trusting their projections to decide which players they should start. After comparing the starting point projections for each week against the actual number of points the player earned, it looks like ESPN has to step up their game.</summary></entry><entry><title type="html">The Kershaw-less Dodgers: A Not So Dark Time…</title><link href="/kershawless" rel="alternate" type="text/html" title="The Kershaw-less Dodgers: A Not So Dark Time…" /><published>2017-08-29T15:20:51-07:00</published><updated>2017-08-29T15:20:51-07:00</updated><id>/kershawless</id><content type="html" xml:base="/kershawless">&lt;p&gt;As the Los Angeles Dodgers end the month of August, they are still the heavy favorite to win the World Series. Since July 23rd, 2017, Clayton Kershaw has not played one game for the Dodgers. Many fans thought the absence of their star pitcher would be devastating to their pace to break the MLB record for best win percentage. While his back injury should of been disastrous, it appears at though the Dodgers are doing just fine without Clayton.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Konner Macias</name></author><summary type="html">With the second week of the NFL concluding last night with a 24–10 victory for the Lions over the Giants, I decided to take a look at ESPN fantasy point projection accuracy thus far. ESPN is one of the leading hosts for fantasy football leagues around the country with millions of people trusting their projections to decide which players they should start. After comparing the starting point projections for each week against the actual number of points the player earned, it looks like ESPN has to step up their game.</summary></entry><entry><title type="html">The Kershaw-less Dodgers: A Not So Dark Time…</title><link href="http://localhost:4000/kershawless" rel="alternate" type="text/html" title="The Kershaw-less Dodgers: A Not So Dark Time…" /><published>2017-08-29T15:20:51-07:00</published><updated>2017-08-29T15:20:51-07:00</updated><id>http://localhost:4000/kershawless</id><content type="html" xml:base="http://localhost:4000/kershawless">&lt;p&gt;As the Los Angeles Dodgers end the month of August, they are still the heavy favorite to win the World Series. Since July 23rd, 2017, Clayton Kershaw has not played one game for the Dodgers. Many fans thought the absence of their star pitcher would be devastating to their pace to break the MLB record for best win percentage. While his back injury should of been disastrous, it appears at though the Dodgers are doing just fine without Clayton.&lt;/p&gt;
 
 &lt;p&gt;Since his last game, the Dodgers have been on a tear. With a win percentage of 76.7% over the last 30 games, they have continued to dominate the NL West with a 19 game lead over second.&lt;/p&gt;
 &lt;br /&gt;
