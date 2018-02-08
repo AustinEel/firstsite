@@ -1,13 +1,82 @@
----
-layout: post
-title:  "Fixture Congestion and Playing Styles vs Injuries in European Football"
-date:   2018-02-07 15:55:20 -0700
-author: Salil Akundi
-categories: jekyll update
-excerpt_separator: <!-- end excerpt here -->
-excerpt: <center><img class="excerptpics" src ="/assets/fixturecongestion/main_photo.jpg" alt="Soccer"></center><p>Over the last few years, debate over fixture congestion in English football has increased, both on social media and by so-called sports pundits and former players on television. A key contributing factor to this debate is the increase in number of foreign mangers (mostly from continental Europe and South America) in the English Premier League over the last 5 years. Not only are these managers used to fewer matches (and winter breaks) in their home nations, they also bring in radically different styles of play that demand higher levels of fitness from the players. This article takes a closer look at the main reasons behind injuries by looking at patterns in other top European leagues over the years.</p>
----
-<h4>Background</h4>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bruin Sports Analytics</title>
+    <!-- <link rel="stylesheet" href="/css/base.css" type="text/css">     -->
+    <link rel="stylesheet" href="/css/materialize.min.css">    
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab"> 
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">    
+    <link rel="stylesheet" href="/css/posts.css" type="text/css"> 
+    <link rel="stylesheet" href="/css/style.css" type="text/css"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <meta name="viewport" content="width=device-width" />
+    
+  </head>
+  <header>
+    <!-- <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle></button>
+    <div class="title-bar-title">Menu</div>
+    </div> -->
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <div class="leftbox">
+            <a href="http://www.bruinsportsanalytics.com" class="left navlink">
+              <img id="logo" src="../../assets/logo1.png" /> 
+              <span id="homemenuitem">
+              Bruin Sports Analytics
+            </span>
+            </a>
+          </div>
+            <ul id="days" class="right hide-on-med-and-down">
+              <li id="Blog"><a class="navlink" href="../blog">Blog</a></li>
+              <li id="Research"><a class="navlink" href="../../research">Research</a></li>
+              <li id="Officers"><a class="navlink" href="../../officers">Officers</a></li>
+            </ul>
+
+            <ul class="side-nav" id="mobile-demo">
+              <li id="Blog"><a class="navlink" href="../blog">Blog</a></li>
+              <li id="Research"><a class="navlink" href="../../research">Research</a></li>
+              <li id="Officers"><a class="navlink" href="../../officers">Officers</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+
+    <!-- <div class="top-bar" id="main-menu">
+    <ul class="menu vertical medium-horizontal expanded medium-text-center" data-responsive-menu="drilldown medium-dropdown">
+    <li><a href="http://localhost:4000">Home</a>
+    </li>
+    <li><a href="../blog">Blog</a>
+    </li>
+    <li><a href="../../research">Research</a>
+    </li>
+    <li><a href="../../officers">Officers</a>
+    </li>
+    </ul>
+    </div> -->
+</header>
+
+<script>
+  $(document).ready(function(){
+  // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+  $('.modal').modal();
+  $(".button-collapse").sideNav();
+});
+        
+</script>
+  <body>
+    <div id="bodycontent">
+
+            <h2 id = "pagetitle">Fixture Congestion and Playing Styles vs Injuries in European Football</h2>
+            <p>By: Salil Akundi | 07 Feb 2018</p>
+            <h4>Background</h4>
 <figure>
     <center><img class="materialboxed responsive-img" src ="/assets/fixturecongestion/main_photo.jpg" alt="Winter Soccer"></center>
     <figcaption>In England, every team plays 5 matches in the last week of December and the first week of January as part of a traditional festive fixture schedule, that brings great revenue to TV companies and to the Premier League itself. Source: Getty Images</figcaption>
@@ -48,3 +117,19 @@ excerpt: <center><img class="excerptpics" src ="/assets/fixturecongestion/main_p
 <p>To conclude, both fixture congestion and playing styles have a clear impact on injuries. The introduction of a winter break in the English Premier League would be much welcomed, especially by managers of the top 6 clubs. Playing style is certainly a factor but is very much secondary to fixture congestion. While the issue of playing styles can be resolved simply by having larger squads and employing better rotation strategies, the issue of fixture congestion is one that can change only if it garners the support of the members of the hierarchy of the FA and the Premier League and will benefit all clubs, regardless of their playing styles.</p>
 <h4>Sources:</h4>
 <p>physioroom.com and Ben Dinnery’s excellent reports on injury data analysis were used to write this piece. An interesting and more comprehensive report on injury trends in the Premier League can be found at https://www.jltspecialty.com/~/media/files/sites/specialty/insights-sport/jlt_sp_premier_league_injury_index.pdf?la=en-gb.</p>
+
+
+      <hr>
+    </div>
+      <center id="footer">
+      © 2018 Bruin Sports Analytics.
+      <a href="https://twitter.com/bruinanalytics">Follow us on Twitter!</a></center>
+
+      <!-- add icons here -->
+  </body>
+  <script>
+      $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+  </script>
+</html>
