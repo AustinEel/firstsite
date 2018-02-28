@@ -1,13 +1,82 @@
----
-layout: post
-title:  "Joe Thornton: The Bearded Legend"
-date:   2018-02-28 00:00:20 -0700
-author: Alex Veroulis and Joey Maurer
-categories: jekyll update
-excerpt_separator: <!-- end excerpt here -->
-excerpt: <img class="excerptpics" src ="/assets/thornton/cover_1.jpg" alt="Bearded Hockey Player"></center><p>Throughout his 20 years in the National Hockey League (NHL), Joe Thornton has proven time and time again that he is one of hockey’s best players. Drafted first overall in the 1997 NHL Draft by the Boston Bruins, Thornton was highly-touted, but nobody thought he would turn out to be such a legendary player. With a large frame and an insane ability to distribute the puck to his teammates, he has been and continues to be remarkably consistent. As a result, he has won numerous awards, including the Hart Memorial Trophy (League MVP), the Art Ross Trophy (Most Points), 6 All-Star Team nominations, and a gold medal at the 2010 Olympics with Team Canada.</p>
----
-<h4>Background</h4>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bruin Sports Analytics</title>
+    <!-- <link rel="stylesheet" href="/css/base.css" type="text/css">     -->
+    <link rel="stylesheet" href="/css/materialize.min.css">    
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab"> 
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">    
+    <link rel="stylesheet" href="/css/posts.css" type="text/css"> 
+    <link rel="stylesheet" href="/css/style.css" type="text/css"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <meta name="viewport" content="width=device-width" />
+    
+  </head>
+  <header>
+    <!-- <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle></button>
+    <div class="title-bar-title">Menu</div>
+    </div> -->
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <div class="leftbox">
+            <a href="http://www.bruinsportsanalytics.com" class="left navlink">
+              <img id="logo" src="../../assets/logo1.png" /> 
+              <span id="homemenuitem">
+              Bruin Sports Analytics
+            </span>
+            </a>
+          </div>
+            <ul id="days" class="right hide-on-med-and-down">
+              <li id="Blog"><a class="navlink" href="../blog">Blog</a></li>
+              <li id="Research"><a class="navlink" href="../../research">Research</a></li>
+              <li id="Officers"><a class="navlink" href="../../officers">Officers</a></li>
+            </ul>
+
+            <ul class="side-nav" id="mobile-demo">
+              <li id="Blog"><a class="navlink" href="../blog">Blog</a></li>
+              <li id="Research"><a class="navlink" href="../../research">Research</a></li>
+              <li id="Officers"><a class="navlink" href="../../officers">Officers</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+
+    <!-- <div class="top-bar" id="main-menu">
+    <ul class="menu vertical medium-horizontal expanded medium-text-center" data-responsive-menu="drilldown medium-dropdown">
+    <li><a href="http://localhost:4000">Home</a>
+    </li>
+    <li><a href="../blog">Blog</a>
+    </li>
+    <li><a href="../../research">Research</a>
+    </li>
+    <li><a href="../../officers">Officers</a>
+    </li>
+    </ul>
+    </div> -->
+</header>
+
+<script>
+  $(document).ready(function(){
+  // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+  $('.modal').modal();
+  $(".button-collapse").sideNav();
+});
+        
+</script>
+  <body>
+    <div id="bodycontent">
+
+            <h2 id = "pagetitle">Joe Thornton: The Bearded Legend</h2>
+            <p>By: Alex Veroulis and Joey Maurer | 27 Feb 2018</p>
+            <h4>Background</h4>
 <figure>
     <center><img class="materialboxed responsive-img" src ="/assets/thornton/cover_1.jpg" alt="Bearded Hockey Player"></center>
     <figcaption>Bay Area News Group</figcaption>
@@ -68,3 +137,19 @@ Objectively worse. Their offense is suffering, as goals per game has dipped a co
 <p>
 But the legacy he has crafted in San Jose, and throughout his career for that matter, is substantial. He’s a six-time All-Star, Olympic Gold medalist, Hart Trophy recipient, and future first ballot Hall of Famer. The only thing missing is a Stanley Cup, and unfortunately this draws the attention of the all-to-familiar crowd who judge players based on the number of championships they have won. There is still time for him to bring the city of San Jose its first, but the Sharks are not the same feared contender of years past. Thornton could opt to leave and chase a Cup in the twilight of his career, which would be a bittersweet ending for Sharks fans. When he finally does retire, he will be celebrated in San Jose. Number 19 will forever hang in the rafters.
 </p>
+
+
+      <hr>
+    </div>
+      <center id="footer">
+      © 2018 Bruin Sports Analytics.
+      <a href="https://twitter.com/bruinanalytics">Follow us on Twitter!</a></center>
+
+      <!-- add icons here -->
+  </body>
+  <script>
+      $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+  </script>
+</html>
