@@ -1,4 +1,173 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-02T19:57:37-08:00</updated><id>http://localhost:4000/</id><title type="html">Bruin Sports Analytics</title><author><name>Bruin Sports Analytics</name></author><entry><title type="html">TJ McConnell Should Not Be In the NBA</title><link href="http://localhost:4000/mcconnell" rel="alternate" type="text/html" title="TJ McConnell Should Not Be In the NBA" /><published>2018-03-01T23:00:20-08:00</published><updated>2018-03-01T23:00:20-08:00</updated><id>http://localhost:4000/mcconnell</id><content type="html" xml:base="http://localhost:4000/mcconnell">&lt;figure&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-03-09T23:06:36-08:00</updated><id>http://localhost:4000/</id><title type="html">Bruin Sports Analytics</title><author><name>Bruin Sports Analytics</name></author><entry><title type="html">An In-Depth Analysis of Cristiano Ronaldo</title><link href="http://localhost:4000/cristiano" rel="alternate" type="text/html" title="An In-Depth Analysis of Cristiano Ronaldo" /><published>2018-03-08T23:00:20-08:00</published><updated>2018-03-08T23:00:20-08:00</updated><id>http://localhost:4000/cristiano</id><content type="html" xml:base="http://localhost:4000/cristiano">&lt;p&gt;
+    One of the greatest players of this generation, Portuguese and Real Madrid forward Cristiano Ronaldo has been the topic of discussion among football pundits. The five time Ballon d’or winner has been struggling in the 2017-18 season to replicate his incredible goal scoring performances from previous seasons. With its star player facing a slump, Real Madrid is also going through a rough patch this season, currently sitting in 3rd place, 15 points off the current leader, Barcelona. As things stand, Real Madrid could be facing its worst finish in a long time, having finished outside the top 2 only once in the last 10 years. One could argue that Real Madrid and Ronaldo are not performing poorly by any means, as a top 4 finish and being in a commanding position in the round of 16 of the Champions league is no small feat. However, for a club with successive Champions League titles and for a player that averages over 25 goals a season for Real Madrid, these recent performances have been far from outstanding. Critics have pointed out several explanations for Ronaldo’s unforeseen decline, such as age, poor management, and lack of support from teammates. This article takes a closer look at noticeable changes in Ronaldo’s game over the past eight years and whether or not they are really indicative of personal decline.
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/ronaldo1.png&quot; alt=&quot;Ronaldo&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;Cristiano Ronaldo&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h4&gt;
+    Adapting His Game
+&lt;/h4&gt;
+&lt;p&gt;
+    As he has gotten older, Cristiano Ronaldo has adapted his game in a way that maximizes his output given his changing physical abilities. In his early years, he showed a lot of flair, but recently, has become more of a clinical striker, getting into the right positions and converting opportunities with his right foot, left foot or head. The following showcases a notable change in playstyle, as he is relying less on using his pace and agility to dribble past his opponent:
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/graphs1.png&quot; alt=&quot;Dribbles/Offsides per Game&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    His percentage of successful dribbles per game has steadily decreased since joining Real Madrid for the 2009-10 season. Roughly 84.2% of the variation in dribbles per game each season is explained by Ronaldo’s aging alone. Through this period, he has also been caught offside more often every year. This, unlike the reduction in the number of dribbles, may have a direct negative effect on his contribution to his team.
+&lt;/p&gt;
+&lt;p&gt;
+    The increase in frequency of an offside shows that he has been positioning himself closer to the defensive line, and often starts his run early in an effort to beat defenders. A possible explanation for this is that he cannot sprint past defenders like he used to, and thus feels the need to make his run early in order to give him the best chance, resulting in more offsides called against him. Another possibility is his change in positioning himself on the field. In recent years, his role has changed from a winger into a more of a complete forward, if not a striker. As a result, he spends more time up the pitch rather than tracking back, looking to make runs to get into a good shooting position. As a winger, his job was not solely to score goals, and he would therefore play deeper on the field. 
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/ronaldo2.png&quot; alt=&quot;Frustrated Ronaldo&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Interestingly, the graph below shows that Ronaldo has been dispossessed fewer times per game:
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/graphs2.png&quot; alt=&quot;Disposessions Per Game&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    This supports the idea that he has transitioned from a playmaker into a striker and goal scorer. This is definitely an improvement for him as he is less likely to make rash decisions and thinks before attempting a risky dribble. However, while this is a positive change in his game, this stat is skewed by the fact that he is also less likely to attempt a dribble, therefore considerably reducing his risk of getting dispossessed. Ronaldo has failed fewer dribbles over the years, but has also made fewer dribbles in total, leaving it questionable as to whether such a change is really an improvement. However, with his waning abilities in pace and dribbling, it is likely a conscious decision that still helps him compete at the highest level.
+&lt;/p&gt;
+&lt;p&gt;
+    Further supporting the idea of his changing playstyle are the changes in where he generally takes his shots from each game:
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/graphs3.png&quot; alt=&quot;Shot Location Per Game&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Ronaldo’s percentage of shots in the 6 yard box has gone up by approximately 50% since the 2010-11 season, while the percentage of shots he takes in the penalty area has also gone up by roughly the same amount (54%). The number of shots he takes outside the box has severely declined since 2010 and he is taking a much greater percentage of his shots per game inside the penalty area and six yard box. This reflects Ronaldo’s transformation into more of a “poacher” as he more often decides to take shots closer to the goal. While it may seem that this is merely representative of maturity in Ronaldo’s game since he is taking more calculated high-percentage shots, the number of shots he takes per game has consistently hovered around the 6.5-7 mark:
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/graphs4.png&quot; alt=&quot;Shots Per Game&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Ronaldo has not necessarily reduced the number of shots he takes to be more efficient; he just takes them from farther up the pitch. As he has aged, Ronaldo has transformed from a pacey winger who engages in playmaking into a more of a striker who focuses on positioning himself in order to create the best goalscoring opportunities. As seen below, he has reduced the amount of passes he makes per game, presumably because he is responsible for receiving the passes and finishing chances rather than creating them:
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/graphs5.png&quot; alt=&quot;Passes Per Game&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    This raises a question as to whether he is becoming a more one-dimensional rather than a complete player adept in all areas of attacking. However, his goal-scoring abilities have been almost unparalleled in the last few years, to the point that it is trivial to criticize him based on his passing or dribbling abilities.
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/ronaldo3.png&quot; alt=&quot;Triumphant Ronaldo&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Despite the sharp increase in offsides calls against Ronaldo, none of the data that we have examined thus far has truly suggested a decline in his play in recent years. His shot conversion rate, however, has been at an all-time low this season:
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/graphs6.png&quot; alt=&quot;Shot Conversion Rate&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    This is clear-cut evidence that there has been decline in his attacking. A good portion of the change in his play can be attributed to his individual evolution with his fading abilities, but some of it should be attributed to the fact that there has been a drop in his overall level of play, at least in the Spanish La Liga. In the UEFA Champions League, Ronaldo continues to be a top threat:
+
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/graphs7.png&quot; alt=&quot;UCL Goals per Game&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    He is scoring 1.6 goals per game, doubling his 2016-2017 ratio of 0.8, and is currently leading all scorers in the competition: 
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/graphs8.png&quot; alt=&quot;Competition&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Ronaldo’s play in La Liga, and likely overall, has taken a hit, but his play in the Champions League this season suggests that his game certainly has not fallen off a cliff of any sorts.
+&lt;/p&gt;
+&lt;h4&gt;
+    What About His Supporting Cast?
+&lt;/h4&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/ronaldo4.png&quot; alt=&quot;Friends&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Soccer is a team sport, so it would be unfair to strictly analyze Ronaldo’s growth by only looking at individual numbers. It is important to also take into account the ten other men who take the field with him and their overall level of play. While Ronaldo has been the spearhead of Real Madrid’s attack, its success in previous years came from world class players in all positions. For example, the midfield of Luka Modric, Toni Kroos, and to an extent Isco and Casimero has been instrumental in their play. The defence consists of players such as Sergio Ramos, Marcelo, and Dani Carvajal, each arguably the best in the world at their role. With their quality, it is incorrect to credit only Cristiano Ronaldo for their successes and to blame him for their failures. Despite its quality, Real Madrid is far behind its fierce Catalonian rivals and have declined so sharply that they have no glimpse whatsoever of the La Liga title. Here is a graph of its scoring over the years:
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/graphs9.png&quot; alt=&quot;Goals Scored Per Game&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Real Madrid’s scoring per game has fallen from nearly to 2.8 goals to less than 2.5, which is its lowest over this 7 year period. The team has also conceded more than twice as many goals per game as the current leaders Barcelona:
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/graphs10.png&quot; alt=&quot;Goals Conceded Per Game&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    It has conceded the same amount of goals per game as it did in its 2017 championship campaign, suggesting that the backline has not let the team down this season. In this regard, there seems to be an improvement from Barcelona’s side, going from conceding 0.97 goals per game to 0.49, rather than a decline from Real Madrid, which has remained fairly consistent. In terms of goals scored however, both Real Madrid and Barcelona have gone down from the 2016-17 season. This may just be an indication of overall improvement in the defensive capabilities of the league. If this is the case, the fault could still lie with Real Madrid’s defence, which has failed to adapt to this trend, as they are conceding just as many goals as they did last season. 
+&lt;/p&gt;
+&lt;p&gt;
+    The average goals conceded per game last season was 1.47 with teams keeping clean sheets 26% of the time, while this season’s average goals conceded per game dropped to 1.35 with the clean sheet percentage increasing to 31%. Real Madrid’s clean sheet percentage has increased from 26% to 30% over the year, while both Barcelona and Atletico Madrid show much greater increases, with Barcelona going from 34% to 59% and Atletico going from 53% to 63%. While the blame cannot be pinpointed on the team’s defence, it has failed to keep up with the rest of the league. However, another statistic about Real Madrid's attack reveals a steep drop:
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/graphs11.png&quot; alt=&quot;Scoring Breakdown Per Game&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Last year, the team had scored in every game in the La Liga. This year however, they have failed to score in 6 games (22%), with 11 games remaining in the regular season. Although their goals per game ratio has not dropped by much, it could be concluded that Real Madrid’s goals per game statistic has been skewed by its scoring big in certain games while failing to score in others. For example, they have scored 4+ goals 6 times this season. This graph corroborates that they tend to score multiple goals in games they win, but also fail to score occasionally. Therefore, this is indicative of a drop in consistency, which appears to be the team’s biggest downfall this season, for it has already lost more games so far this season than it did in the entirety of last season. 
+&lt;/p&gt;
+&lt;p&gt;
+    A lot of Real Madrid’s failures lie in its attacking capabilities. With Ronaldo facing a dip in form this season, the decline in his play and the team’s attack are probably related. While it can be argued that he has not been receiving much support in the attack, Ronaldo’s lack of contribution towards Real Madrid’s attack plays a major part in their poor showing in La Liga. However, with soccer being the team sport that it is, several players such as the midfielders who supply the attackers, and arguably the defence, who fail to keep up with the top teams in the league should also share the blame.
+&lt;/p&gt;
+&lt;h4&gt;
+    How Does Ronaldo Fare with the Rest of La Liga?
+&lt;/h4&gt;
+&lt;p&gt;
+    When compared to the rest of La Liga’s elite players, Ronaldo’s modifications of his overall playstyle are much more apparent. Here are his shooting numbers, aerial duel numbers, and overall attack score stacked up against Gareth Bale, Lionel Messi, Luis Suarez, and Antoine Griezmann:
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/graphs12.png&quot; alt=&quot;Competition&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/graphs13.png&quot; alt=&quot;Per game averages&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Ronaldo’s shot accuracy is the lowest of the five, but he has compensated by utilizing more of his aerial game as he leads the five players in percentage of aerial duels won this season at an efficient clip of 61.22%. Additionally, Ronaldo’s inside shots per game have increased substantially to 5.24 inside attempts. This is indicative of Ronaldo becoming more of a poacher, as he now turns to headers and close range shots in the box for scoring goals. 
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/ronaldo5.png&quot; alt=&quot;Competition Faces&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Despite his steady decrease in percentage of outside shots in each season, Ronaldo still ranks second among the five La Liga stars, trailing only Messi in outside shots per game this season. However, his inside shooting has not taken a hit either, as his per-game average of 0.76 is still on par with the likes of Messi and Suarez. Furthermore, Ronaldo’s attack score, which is the offensive aspect of a performance score that quantifies a player’s positive influence in the game by taking all his attacking events into consideration (shots, crosses, take-ons, etc), is still one of the highest in the league: 
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/graphs14.png&quot; alt=&quot;Overall Attack Score&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    His attack score of 46.10 is second only to Messi, who is 2 years younger. Relative to the rest of the league, it is evident that Ronaldo can still compete at an elite level in La Liga even at 33 years of age. 
+&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/cristiano/ronaldo6.png&quot; alt=&quot;Number 1&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;
+    Cristiano Ronaldo is past his prime as a footballer, but it is unfair to create an equivalency between that and poor play. A declining Ronaldo is still one of the top players in La Liga and in the world, especially as he continues to be a top threat in the UEFA Champions League. When discussing great athletes, it is easy to constantly hold them to their own lofty standards because there really is not much else to compare them to. By his own standards, Ronaldo’s game has definitely taken a step back, but he is doing as good a job can be done in fighting the aging curve. His high soccer IQ and experience have let him adapt his game to one that is more suited to his physical abilities at 33. Cristiano Ronaldo will continue to be a fantastic player for the foreseeable future, and Real Madrid isn’t going away anytime soon.
+&lt;/p&gt;
+&lt;div id=&quot;cited&quot;&gt;
+    &lt;p&gt;
+        Sources: whoscored.com, soccerstats.com, worldfootball.net, squawka.com
+    &lt;/p&gt;
+  &lt;/div&gt;</content><author><name>Kevin Hahn, Kathir Ilango, and Subash Sundar Raman</name></author><summary type="html">One of the greatest players of this generation, Portuguese and Real Madrid forward Cristiano Ronaldo has been the topic of discussion among football pundits. The five time Ballon d’or winner has been struggling in the 2017-18 season to replicate his incredible goal scoring performances from previous seasons. With its star player facing a slump, Real Madrid is also going through a rough patch this season, currently sitting in 3rd place, 15 points off the current leader, Barcelona. As things stand, Real Madrid could be facing its worst finish in a long time, having finished outside the top 2 only once in the last 10 years.</summary></entry><entry><title type="html">TJ McConnell Should Not Be In the NBA</title><link href="http://localhost:4000/mcconnell" rel="alternate" type="text/html" title="TJ McConnell Should Not Be In the NBA" /><published>2018-03-01T23:00:20-08:00</published><updated>2018-03-01T23:00:20-08:00</updated><id>http://localhost:4000/mcconnell</id><content type="html" xml:base="http://localhost:4000/mcconnell">&lt;figure&gt;
     &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/mcconnell/tj.png&quot; alt=&quot;Bearded Hockey Player&quot;&gt;&lt;/center&gt;
     &lt;figcaption&gt;TJ McConnell&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -656,42 +825,4 @@ Additionally, positions must be taken into account when comparing players. Forwa
 &lt;/p&gt;
 &lt;p&gt;
     Through an analysis of the top ten NFL quarterback prospects who played in bowl games, it is clear that these players did not live up to expectations in postseason play. Overall, these quarterbacks combined for a 2-8 record in bowl season, which shows that they were probably more focused on the NFL than anything else. The only two winners were Josh Allen and Mason Rudolph, the only quarterbacks in the top ten who surpassed their regular season QBRs in postseason play. Also, the average QBR of 48.3 for the top ten quarterbacks in bowl games was significantly lower than their average QBR for the season as a whole, which was 69.0. Although these players are supremely talented, these prospects clearly have other things on their minds that might be hindering their play. Whether they are thinking of avoiding injury or if they simply don’t care about the game’s result, the numbers support the idea that these players didn’t show the same level of commitment as they did in the regular season. 
-&lt;/p&gt;</content><author><name>Alex Veroulis</name></author><summary type="html">One hot topic for debate among coaches, fans, and analysts who follow college football centers around the role of pro prospects in postseason play (bowl games) and whether or not they should play. This is because several highly touted players have opted to skip their bowl games to protect their health for their future in the NFL. This trend captures a very small portion of players who declare for the NFL Draft, but notable players such as Josh Rosen and Derwin James have skipped their games this year to prevent injuries.</summary></entry><entry><title type="html">Think Twice Against ESPN Fantasy Projections</title><link href="http://localhost:4000/thinktwice" rel="alternate" type="text/html" title="Think Twice Against ESPN Fantasy Projections" /><published>2017-09-19T15:20:51-07:00</published><updated>2017-09-19T15:20:51-07:00</updated><id>http://localhost:4000/thinktwice</id><content type="html" xml:base="http://localhost:4000/thinktwice">&lt;figure&gt;
-&lt;center&gt;&lt;img class=&quot;materialboxed&quot; src =&quot;/assets/avg-error.png&quot; alt=graph&gt;&lt;/center&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;
-    With the second week of the NFL concluding last night with a 24–10 victory for the Lions over the Giants, I decided to take a look at ESPN fantasy point projection accuracy thus far. 
-    ESPN is one of the leading hosts for fantasy football leagues around the country with millions of people trusting their projections to decide which players they should start. After comparing the starting point projections for each week against the actual number of points the player earned, it looks like ESPN has to step up their game.
-&lt;/p&gt;
-
-&lt;p&gt;
-    Having an average error percentage of 98.54%, ESPN projections for defense thus far staggers above any other position. Week 1 especially was awful with an error percentage of 108%! It’s almost as if they are spitting out projected numbers at random! According to FiveThirtyEight, week 1 had the fewest amount of “close” games in NFL history with only 3 games decided by 7 points or fewer, so it makes sense as to why defensive points were so scattered all over the place. To hurt ESPN’s credibility to predict defensive performances further, week 2 was nearly just as bad with an error percentage of 89%. Perhaps, the NFL is trending towards becoming a lopsided league like the MLB.
-&lt;/p&gt;
-&lt;p&gt;
-    Another interesting statistic to look at besides error percentage is ESPN’s point differential between actual and projected points.
-&lt;/p&gt;
-&lt;figure&gt;
-&lt;center&gt;&lt;img class=&quot;materialboxed&quot; src =&quot;https://cdn-images-1.medium.com/max/1600/1*QnSRFkUDKXHGxpBKS8o_qw.png&quot; alt=graph2&gt;&lt;/center&gt;
-&lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;
-        Across every position besides a kicker, the point differential hovers around 5 points. For some high scoring positions like a quarter back, and some good running backs, 5 points does not have much of a difference. But, compared to lower scoring positions like defense and tight end, 5 points is precious.
-&lt;/p&gt;
-
-&lt;p&gt;
-        Week 2 projection accuracy in both error percentage and point differential was better as the number of blowout games decreased. Fantasy football fans can only hope the accuracy improves each week.
-&lt;/p&gt;
-
-&lt;p&gt;
-        While there are still 15 weeks left in the season, ESPN projections for defense and a tight end seem to be random guesses as to how they will perform. Surprisingly, quarterback and kicker projections seem to be a fantasy player’s best bet when deciding between who to start. So, for the average Joe fantasy player who only puts in players with a projected high amount of points, you may want to start to think twice and do some personal research!
-&lt;/p&gt;
-
-&lt;div id=&quot;cited&quot;&gt;
-    &lt;p&gt;
-            Data was scraped from &lt;a href = &quot;http://www.espn.com/fantasy/football/&quot;&gt;ESPN Fantasy Football&lt;/a&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-            Fantasy Points are based off the &lt;a href = &quot;http://games.espn.com/ffl/resources/help/content?name=scoring-settings-standard&quot;&gt;PPR Standard Scoring&lt;/a&gt;
-    &lt;/p&gt;
-&lt;/div&gt;</content><author><name>Konner Macias</name></author><summary type="html">With the second week of the NFL concluding last night with a 24–10 victory for the Lions over the Giants, I decided to take a look at ESPN fantasy point projection accuracy thus far. ESPN is one of the leading hosts for fantasy football leagues around the country with millions of people trusting their projections to decide which players they should start. After comparing the starting point projections for each week against the actual number of points the player earned, it looks like ESPN has to step up their game.</summary></entry></feed>
+&lt;/p&gt;</content><author><name>Alex Veroulis</name></author><summary type="html">One hot topic for debate among coaches, fans, and analysts who follow college football centers around the role of pro prospects in postseason play (bowl games) and whether or not they should play. This is because several highly touted players have opted to skip their bowl games to protect their health for their future in the NFL. This trend captures a very small portion of players who declare for the NFL Draft, but notable players such as Josh Rosen and Derwin James have skipped their games this year to prevent injuries.</summary></entry></feed>
