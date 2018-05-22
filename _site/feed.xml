@@ -1,4 +1,198 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-10T08:55:20-07:00</updated><id>http://localhost:4000/</id><title type="html">Bruin Sports Analytics</title><author><name>Bruin Sports Analytics</name></author><entry><title type="html">Why Has Alexander Zverev Failed to Deliver at Grand Slams?</title><link href="http://localhost:4000/zverevGS" rel="alternate" type="text/html" title="Why Has Alexander Zverev Failed to Deliver at Grand Slams?" /><published>2018-05-09T00:00:20-07:00</published><updated>2018-05-09T00:00:20-07:00</updated><id>http://localhost:4000/zverevGS</id><content type="html" xml:base="http://localhost:4000/zverevGS">&lt;figure&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-22T08:28:58-07:00</updated><id>http://localhost:4000/</id><title type="html">Bruin Sports Analytics</title><author><name>Bruin Sports Analytics</name></author><entry><title type="html">Does Defense Really Win Championships? An In-Depth Analysis of the NBA Playoffs</title><link href="http://localhost:4000/defChamp" rel="alternate" type="text/html" title="Does Defense Really Win Championships? An In-Depth Analysis of the NBA Playoffs" /><published>2018-05-22T00:00:20-07:00</published><updated>2018-05-22T00:00:20-07:00</updated><id>http://localhost:4000/defChamp</id><content type="html" xml:base="http://localhost:4000/defChamp">&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/defense/cover.jpg&quot; alt=&quot;2004 Pistons&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;Jed Jacobsohn/Getty Images&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4&gt;
+	&lt;b&gt;Introduction&lt;/b&gt;
+&lt;/h4&gt;
+
+&lt;p&gt;With 2 minutes left on the clock, Richard Hamilton stepped up to the free throw line.  He dribbled the ball a few times and calmly knocked down both shots to seal one of the most stunning upsets in playoff history.  The Detroit Pistons had defeated the heavily favored Los Angeles Lakers to become the 2004 NBA Champions.  Hardly anyone could have predicted that this team would overcome the combined talents of Kobe Bryant and Shaquille O’Neal along with the brilliance of Phil Jackson.  Most analysts give credit to the outstanding defense the Pistons displayed.  Though their offense just placed 7th, this Pistons team had the best ranked defense throughout the playoffs and actually had the highest average defensive rating in postseason history.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/defense/pic1.PNG&quot; alt=&quot;Top off/def teams&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;*Adjusted for Pace (Defensive rating is reversed scored)&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This was largely due in part because of their defensive stalwart Ben Wallace, who averaged 19.8 rebounds, 2.7 steals, and 3.4 blocks per 100 possessions.  Clearly, defense was a significant aspect of the playoffs that year, but since then, the game has started to trend in another direction.  Nowadays, there has been a resurgence in robust offenses as shown by both the 2017 Warriors and Cavaliers who contributed substantially to the recent spike in average offensive rating.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/defense/pic2.png&quot; alt=&quot;avg off/def per year&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;However, even with this new style of fast-paced basketball taking over, can one say with certainty that a relentless offense is more valuable than a resilient defense?  Or even, is there a way to quantify the impact of defensive prowess versus offensive tenacity on a team’s postseason success?  Using comprehensive data from previous playoffs, we can explore all the possible answers to these questions.&lt;/p&gt;
+
+&lt;h4&gt;
+	&lt;b&gt;Dataset&lt;/b&gt;
+&lt;/h4&gt;
+
+&lt;p&gt;For this analysis, I scraped 32 seasons of playoff statistics (1986-2017) from basketball-reference.com giving me 512 instances of teams to work with.  The data used were the playoff averages of each statistic.  The reason I excluded the regular season is because playoff basketball creates a highly competitive atmosphere.  Each possession is much more valuable and players exert an exceptional level of effort when the season is on the line.  Also, the goal is to measure the components of a win within the scope of the playoffs so it would be erroneous to use regular season data which includes tanking teams and high variances in player performances due to injuries and suspensions.&lt;/p&gt;
+
+&lt;p&gt;After extracting the information, I created a database with all the necessary offensive and defensive variables that would be viable predictors of a team’s success.  I determined these based on the correlation coefficients between each variable and a team’s number of wins during their playoff run.  All statistically insignificant predictors were removed using t-tests for individual factors and likelihood-ratio tests for joint significance tests. This step is done to avoid removing relevant variables because of multicollinearity.&lt;/p&gt;
+
+&lt;p&gt;The database is located in my &lt;a href=&quot;https://github.com/Donaldvu18/Playoffproject&quot;&gt;Github&lt;/a&gt;. The predictors are described in the table below:&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/defense/table1.png&quot; alt=&quot;variable descriptions&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;*&lt;i&gt;Note that defensive rating, defensive FG %, and defensive FT/FGA are correlated inversely with predicted number of wins since they measure the opponent’s performance.  This means the lower the value, the better a team’s defensive ability.&lt;/i&gt;&lt;/p&gt;
+
+&lt;h4&gt;
+	&lt;b&gt;Method&lt;/b&gt;
+&lt;/h4&gt;
+
+&lt;p&gt;The objective is to create a model that can predict the total amount of playoff wins a team will achieve based on their averages for the parameters mentioned above.  Note that the purpose of this model is not to predict whether a certain team will win the championship, but rather to see the trends associated with teams given their amount of wins and other variables.  From these estimates, we are able to see how deep a playoff team will go, but the intention is to see how much each offensive or defensive measure contributes to an overall win count.  This is better than just simply making an algorithm purely focused on win outcome because that would depend on matchups and countless other elements.&lt;/p&gt;
+
+&lt;p&gt;Before creating the models, I standardized and centered each predictor due to the varying magnitudes from percentages and ratings.  Using forward and backwards stepwise regression, I generated the best model for each subset size based on the criteria of highest R-squared.  The R-squared value for each model represents how accurately the predictors can estimate the outcome, which in this case is total playoff wins.  Since we have eleven predictors, this produced eleven unique models.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/defense/table2.png&quot; alt=&quot;models&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The next step was to choose the optimal model out of all these options which means  finding the one with the lowest mean squared error.  The MSE will provide us with an idea of a model’s precision since it measures how much its predictions deviate from the true observations. To acquire these MSE values, I chose to employ cross-validation methods instead of traditional criterions such as AIC, BIC, or adjusted R-squared.  Cross validation is a more suitable approach since our sample size is relatively small (n=512) compared to the amount of predictors (k=11) which makes the error variance much harder to estimate.&lt;/p&gt;
+
+&lt;p&gt;I utilized a 10-folds cross validation which consists of dividing the dataset into ten groups, or folds, of equal sizes.  The first fold is chosen as the validation set while the rest of the data is used to fit the proposed model.  The fitted model is then tested on the first fold and we are able to find our first MSE value by comparing our estimates of each team’s total wins with the actual numbers.  We continue to do 10 iterations of this step with a different fold being designated as the validation set each time while all the other groups are used to train the model.  Then we average the ten MSE values acquired which gives us the overall MSE of that specific model.  This entire process is repeated for each subset size listed above which consequently allows us to narrow down our pool to a single quintessential model.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Final Model&lt;/b&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/defense/model1.png&quot; alt=&quot;model 1&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4&gt;
+	&lt;b&gt;Results&lt;/b&gt;
+&lt;/h4&gt;
+
+&lt;p&gt;Since we have standardized and centered our predictor values, there are certain ways to interpret these numbers.  The intercept value represents the base number of wins that all teams start off with and then it will increase or decrease depending on the values of the parameters.  For example, keeping all else constant (fancy way of saying keep all other variables at their average value), for every increase in one standard deviation of a team’s offensive rating, the amount of predicted wins increases by 2.4010377.  Conversely, for every increase in one standard deviation of a team’s defensive rating, the amount of predicted wins decreases by -2.1930858 (remember that defensive rating is inversely correlated).&lt;/p&gt;
+
+&lt;p&gt;Since I am just looking to compare the magnitude of offensive measures versus defensive ones, I will interpret the results in terms of standard deviation.  However, if you want to work with concrete numbers, you can find the mean and standard deviation of each predictor by referencing back to the excel database in my github.  The number of total wins remains unscaled so it can be construed normally.&lt;/p&gt;
+
+&lt;p&gt;Interestingly, our model gives the edge to the defensive side of the ball by incorporating five defensive components in its algorithm versus two offensive ones.  However, the strongest indicators are offensive and defensive rating with the former having the edge.  The correlation is illustrated in the graphic below where one can visualize the apparent trends.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/defense/pic3.png&quot; alt=&quot;Playoff Wins&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Overall, the results of the model dictate that all the various mechanics of a team’s defensive scheme play a pivotal role in achieving wins, while on the offensive side, the main factor is if your shots are falling through the net or not.&lt;/p&gt;
+
+&lt;p&gt;There were four variables left out of the model as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Offensive rebound percentage&lt;/b&gt; - excluded from the model probably because there are not enough instances of it in a game to impact a team’s total wins.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Offensive FG/FTA&lt;/b&gt; - usually most teams do not have to rely on getting to the line often to achieve a win which could explain why offensive FG/FTA was left out of the equation.  However, if a team’s opponents are getting an abundance of calls from the referees, it can shift the game outcome which explains why defensive FG/FTA is used in the model still.  An example of this would be teams facing against James Harden who notoriously goes to the free throw line with high-frequency.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Offensive Turnover Percentage&lt;/b&gt; - a possible explanation for this predictor being omitted from the model is that most playoff teams are usually skilled at taking care of the ball so the offensive turnover percentages may be similar across the board.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;3-Point Attempt Rate&lt;/b&gt; - when considering all the playoff teams, the amount of 3-pointers attempted do not differ greatly among them.  You might have a few exceptions like the recent Golden State Warriors and Houston Rockets but those are not enough to warrant the inclusion of the predictor in the model.&lt;/p&gt;
+
+&lt;p&gt;Let's take a glance at the predictive aspect of our model.  At first, it may seem like a prediction error of 2.887163 wins is fairly high.  But one has to consider that the model consist of handpicked predictors that would best showcase the influence of offensive and defensive traits.  Since the primary objective was to analyze these effects, other predictors that could have refined the algorithm’s prediction ability like a team’s seed or number of all-stars were excluded to reduce noise.  Having said that, our estimates are still in close vicinity to the actual number of wins. With the standard error being 2.887163 wins, it gives our estimates some breathing room while not forfeiting too much precision.  It also helps that the playoffs are set up in a best-of-seven format because this way, the better team will usually move on and have the opportunity to add to their win total thus lowering the variance.  This is in contrast to the NFL where each playoff round consists of a single game and can lead to highly unexpected results.&lt;/p&gt;
+
+&lt;p&gt;Though the model heavily relies on the accuracy of its predictors, it may also use a bit of luck.  For example, it predicted that the 2015 Clippers would reach a total win count of seven in the playoffs.  Though the model was correct with that estimate, it is far-fetched to believe the algorithm could have anticipated that the Clippers would infamously collapse and blow a 3-1 lead against the Rockets.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/defense/pic4.png&quot; alt=&quot;Residual Error&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The histogram above displays the distribution of our model’s residual error rounded to the nearest .5.  If the estimate was a negative number, I converted it to a zero which explains the spike around the 0 to 1 interval.  As depicted by the graph, a majority of the residual errors fall within the range of -3 to 3.&lt;/p&gt;
+
+&lt;p&gt;Our model does have its weaknesses.  For example, consider the 2016 San Antonio Spurs who finished their season with a 67–15 record, their best winning percentage in franchise history.  With a roster comprised of decorated all-stars such as Tim Duncan, Tony Parker, Kawhi Leonard, and LaMarcus Aldridge, this Spurs team was expected to compete head-to-head with the defending champion Warriors.  When we plug their average statistics into the model, the Spurs are predicted to have 11.78863 wins which is equivalent to reaching the championship finals.  However, they were defeated in the conference semifinals by the OKC Thunder led by spectacular performances from future MVP Russell Westbrook and scoring champion Kevin Durant.  The Spurs ended up with a total of 6 wins which deviates substantially from our estimate when you consider the model’s error range.&lt;/p&gt;
+
+&lt;p&gt;As expected, our algorithm runs into problems when players perform well above their expectations or below them, but it is difficult to foresee these anomalies since each game is treated as an independent event.&lt;/p&gt;
+
+&lt;p&gt;Though these results do provide some insight into our research question, we can make things a bit more interesting.  Instead of generalizing our models to the entire postseason, lets customize our model on a round-to-round basis.  Since each playoff round is based on seedings, this will produce higher skilled matchups in the later stages which may lead to unique insights.&lt;/p&gt;
+
+&lt;h4&gt;
+	&lt;b&gt;Further Methods&lt;/b&gt;
+&lt;/h4&gt;
+
+&lt;p&gt;I used the same methods from before, but instead of sampling the entire pool of playoff teams, I only used the teams that advanced into the next round to compute the respective model.  I decided to skip the initial round just because of the high variation of statistics due to one-sided matchups (1st vs 8th seed, 2nd vs 7th, etc…)&lt;/p&gt;
+
+&lt;h4&gt;
+	&lt;b&gt;Further Findings&lt;/b&gt;
+&lt;/h4&gt;
+
+&lt;p&gt;&lt;b&gt;Conference Semifinals&lt;/b&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/defense/pic5.jpg&quot; alt=&quot;Celtics Sixers&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;YONG KIM / File Photograph&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/defense/model2.png&quot; alt=&quot;model 2&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For this model, I sampled all the playoff teams that made it into their conference semifinals.&lt;/p&gt;
+
+&lt;p&gt;Yikes.  Only three predictors remain out of the eleven that were available.  Offensive and defensive ratings continue to have a profound impact on wins as expected, but offensive FG was the only other variable to be included.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/defense/pic6.png&quot; alt=&quot;FG conf semis&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;As illustrated above, there is a strong correlation between field goal percentage and a team’s playoff run. Overall, this model confirms the importance of a team’s shot selection but does not give us too much to interpret other than that which may be due to the numerous one-sided matchups that are still skewing the results.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Conference Finals&lt;/b&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/defense/pic7.jpg&quot; alt=&quot;Harden&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;Image via Air Alamo&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/defense/model3.png&quot; alt=&quot;model 3&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This model will help choose what factors help teams in the conference finals advance to the championship finals.  The sample size only includes teams that made it into their conference finals.&lt;/p&gt;
+
+&lt;p&gt;Almost all the defensive measures had a significant role in a team’s wins while only one offensive factor was deemed notable. Conference final matchups involve the top two teams within each conference battling it out and usually these lineups consist of superstars who can score at will. As a result, the different offensive factors are not as remarkable since teams will usually find a way to attain points.  However, defensive effort can vary for each team depending on the roster assembled and coach’s personal style. Defensive plays such as forcing a turnover or a clutch block can swing the outcome of a tightly contested game.&lt;/p&gt;
+
+&lt;p&gt;Also, remember that in our overall model, offensive rating was the strongest predictors of wins.  However, defensive rating has now surpassed it by about .20 which is a sizable difference.  This further supports the notion that defensive grit is critical in these middle playoff rounds.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;NBA Finals&lt;/b&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/defense/pic8.jpg&quot; alt=&quot;Lebron vs. Steph&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;Associated Press&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/defense/model4.png&quot; alt=&quot;Model 4&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This will help us choose what factors help teams move on from the finals to become the NBA champions.  Only teams that have gone to the finals were sampled.&lt;/p&gt;
+
+&lt;p&gt;For this model, we have the usual suspects but also a few surprises.  It makes sense that when the best two teams go head to head, whoever can defensively lock down their opponents will most likely get the win.&lt;/p&gt;
+
+&lt;p&gt;However, it is interesting to see that the 3-point attempt rate made the cut as a predictor in this model while other variables did not.  I believe this is because when a team is hustling and outplaying their opponents, they are producing more open looks which correlates with the amount of 3 pointers being taken.  In this case, the 3-point attempt rate would be a compelling indicator of which team is controlling the flow of the game.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/defense/pic9.png&quot; alt=&quot;FG Finals&quot;&gt;&lt;/center&gt;
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Of course there are other plausible explanations such as a team adopting an offensive strategy based on 3 pointers or individual sharpshooters having hot hands.  Also, note that offensive rating has reclaimed the top coefficient over defensive rating.&lt;/p&gt;
+
+&lt;h4&gt;
+	&lt;b&gt;Conclusion&lt;/b&gt;
+&lt;/h4&gt;
+
+&lt;p&gt;Depending on which playoff round it is, there are certain team attributes that are emphasized more than others.  However, for the most part, defensive abilities have the potential to make more of an overall impact on an outcome even though the amount of points scored is still usually the highest weighted determinant.  In the conference semifinals and conference finals, defensive potency is valued more than offensive power which demonstrates the strong leverage of defensive plays in the middle rounds.  For the finals , it does shift back to an offensive based model that takes the amount of 3 pointers attempted into consideration.&lt;/p&gt;
+
+&lt;p&gt;Though all these statistics and equations can tell you about the various aspects that go into winning a playoff game, it is not an absolute indicator of what a team should focus on.  The data used in this research goes back 32 seasons when a distinct style of basketball was being played and since then, the game has evolved immensely.  Also, there are factors that one cannot quantify or account for such as the greatness of Lebron James or Draymond Green’s ability to earn himself technicals.  Nevertheless, these models can still provide us insight on the offensive and defensive patterns associated with successful playoff teams.  In the end, these are just analytics and nothing will beat the good old-fashioned way of playing your heart out and leaving it all on the floor.&lt;/p&gt;
+
+
+&lt;p&gt;
+    &lt;i&gt;All analytics computed in R&lt;/i&gt; &lt;/br&gt;
+    &lt;i&gt;Graphics Produced in Tableau&lt;/i&gt;
+&lt;/p&gt;</content><author><name>Don Vu</name></author><summary type="html">Jed Jacobsohn/Getty ImagesWith 2 minutes left on the clock, Richard Hamilton stepped up to the free throw line. He dribbled the ball a few times and calmly knocked down both shots to seal one of the most stunning upsets in playoff history. The Detroit Pistons had defeated the heavily favored Los Angeles Lakers to become the 2004 NBA Champions. Hardly anyone could have predicted that this team would overcome the combined talents of Kobe Bryant and Shaquille O’Neal along with the brilliance of Phil Jackson. Most analysts give credit to the outstanding defense the Pistons displayed. Though their offense just placed 7th, this Pistons team had the best ranked defense throughout the playoffs and actually had the highest average defensive rating in postseason history.</summary></entry><entry><title type="html">Why Has Alexander Zverev Failed to Deliver at Grand Slams?</title><link href="http://localhost:4000/zverevGS" rel="alternate" type="text/html" title="Why Has Alexander Zverev Failed to Deliver at Grand Slams?" /><published>2018-05-09T00:00:20-07:00</published><updated>2018-05-09T00:00:20-07:00</updated><id>http://localhost:4000/zverevGS</id><content type="html" xml:base="http://localhost:4000/zverevGS">&lt;figure&gt;
     &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/zverev/cover.png&quot; alt=&quot;zverev backhand&quot;&gt;&lt;/center&gt;
     &lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
@@ -894,44 +1088,4 @@ Objectively worse. Their offense is suffering, as goals per game has dipped a co
 
 &lt;p&gt;
 But the legacy he has crafted in San Jose, and throughout his career for that matter, is substantial. He’s a six-time All-Star, Olympic Gold medalist, Hart Trophy recipient, and future first ballot Hall of Famer. The only thing missing is a Stanley Cup, and unfortunately this draws the attention of the all-to-familiar crowd who judge players based on the number of championships they have won. There is still time for him to bring the city of San Jose its first, but the Sharks are not the same feared contender of years past. Thornton could opt to leave and chase a Cup in the twilight of his career, which would be a bittersweet ending for Sharks fans. When he finally does retire, he will be celebrated in San Jose. Number 19 will forever hang in the rafters.
-&lt;/p&gt;</content><author><name>Alex Veroulis and Joey Maurer</name></author><summary type="html">Throughout his 20 years in the National Hockey League (NHL), Joe Thornton has proven time and time again that he is one of hockey’s best players. Drafted first overall in the 1997 NHL Draft by the Boston Bruins, Thornton was highly-touted, but nobody thought he would turn out to be such a legendary player. With a large frame and an insane ability to distribute the puck to his teammates, he has been and continues to be remarkably consistent. As a result, he has won numerous awards, including the Hart Memorial Trophy (League MVP), the Art Ross Trophy (Most Points), 6 All-Star Team nominations, and a gold medal at the 2010 Olympics with Team Canada.</summary></entry><entry><title type="html">Fixture Congestion and Playing Styles vs Injuries in European Football</title><link href="http://localhost:4000/fixturecongestion" rel="alternate" type="text/html" title="Fixture Congestion and Playing Styles vs Injuries in European Football" /><published>2018-02-07T14:55:20-08:00</published><updated>2018-02-07T14:55:20-08:00</updated><id>http://localhost:4000/fixturecongestion</id><content type="html" xml:base="http://localhost:4000/fixturecongestion">&lt;h4&gt;Background&lt;/h4&gt;
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/fixturecongestion/main_photo.jpg&quot; alt=&quot;Winter Soccer&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;In England, every team plays 5 matches in the last week of December and the first week of January as part of a traditional festive fixture schedule, that brings great revenue to TV companies and to the Premier League itself. Source: Getty Images&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;Over the last few years, debate over fixture congestion in English football has increased, both on social media and by so-called sports pundits and former players on television. A key contributing factor to this debate is the increase in number of foreign mangers (mostly from continental Europe and South America) in the English Premier League over the last 5 years. Not only are these managers used to fewer matches (and winter breaks) in their home nations, they also bring in radically different styles of play that demand higher levels of fitness from the players. This article takes a closer look at the main reasons behind injuries by looking at patterns in other top European leagues over the years.&lt;/p&gt;
-&lt;h4&gt;Fixtures and Winter Breaks&lt;/h4&gt;
-&lt;p&gt;The following table gives an overview of the number of winter break and rest days across the top 5 European leagues. An important point to note is that Spain’s ‘rest-day’ statistics are skewed by the presence of the two super-clubs Real Madrid and FC Barcelona (two teams with excellent squad depth and great medical facilities). &lt;/p&gt;
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/fixturecongestion/rest_days.jpg&quot; alt=&quot;Winter Break Days&quot;&gt;&lt;/center&gt;
-&lt;/figure&gt;
-&lt;p&gt;Top 6 teams in England play 4.65 games more than their counterparts in other countries. While this might not seem like a great deal, when compounded with the lack of a winter break and the lack of an ‘extra’ rest day, English teams are at a big disadvantage. Moreover, English teams play 26.5% of their total fixtures in the months of December and January and have 3.7 rest days on average. Meanwhile, their foreign counterparts play 16.6% of their fixtures over the two months and enjoy 6.6 rest days, in addition to having the luxury of a winter break.&lt;/p&gt;
-
-&lt;p&gt;This difference becomes especially apparent in the second half of the season, when English teams accumulate most of their injuries. This is highlighted by the fact that there is a general trend over the last 5 years in the Premier League that has seen the number of soft tissue injuries rise by 45% and the total number of injuries rise by 13% in the months of December and January (according to injury data analyst Ben Dinnery). On the other hand, German and Spanish teams accumulate roughly the same number of injuries in the second half of the season as they do in the first half of the season (5% and 6% increase respectively).&lt;/p&gt;
-
-&lt;p&gt;This puts them at a disadvantage when they compete in continental competitions such as the UEFA Europa League and the UEFA Champions League, and is often cited by many Premier League managers, most notably, Pep Guardiola and Arsene Wenger, for England’s poor performance in European competitions.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/fixturecongestion/fig1.jpg&quot; alt=&quot;Bar graph of Injuries&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;Figure 1: Total number of injuries (2016-17 season)&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;A counter-argument to the introduction of the winter break in England is the fact that Boxing Day and New Year Premier League fixtures have been a tradition since the post-war period. In addition, television companies and the Premier League itself make huge revenues from the festive fixture period by scheduling matches in a staggered fashion (one after the other), which often leads to Premier League teams playing 2 matches in less than 48 hours and in some cases, 3 matches in just 6 days. In addition to creating fixture congestion, this creates an unequal playing field as some teams enjoy longer rest periods between matches compared to their opponents. For example, in the 2017-18 season, Leicester City played 4 matches in 213 hours, while Arsenal played the same number of matches in 294 hours, a difference of more than 3 days.&lt;/p&gt;
-
-&lt;p&gt;t is up to the Premier League to decide whether to value its own revenue by remaining spectators and watch its teams exit the continental competition at an early stage or help to support its clubs’ performance in continental competition by including a winter break.&lt;/p&gt;
-
-&lt;h4&gt;Playing Styles and Squad Rotation&lt;/h4&gt;
-&lt;p&gt;It is intuitive that a high-intensity style of football that focuses on pressing, possession recycling and winning the ball in the opponents’ half of the field requires higher levels of fitness from players as opposed to a low-block, deep-defending, counter-attacking style of football. The former style, employed by teams such as Arsenal, Tottenham Hotspur and Liverpool is one of the factors for a poor injury record, as is suggested by the graph below.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/fixturecongestion/fig2.jpg&quot; alt=&quot;Number of Injuries Timeline&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;Number of injuries (longer than 10 days) per season&lt;/figcaption&gt;
-&lt;/figure&gt;
-&lt;p&gt;However, simply correlating the number of injuries per season with a team’s playing style can be misleading due to long-term injuries and contact injuries in games which skew the data significantly. This is not to say that the managers of teams who like to play this way are blameless, however, since it is their responsibility to buy players who are less-injury prone and employ better squad rotation strategies to circumvent this issue. A good example of a manager who has managed to successfully implement his high-intensity style with a low injury record is Tottenham Hotspur’s Mauricio Pochettino. This is evident from the graph above, which shows that Tottenham Hotspur’s injuries have decreased from the season he took over (2014-15) to last season (2016-17). Over the last three years, the Argentine manager bought physically robust players that not only fit his style but are less-injury prone such as Victor Wanyama, Toby Alderweireld and Heung-Min Son. In addition, in the 2016-17 season, he regularly rotated his full-backs Danny Rose and Kyle Walker with Ben Davies and Kieran Trippier and his midfielders, which led Tottenham Hotspur to have the highest points tally of any Premier League team in the second half of the season, when most of their rivals began to suffer dips in their performance and fitness levels. &lt;/p&gt;
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/fixturecongestion/player.jpg&quot; alt=&quot;Injury Prone Soccer Player&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;Injury-prone Arsenal midfielder Abou Diaby only made 22 appearances over four years for the club due to a succession of long-term injuries. Such injuries must be taken into context when assessing a club’s injury record.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4&gt;Conclusion:&lt;/h4&gt;
-&lt;p&gt;To conclude, both fixture congestion and playing styles have a clear impact on injuries. The introduction of a winter break in the English Premier League would be much welcomed, especially by managers of the top 6 clubs. Playing style is certainly a factor but is very much secondary to fixture congestion. While the issue of playing styles can be resolved simply by having larger squads and employing better rotation strategies, the issue of fixture congestion is one that can change only if it garners the support of the members of the hierarchy of the FA and the Premier League and will benefit all clubs, regardless of their playing styles.&lt;/p&gt;
-&lt;h4&gt;Sources:&lt;/h4&gt;
-&lt;p&gt;physioroom.com and Ben Dinnery’s excellent reports on injury data analysis were used to write this piece. An interesting and more comprehensive report on injury trends in the Premier League can be found &lt;a href=&quot;https://www.jltspecialty.com/~/media/files/sites/specialty/insights-sport/jlt_sp_premier_league_injury_index.pdf?la=en-gb&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Salil Akundi</name></author><summary type="html">Over the last few years, debate over fixture congestion in English football has increased, both on social media and by so-called sports pundits and former players on television. A key contributing factor to this debate is the increase in number of foreign mangers (mostly from continental Europe and South America) in the English Premier League over the last 5 years. Not only are these managers used to fewer matches (and winter breaks) in their home nations, they also bring in radically different styles of play that demand higher levels of fitness from the players. This article takes a closer look at the main reasons behind injuries by looking at patterns in other top European leagues over the years.</summary></entry></feed>
+&lt;/p&gt;</content><author><name>Alex Veroulis and Joey Maurer</name></author><summary type="html">Throughout his 20 years in the National Hockey League (NHL), Joe Thornton has proven time and time again that he is one of hockey’s best players. Drafted first overall in the 1997 NHL Draft by the Boston Bruins, Thornton was highly-touted, but nobody thought he would turn out to be such a legendary player. With a large frame and an insane ability to distribute the puck to his teammates, he has been and continues to be remarkably consistent. As a result, he has won numerous awards, including the Hart Memorial Trophy (League MVP), the Art Ross Trophy (Most Points), 6 All-Star Team nominations, and a gold medal at the 2010 Olympics with Team Canada.</summary></entry></feed>
