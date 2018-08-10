@@ -27,7 +27,7 @@
     <div id="bodycontent">
 
             <h2 id = "pagetitle">{{ page.title }}</h2>
-            <p>By: {{author.name}} | {{author.web}} | {{ page.date | date_to_string }}</p>
+            <p>By: <a href="{{author.web}}">{{author.name}}</a> | {{ page.date | date_to_string }}</p>
             {{ content }}
 
       <hr>
