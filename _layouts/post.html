@@ -2,6 +2,7 @@
 ---
 
 <!DOCTYPE html>
+{% include author.html %}
 <html lang="en">
   <head>
     <title>{{ site.name }}</title>
@@ -20,13 +21,13 @@
     <link rel="icon" href="../../assets/logo1.png">
 
   </head>
-  {% include author.html %}
+
   {% include header.html %}
   <body>
     <div id="bodycontent">
 
             <h2 id = "pagetitle">{{ page.title }}</h2>
-            <p>By: {{page.author}} | {{ page.date | date_to_string }}</p>
+            <p>By: {{author.name}} | {{author.web}} | {{ page.date | date_to_string }}</p>
             {{ content }}
 
       <hr>
