@@ -4,7 +4,7 @@ twitter: bruinanalytics
 
 permalink: "/:title"
 
-paginate: 2
+paginate: 10
 paginate_path: "blog/:num"
 
 plugins:
@@ -12,6 +12,6 @@ plugins:
 
 alex_veroulis:
   name: Alex Veroulis
-  web: http://www.bruinsportsanalytics.com
+  web: http://www.bruinsportsanalytics.com/alexVeroulis.html
 
 excerpt_separator: <!-- end excerpt here -->
