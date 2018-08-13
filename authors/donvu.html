@@ -1,5 +1,5 @@
 ---
-author: konner_macias
+author: don_vu
 layout: default
 ---
 <head>
@@ -34,20 +34,8 @@ div.ex1 {
 
 
 <center><h4>{{ author.name }}</h4></center>
-<center><img class="materialboxed" src="../assets/konner.jpg" alt=graph width="30%" height="30%"></center>
 
-<div class="ex1">
-	<main>
-		<section class="module_content">
-			<b><h5>About: </h5></b>
-			<p class="module-text">
-			{{ author.bio }}
-			</p>
-		</section>
-	</main>
-</div>
-
-{% assign author = site.posts | where: 'author', 'konner_macias' %} 
+{% assign author = site.posts | where: 'author', 'don_vu' %} 
 
 <div class="ex1">
 	<main>
