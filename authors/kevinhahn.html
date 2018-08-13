@@ -1,5 +1,5 @@
 ---
-author: joey_maurer
+author: kevin_hahn
 layout: default
 ---
 <head>
@@ -34,7 +34,7 @@ div.ex1 {
 
 
 <center><h4>{{ author.name }}</h4></center>
-<center><img class="materialboxed" src="../assets/members/joeyM.jpg" alt=graph width="15%" height="15%"></center>
+<center><img class="materialboxed" src="../assets/members/kevinH.jpg" alt=graph width="15%" height="15%"></center>
 
 <div class="ex1">
 	<main>
@@ -47,7 +47,12 @@ div.ex1 {
 	</main>
 </div>
 
-{% assign author = site.posts | where: 'authors', 'joey_maurer' %} 
+<!--
+{% assign authorCount = site.posts | where: 'authors','alex_veroulis' | size %}
+-->
+
+
+{% assign author = site.posts | where: 'authors', 'kevin_hahn' %} 
 
 <div class="ex1">
 	<main>
@@ -61,6 +66,7 @@ div.ex1 {
 		</section>
 	</main>
 </div>
+
 
 
 

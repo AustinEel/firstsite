@@ -47,7 +47,12 @@ div.ex1 {
 	</main>
 </div>
 
-{% assign author = site.posts | where: 'author', 'alex_veroulis' %} 
+<!--
+{% assign authorCount = site.posts | where: 'authors','alex_veroulis' | size %}
+-->
+
+
+{% assign author = site.posts | where: 'authors', 'alex_veroulis' %} 
 
 <div class="ex1">
 	<main>
@@ -61,6 +66,7 @@ div.ex1 {
 		</section>
 	</main>
 </div>
+
 
 
 

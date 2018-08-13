@@ -18,12 +18,31 @@ layout: default
       <section class="module content">
           <div id="posts">
             {% for post in paginator.posts %}
-            {% assign author = site.data.authors[post.author] %}
-        
             <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <h6><em>By: <a href="{{author.web}}">{{ author.name }}</a> | {{ post.date | date_to_string }}</em></h6> 
+            <h6><em>{% assign authorCount = post.authors | size %}
+                  {% if authorCount == 0 %}
+                    No author
+                  {% else %}
+                    {% for author in post.authors %}
+                      {% assign person = site.data.authors[author] %}
+                      {% if forloop.first %}
+                       By: <a href="{{person.web}}">{{ person.name }}</a>
+                      {% elsif forloop.last %}
+                      and <a href="{{person.web}}">{{ person.name }}</a>
+                      {% else %}
+                    , <a href="{{person.web}}">{{ person.name }}</a>
+                      {% endif %}
+                    {% endfor %}
+                  {% endif %}
+                | {{ post.date | date_to_string }}</em></h6>
+
+
+
+
             {{ post.excerpt }}
-          {% endfor %}
+            {% endfor %}
+            
+            
           <center>
           <div class="pagination">
             {% if paginator.previous_page %}
