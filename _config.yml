@@ -10,8 +10,6 @@ paginate_path: "blog/:num"
 plugins:
   - jekyll-paginate
 
-alex_veroulis:
-  name: Alex Veroulis
-  web: http://www.bruinsportsanalytics.com/alexVeroulis.html
+
 
 excerpt_separator: <!-- end excerpt here -->

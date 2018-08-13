@@ -2,7 +2,7 @@
 ---
 
 <!DOCTYPE html>
-{% include author.html %}
+{% assign author = site.data.authors[page.author] %}
 <html lang="en">
   <head>
     <title>{{ site.name }}</title>
@@ -27,7 +27,9 @@
     <div id="bodycontent">
 
             <h2 id = "pagetitle">{{ page.title }}</h2>
+            {% if author %}
             <p>By: <a href="{{author.web}}">{{author.name}}</a> | {{ page.date | date_to_string }}</p>
+            {% endif %}
             {{ content }}
 
       <hr>
