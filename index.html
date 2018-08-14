@@ -7,57 +7,78 @@ layout: default
   <meta charset="utf-8">
   <meta content="width=device-width,initial-scale=1.0" name="viewport">
   <meta content="description" name="In this tutorial, we take a look at a beautiful parallax scrolling effect in the simplest of ways, with stationary backgrounds and scrolling content.">
+  <link rel="stylesheet" href="/css/blog.css">
 
   <!-- css -->
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
   <link rel="stylesheet" href="/css/style.css" type="text/css"> 
 
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>    
+
 </head>
 
 <body>
-
 <div class="wrapper">
-  <main>  
-      <section class="module parallax parallax-1">
-        <div class="container">
-          <h1>Bruin Sports Analytics</h1>
-          <!-- <form name="newsletter" method="POST" netlify> 
-              <p>
-                <label>Your Name: <input type="text" name="name"></label>   
-              </p>
-              <p>
-                <label>Your Email: <input type="email" name="email"></label>
-              </p>
-              <p>
-                <label>Message: <textarea name="message"></textarea></label>
-              </p>
-              <p>
-                <button type="submit">Send</button>
-              </p>
-            </form> -->
-        </div>
-      </section>
+  <main>
+    <div id="bloghome">
       <section class="module content">
-        <center>
-          <div id="abtdescription">
-            <h1>About</h1>
-            <p>
-                Bruin Sports Analytics is a student-run sports statistics club that serves as a platform for sports research, data journalism, and machine learning applications.
-            </p>
-            <p>
-                We are composed of a Data Journalism Team, which aims to produce monthly short entertaining articles, and a Research Team, which works closely with our club advisor to publish at least 1 sports research paper a year. 
-            </p>
-            <p>
-                If you are interested in learning more about what we do, please contact us <a href= "mailto:bruinsportsanalyticsclub@gmail.com">here!</a>
-            </p>
-	
-          </div>
+         <div id="hm description">
+          <center><h2 style="color: #ffab40;">Data Journalism</h2></center>
+          <hr>
+        </div>
+          <div id="posts">
+            {% for post in paginator.posts %}
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <h6 style="font-family: Roboto slab, serif;">{% assign authorCount = post.authors | size %}
+                  {% if authorCount == 0 %}
+                    No author
+                  {% else %}
+                    {% for author in post.authors %}
+                      {% assign person = site.data.authors[author] %}
+                      {% if forloop.first %}
+                       By <a href="{{person.web}}">{{ person.name }}</a>
+                      {% elsif forloop.last %}
+                      and <a href="{{person.web}}">{{ person.name }}</a>
+                      {% else %}
+                    , <a href="{{person.web}}">{{ person.name }}</a>
+                      {% endif %}
+                    {% endfor %}
+                  {% endif %}
+                • {{ post.date | date_to_string }} •
+                  {% assign words = post.content | number_of_words %}
+                    {% if words < 360 %}
+                      1 min read
+                    {% else %}
+                      {{ words | divided_by:200 }} min read
+                    {% endif %}</h6>
+
+
+
+
+            {{ post.excerpt }}
+            {% endfor %}
+            
+            
+          <center>
+          <div class="pagination">
+            {% if paginator.previous_page %}
+              <a href="{{ paginator.previous_page_path }}" class="previous">&laquo; Previous</a>
+            {% endif %}
+        
+            <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+        
+            {% if paginator.next_page %}
+              <a href="{{ paginator.next_page_path }}" class="next">Next &raquo;</a>
+            {% endif %}
           </div>
         </center>
+        </ul>
+          </div>
       </section>
+    </div>
   </main>
 
+</div>
 </body>
+

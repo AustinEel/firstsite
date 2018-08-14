@@ -5,7 +5,7 @@ twitter: bruinanalytics
 permalink: "/:title"
 
 paginate: 10
-paginate_path: "blog/:num"
+paginate_path: "/page:num"
 
 plugins:
   - jekyll-paginate
