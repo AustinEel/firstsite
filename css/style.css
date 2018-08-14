@@ -73,6 +73,19 @@ section.module.parallax-1 {
   }
 }
 
+#hmdescription {
+  font-family: "Roboto Slab", serif;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+@media screen and (max-width: 760px) {
+  #hmdescription {
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+  }
+}
+
 
 #abtdescription ul {
   list-style-position: inside;

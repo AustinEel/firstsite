@@ -21,22 +21,20 @@
     <link rel="icon" href="../../assets/logo1.png">
 
   </head>
-
+  
   {% include header.html %}
   <body>
     <div id="bodycontent">
 
             <h2 id = "pagetitle">{{ page.title }}</h2>
-            <p>{% assign authorCount = page.authors | size %}
+            <p style="text-align:left;">{% assign authorCount = page.authors | size %}
                   {% if authorCount == 0 %}
                     No author
-                  {% elsif authorCount == 1 %}
-                    {{ page.authors | first }}
                   {% else %}
                     {% for author in page.authors %}
                       {% assign person = site.data.authors[author] %}
                       {% if forloop.first %}
-                       By: <a href="{{person.web}}">{{ person.name }}</a>
+                       By <a href="{{person.web}}">{{ person.name }}</a>
                       {% elsif forloop.last %}
                       and <a href="{{person.web}}">{{ person.name }}</a>
                       {% else %}
@@ -44,7 +42,7 @@
                       {% endif %}
                     {% endfor %}
                   {% endif %}
-                | {{ page.date | date_to_string }}</p>
+                • {{ page.date | date_to_string }} <span style="float:right;">{% include read_time.html %}</span></p>
             <!--
             {% if authors %}
             <p>By: <a href="{{author.web}}">{{author.name}}</a> | {{ page.date | date_to_string }}</p>
