@@ -42,7 +42,14 @@
                       {% endif %}
                     {% endfor %}
                   {% endif %}
-                • {{ page.date | date_to_string }} <span style="float:right;">{% include read_time.html %}</span></p>
+                  • {{ page.date | date_to_string }} •
+                  {% assign words = content | number_of_words %}
+                    {% if words < 360 %}
+                      1 min read
+                    {% else %}
+                      {{ words | divided_by:200 }} min read
+                    {% endif %}
+                </p>
             <!--
             {% if authors %}
             <p>By: <a href="{{author.web}}">{{author.name}}</a> | {{ page.date | date_to_string }}</p>

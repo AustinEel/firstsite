@@ -6,6 +6,34 @@ body {
   height: 100%;
 }
 
+/* ======
+  GROUP
+=========*/
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.text {
+  padding-top: 17.5%;
+  padding-left: 25vw;
+  float: left;
+  width: 60%;
+}
+
+.prof-pic {
+  padding-top: 10%;
+  float: right;
+  width: 40%;
+}
+@media (max-width: 625px) {
+  .text, .prof-pic {
+    float: none;
+    width: 100%;
+  }
+}
+
 
 /* ============================================================
   SECTIONS
