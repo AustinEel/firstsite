@@ -34,6 +34,25 @@ body {
   }
 }
 
+/* ================================
+  Newsletter
+===================================*/
+.newsletter-container {
+  max-width: 200px;
+  border-radius: 1em;
+  flex-direction: column;
+  padding: 0em 0;
+  margin-bottom: 1em;
+}
+
+
+
+.newsletter-submit {
+  font-family: "Roboto Slab", serif;
+}
+
+
+
 
 /* ============================================================
   SECTIONS
