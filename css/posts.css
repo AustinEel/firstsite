@@ -2,7 +2,7 @@
 
 @media all and (min-width: 768px) {
     #bodycontent {
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Lora', serif;
         font-size: 20px;
         padding-left: 20vw;
         padding-right: 20vw;
@@ -13,7 +13,7 @@
 
 @media all and (max-width: 420px) {
     #bodycontent {
-        font-family: 'Roboto Slab', serif;
+        font-family: 'Lora', serif;
         padding-left: 10vw;
         padding-right: 10vw;
         line-height: 30px;
