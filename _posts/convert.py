@@ -42,8 +42,8 @@ def print_cover(title, authors, my_date, cov_par):
     """
     body = '---\n'\
         'layout: post\n'\
-        'title: \"{}\"\n'\
-        'date: {} -0700\n'\
+        'title:  \"{}\"\n'\
+        'date:   {} -0700\n'\
         'authors:\n'.format(title, my_date)
 
     for author in authors:
@@ -65,7 +65,7 @@ def add_pic(num):
     :input:
             picture number (int)
     """
-    return '<figure>\n\t<center><img class=\"materialboxed responsive-img\" src =\"/assets/pic_folder/pic_{}\" alt=\"picture {}\"><figcaption></figcaption></center>\n</figure>\n\n'.format(num, num)
+    return '<figure>\n\t<center><img class=\"materialboxed responsive-img\" src =\"/assets/pic_folder/pic_{}\" alt=\"picture {}\" style=\"max-width: 95%;\"><figcaption></figcaption></center>\n</figure>\n\n'.format(num, num)
 
 
 
