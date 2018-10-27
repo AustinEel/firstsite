@@ -45,6 +45,7 @@ def print_cover(title, authors, my_date, cov_par):
         'title: \"{}\"\n'\
         'date: {} -0700\n'\
         'authors:\n'.format(title, my_date)
+
     for author in authors:
         body += '- {}\n'.format(author)
 
@@ -64,7 +65,19 @@ def add_pic(num):
     :input:
             picture number (int)
     """
-    return '<figure>\n\t<center><img class=\"excerptpics\" src =\"/assets/pic_folder/pic_{}\" alt=\"picture {}\"><figcaption></figcaption></center>\n</figure>\n\n'.format(num, num)
+    return '<figure>\n\t<center><img class=\"materialboxed responsive-img\" src =\"/assets/pic_folder/pic_{}\" alt=\"picture {}\"><figcaption></figcaption></center>\n</figure>\n\n'.format(num, num)
+
+
+
+def add_video():
+    """
+    adds appropriate video tags and marks the video number
+
+    :input:
+            video number (int)
+    """
+    return '<div class=\"video-container\"><iframe width=\"1425\" height=\"641\" src=\"embed_link\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe></div>\n\n'
+
 
 
 def main():
@@ -74,8 +87,12 @@ def main():
     :input:
             txt file (file)
             number of pictures (int)
+            number of videos (int)
+
+    ex:
+            ./convert.py ucla_gym.txt 7 1
     """
-    if (len(sys.argv) != 3):
+    if (len(sys.argv) != 4):
         print_error("Incorrect number of arguments\n")
 
     # read in unicode
@@ -84,22 +101,26 @@ def main():
     content = [x.strip() for x in content]  # get rid of \n
     content[0] = content[0].replace(u'\ufeff', '')  # get rid of \ufeff
 
-    title = content[0].split("Title: ", 1)[1]
-    author = content[1].split("Author: ", 1)[1]
+    # TODO: get rid of '' inside content
+
+    # gather titles
+    title = content[0].split("Title:")[1].strip()
+    authors = content[1].strip().split("Authors:")[1].split(',')
     my_date = strftime("%Y-%m-%d %H:%M:%S", localtime())
     file_name = f.name.split(".txt", 1)[0]
+
     # get cover paragraph
     for i in range(3, len(content)):
         if content[i]:
             cov_par = unidecode(content[i])
             break
 
-    body = print_cover(title, author, my_date, cov_par)
+    body = print_cover(title, authors, my_date, cov_par)
 
     # add cover photo
     body += '<figure>\n\t<center><img class=\"excerptpics\" src =\"/assets/pic_folder/photo\" alt=\"cover photo\"><figcaption></figcaption></center>\n</figure>\n\n'
     # wrap the rest
-    for i in range(4, len(content)):
+    for i in range(3, len(content)):
         if content[i]:
             body += add_p(unidecode(content[i]))
 
@@ -107,6 +128,11 @@ def main():
     num_pics = int(sys.argv[2])
     for i in range(1, num_pics + 1):
         body += add_pic(i)
+
+    # num of video frames
+    num_videos = int(sys.argv[3])
+    for i in range(num_videos):
+        body += add_video()
 
     # write changes to new html file
     out = open('{}.html'.format(file_name), 'w')
