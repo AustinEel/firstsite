@@ -1,0 +1,11 @@
+- title: Home
+  url: /index.html
+  permalink: /
+- title: Officers
+  url: /officers/index.html
+  permalink: /officers/
+- title: Research
+  url: /research/index.html
+- title: About
+  url: /about.html
+

@@ -52,7 +52,21 @@ body {
 }
 
 
+/*========================
+  Navigation Menu
+========================*/
 
+nav a {
+    text-decoration: none;
+}
+nav li.active a {
+    background-color: #ffab40;
+}
+
+#navigation #navbar .navbar-nav .active a {
+    color: #ffffff !important;
+    border-bottom: 2px solid #ffffff !important;
+}
 
 /* ============================================================
   SECTIONS

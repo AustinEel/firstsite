@@ -3,34 +3,77 @@
     <button class="menu-icon" type="button" data-toggle></button>
     <div class="title-bar-title">Menu</div>
     </div> -->
+    
       <div class="navbar-fixed">
         <nav>
-        
           <div class="nav-wrapper">
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <div class="leftbox">
-            <a href="http://www.bruinsportsanalytics.com" class="left navlink">
+            <a href="../../{{ site.index }}" class="left navlink">
               <img id="logo" src="../../assets/logo1.png" /> 
-              <span id="homemenuitem">
+              <span id="homemenuitem" style="font-family: Roboto slab, serif;">
               Bruin Sports Analytics
             </span>
             </a>
             </div>
             <ul id="days" class="right hide-on-med-and-down">
-              <li id="Research"><a class="navlink" href="../../research{{ site.research }}">Research</a></li>
-              <li id="Officers"><a class="navlink" href="../../officers{{ site.officers }}">Officers/Members</a></li>
-              <li id="About"><a class="navlink" href="../../about{{ site.about }}">About</a></li>
+              <li id="Research"><a class="navlink" href="../../research{{ site.research }}" style="font-family: Roboto slab, serif;">Research</a></li>
+              <li id="Officers"><a class="navlink" href="../../officers{{ site.officers }}" style="font-family: Roboto slab, serif;">Officers</a></li>
+              <li id="About"><a class="navlink" href="../../about{{ site.about }}" style="font-family: Roboto slab, serif;">About</a></li>
             </ul>
 
             <ul class="side-nav" id="mobile-demo">
-              <li id="Home"><a class="navlink" href="http://www.bruinsportsanalytics.com">Home</a></li>
-              <li id="Research"><a class="navlink" href="../../research{{ site.research }}">Research</a></li>
-              <li id="Officers"><a class="navlink" href="../../officers{{ site.officers }}">Officers/Members</a></li>
-              <li id="About"><a class="navlink" href="../../about{{ site.about }}">About</a></li>
+              <li id="Home"><a class="navlink" href="../../{{ site.index }}" style="font-family: Roboto slab, serif;">Home</a></li>
+              <li id="Research"><a class="navlink" href="../../research{{ site.research }}" style="font-family: Roboto slab, serif;">Research</a></li>
+              <li id="Officers"><a class="navlink" href="../../officers{{ site.officers }}" style="font-family: Roboto slab, serif;">Officers</a></li>
+              <li id="About"><a class="navlink" href="../../about{{ site.about }}" style="font-family: Roboto slab, serif;">About</a></li>
             </ul>
           </div>
         </nav>
       </div>
+    
+    <!--
+    <nav id="navbar" class="collapse navbar-collapse">
+      <div class="leftbox">
+            <a href="http://www.bruinsportsanalytics.com" class="left navlink">
+              <img id="logo" src="../../assets/logo1.png" /> 
+              <span id="homemenuitem" style="font-family: Roboto slab, serif;">
+              Bruin Sports Analytics
+            </span>
+            </a>
+        </div>
+
+        <ul class="right nav navbar-nav">
+            {% assign links = site.data.navigation %}
+            {% for link in links %}
+                {% assign class = nil %}
+                {% if page.url contains link.url %}
+                    {% assign class = 'active' %}
+                {% endif %}
+                {% if link.sublinks %}
+                    <li class="dropdown {{ class }}">
+                        <a href="{{ site.baseurl }}{{ link.url }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-family: Roboto slab, serif;">{{ link.title }} <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            {% for sublink in link.sublinks %}
+                                {% if sublink.title == 'separator' %}
+                                    <li role="separator" class="divider"></li>
+                                {% else %}
+                                    <li>
+                                        <a href="{{ site.baseurl }}{{ sublink.url }}" style="color: #ffab40">{{ sublink.title }}</a>
+                                    </li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </li>
+                {% else %}
+                    <li class="{{ class }}">
+                        <a href="{{ site.baseurl }}{{ link.url }}" style="font-family: Roboto slab, serif;">{{ link.title }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </nav>
+  -->
 
 </header>
 
