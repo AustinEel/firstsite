@@ -140,6 +140,17 @@ section.module.parallax-1 {
   padding-right: 10vw;
 }
 
+#blogtitle {
+  font-family: "Roboto Slab", serif;
+  color: #ffab40;
+}
+
+#blogdescr {
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  line-height: 30px;
+}
+
 @media screen and (max-width: 760px) {
   #hmdescription {
     padding-left: 2.5vw;
