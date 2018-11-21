@@ -1,4 +1,123 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-10T20:18:04-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bruin Sports Analytics</title><author><name>Bruin Sports Analytics</name></author><entry><title type="html">How ‘Mexican Style’ Came Back to Haunt GGG</title><link href="http://localhost:4000/mexicanStyle" rel="alternate" type="text/html" title="How 'Mexican Style' Came Back to Haunt GGG" /><published>2018-10-26T20:25:27-07:00</published><updated>2018-10-26T20:25:27-07:00</updated><id>http://localhost:4000/mexicanStyle</id><content type="html" xml:base="http://localhost:4000/mexicanStyle">&lt;figure&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-20T18:26:33-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bruin Sports Analytics</title><author><name>Bruin Sports Analytics</name></author><entry><title type="html">Raw Powerlifting is Coming at Full Force</title><link href="http://localhost:4000/powerlifting" rel="alternate" type="text/html" title="Raw Powerlifting is Coming at Full Force" /><published>2018-11-20T16:42:06-08:00</published><updated>2018-11-20T16:42:06-08:00</updated><id>http://localhost:4000/powerlifting</id><content type="html" xml:base="http://localhost:4000/powerlifting">&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/plift/cover.jpeg&quot; alt=&quot;cover photo&quot;&gt;&lt;figcaption&gt;9for9 Media&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;h3&gt;&lt;b&gt;Introduction to the sport&lt;/b&gt;&lt;/h3&gt;
+
+&lt;p&gt;On first glance, powerlifting appears to be a sport destined for greatness, featuring incredible feats of strength through the squat, bench, and deadlift, some of the most ubiquitous exercises in the gym. In addition to that, the basic rules of the sport are mind-numbingly simple to understand - the best of three attempts at each lift are added together to form a total, which is then compared among competitors in the same weight class. In the right moments, the battle to become the strongest lifter can play out in dramatic conditions, such as John Haack's 315kg (694lb) pull at 83kg (183lb) to secure the IPF World Classic Powerlifting Championships title.&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/p3vR-OFazyU?start=226&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;On the other hand, powerlifting has largely flown under the radar, only garnering appeal from fellow competitors and precious few others. While the sport has been a mainstay of both the Special Olympics and the Summer Paralympics (bench-only) since 1991 and 1984 respectively, the International Olympic Committee (IOC) has yet to recognize a single governing body for powerlifting. In contrast, powerlifting's more acrobatic sibling Olympic weightlifting has origins in the inaugural 1896 Games, becoming a regular of mainstream sports consciousness and featuring a much more &lt;a href=&quot;https://www.youtube.com/watch?v=2X0iGnQgvXo&quot;&gt;raucous&lt;/a&gt; global fanbase.&lt;/p&gt;
+
+&lt;p&gt;Why has this been the case? One plausible reason could stem from the problem of standardization. Powerlifting is heavily divided into scores of different international federations, which all contain different technical nuances and standards in their rules. To complicate matters even further, different federations also exist at the national level, most of them affiliated with an international body. Indeed, on last count no fewer than 14 different international federations and 34 in the United States alone were listed on &lt;a href=&quot;https://www.openpowerlifting.org/&quot;&gt;openpowerlifting.org&lt;/a&gt;. We can thus understand the IOC's reluctance to recognize one particular governing body for powerlifting when so many of them exist out there.&lt;/p&gt;
+
+&lt;h3&gt;&lt;b&gt;Lift Proportions in Powerlifting by Equipment Categories&lt;/b&gt;&lt;/h3&gt;
+
+&lt;p&gt;Because of the complicated state of federations in powerlifting, we will work only with results from USA Powerlifting (USAPL) meets and the USA affiliate of the International Powerlifting Federation (IPF). There are a few compelling reasons for this choice. Firstly, the IPF is the only international federation that continues to drug-test their athletes under World Anti-Doping Agency (WADA) regulations. Becoming WADA-compliant places the IPF in pole position in becoming recognized by the IOC in the future, a concrete path for powerlifting to attain mainstream popularity. Additionally, the USAPL in particular has a strong reputation for strictly enforcing refereeing regulations, which ensures that the meet results were consistent. Finally and certainly most significantly, the USAPL is also the federation that &lt;a href=&quot;https://www.openpowerlifting.org/&quot;&gt;UCLA Powerlifting&lt;/a&gt; competes in (no bias was formed in the construction of this sentence).&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/plift/pic_1.jpg&quot; alt=&quot;picture 1&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;(Author of this article with mediocre lifts pictured back row, third from left) (credit: UCLA Powerlifting)&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;USAPL meets fall into two equipment categories, Raw and Equipped. In raw lifting, the only equipment allowed are knee sleeves, wrist wraps and a lifting belt. However, in equipped lifting the use of assistive equipment such as squat, bench or deadlift suits and knee wraps are permitted in competition. To obtain a quantitative measure of the resultant differences between the two categories at the highest level, data only from the past 10 years of the annual National competitions was used. I filtered the winners of the Junior (19-23) and Open (24+) divisions, generally considered to be the most competitive populations, obtaining the mean proportion of the total split by each lift.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/plift/pic_2.png&quot; alt=&quot;picture 2&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;Lifts&lt;/center&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;The results may not seem significant initially, with only a maximum difference of 4.5% separating the average raw and equipped deadlift. However, we must also remember that these are measures of individual lifts as a proportion of a total. When directly comparing the different categories to each other, we observe that from raw to equipped, our squat proportion increases by 6.96% and bench proportion by 8.77%, both non-negligible amounts. Interestingly, we see a dramatic drop in the prominence of the deadlift in equipped lifting, with the proportion of its total falling by 10.9% when compared to the raw deadlift.&lt;/p&gt;
+
+&lt;p&gt;This discrepancy can be explained by the mechanics of the supportive gear used in the Equipped category. These assist a lift by storing elastic energy during the descent, allowing lifters to utilize this force on the ascent to overcome weights far beyond their 'natural' capabilities. The perfect example of this can perhaps be found in Chen Wei-Ling's unbelievable 210kg (463lb) squat, more than 4 times her bodyweight. After struggling to walk out with the weight on her back, Chen's descent is noticeably slow and controlled as she fights against the elastic resistance of both her squat suit and knee wraps. Once she begins to stand up with the weight, the stored energy gives her the 'pop' out of the bottom position to complete the lift successfully. While a similar concept also applies to the bench, the deadlift exercise is unique. Unlike the squat and the bench where the weight is lowered then raised, the weight begins stationary on the floor before the deadlift begins. As a result, the elastic energy stored on the descent by a deadlift suit only really occurs as the lifter reaches down to the barbell, a meagre amount when juxtaposed against the enormous boost that squat and bench suits provide.&lt;/p&gt;
+
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HVk7bpHYBdY&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;A great way to illustrate this even further is to scrutinize lifters who compete in both categories. Elite powerlifter Blaine Sumner competed at Raw Nationals in 2014, hitting (more than) respectable numbers of 400/240/335 kg (882/529/738 lbs) for the squat, bench and deadlift respectively. Just two years later, he competed at Equipped Nationals instead, posting up an astronomical total of 445/375/355 kg (981/826/782 lbs). While Sumner's squat and bench went up by 11.25% and 56.25%, his deadlift only saw a slight improvement of 5.97%. This may seem like an extreme case, but top equipped lifters like Sumner see even more drastic improvements on their squat and bench than on their deadlift when switching over from raw lifting precisely because they recognize the technical proficiency required in mastering how best to use their equipment to extract the maximum poundage possible.&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/NfLxhHIyHw8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/M67nuMWUNqA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;&lt;b&gt;Lift Proportions in Powerlifting by Level of Expertise&lt;/b&gt;&lt;/h3&gt;
+
+&lt;p&gt;Here, I have a confession to make. My initial plan was to examine how the proportions of the three lifts change when contrasting the general population of powerlifting competitors with those at the elite level. To my surprise, the lift proportions of the Open and Junior division winners at national competitions differed only slightly from the pool of all USAPL lifters. This is especially the case for raw powerlifting.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/plift/pic_3.png&quot; alt=&quot;picture 3&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;Lifts&lt;/center&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;Before analyzing the data, I hypothesized that raw lifters with proportionally bigger deadlifts would end up prevailing in powerlifting competitions more often. Since the deadlift is the final event in a powerlifting meet, serious competitors are aware of the exact amount of weight they need to prevail over the tight competition. It would seem to follow that those with strong deadlifts would have the opportunity to hit these numbers much more often. In contrast, a lifter with a strong squat or bench might not have as good a sense of how much more weight they need to lift over their competition to maintain their advantage going into the final deadlifts. Obviously, this theory was quickly debunked. Rather, it seems like world class lifters come in all shapes and forms, regardless of individual greatness or lack thereof in any single lift.&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hmyflzmPFGs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;Despite having a relatively subpar bench that placed him 30th out of 32 competitors, Matt Sohmer's massive squat and deadlift were enough to secure him the victory in the 120kg weight class during the 2018 Raw Nationals.&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/y_rDcuWpKrI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;Jennifer Thompson, who won 9 consecutive Raw National titles in her weight class from 2009 - 2017, is well-known in the powerlifting community for benching about 6.4 standard deviations over the mean.&lt;/p&gt;
+
+&lt;p&gt;Our equipped data tells a similar story, but differences in the squat, bench and deadlift proportions are slightly more pronounced, where accomplished equipped lifters have a higher squat and bench proportion of their total. These findings are not surprising. As alluded to earlier, the addition of assistive equipment as a new variable creates a new technical challenge for lifters, creating an environment where top lifters do have to not only have the raw strength to complete a lift, but also make full use of their equipment to reap the most reward.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, it is still apparent that no matter the equipment category, differences in proportion-of-total between the general population and the best lifters in the USAPL are not significant enough to establish a case for any single lift's importance over the others. This has promising implications for the average lifter. Rather than wasting needless time and effort worrying whether any particular weak lift is holding your powerlifting total back, our findings suggest that training hard and letting your lifts develop and grow over time naturally as you gain strength will serve you well.&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/HjSdkJcZK5Q&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;Despite only placing 3rd for squat and bench and 4th for deadlift, Bryce Lewis' consistency was enough to secure him the victory in the IPF Raw Worlds 105kg weight class. Being a well-balanced lifter isn't all that bad!&lt;/p&gt;
+
+&lt;h3&gt;&lt;b&gt;Powerlifting's Growth&lt;/b&gt;&lt;/h3&gt;
+
+&lt;p&gt;With all that said and done, why bother to devote so much time in analyzing a fringe sport like powerlifting? Let's take a look at powerlifting's popularity from 1997 till today.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/plift/pic_4.png&quot; alt=&quot;picture 4&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;The exponential rise of the number of participants in USAPL meets appears to have its origins from 2013 and accelerated from 2014 to 2018 (updated to 21st October, 2018), color-coded in blue in the graph. While certainly not currently at the forefront of sporting prominence, the USAPL has displayed an impressive track record in growing interest in powerlifting. However, this overall picture can be deceiving.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/plift/pic_5.png&quot; alt=&quot;picture 5&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/plift/pic_6.png&quot; alt=&quot;picture 6&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The two graphs above showcase a stunning disparity in the fortunes of raw and equipped powerlifting respectively. Indeed, it is raw powerlifting that was enjoyed an explosion of growth, making up the bulk of the complete population and thus really the driving factor towards the upward of USAPL competitors. On the other hand, while equipped lifting was much more prevalent in the beginning years of the federation, its numbers were eventually superseded by raw powerlifting. Additionally, the number of powerlifters each year in this category have actually dropped every year since 2014.&lt;/p&gt;
+
+&lt;p&gt;Rather than immediately form a conjecture to explain the current state of equipped lifting, we first look to explain the rise of raw powerlifting. Simply put, raw powerlifting has one of the lowest barriers for entry in sports both cost and convenience-wise - besides a lifting singlet, everything else is optional. Because of this, most view raw lifting as a 'true' test of real strength by the human body alone, thus gravitating towards it. This has been facilitated by the growing prominence of the fitness industry in general, where popular mainstream YouTube stars often collaborate with raw powerlifters to provide advice that people looking to train for general strength to learn from. Some of these figures themselves choose to dabble in raw powerlifting because of its ease of access.&lt;/p&gt;
+
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_rqe3IItJ04&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;Popular fitness YouTuber Omar Isuf collaborates with the owner of Barbell Brigade, a popular strength gym in Los Angeles. In this video, Omar extolled the virtues of powerlifting for a better body, a topic that attracts mass appeal.&lt;/p&gt;
+
+&lt;p&gt;In contrast to raw lifting, the appeals of equipped lifting lie in pushing one's body beyond their limits and moving weights that others can only dream of (watch that Chen Wei-Ling squat video again). The importance of technical mastery over equipment could perhaps thus have alienated people interested in getting into powerlifting for the sole purpose of getting stronger, who view the category as an unnecessary complication. From an anecdotal perspective, many people that I know have expressed similar doubts over the effectiveness of equipped powerlifting in demonstrating true strength. At the end of the day, it is still worrying to see the stagnant state of equipped powerlifting. While it may certainly be true that this aspect of the sport doesn't emphasize pure strength as much, I have personally drawn inspiration watching the mental fortitude of these lifters. Take Dmytro Semenenko for example. After enduring catastrophic equipment failure at the bottom of his second squat, he added an additional 5kg onto the bar and promptly smashes the lift for a world record. Moments like these add to the excitement of powerlifting and the potential downfall of equipped lifting would thus be a huge loss.&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/I5zUmdXXD8Y?start=38&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+
+&lt;p&gt;So much attention has been devoted to the growth of participants in powerlifting because of how critical this is for the sport. As a case study, let us examine the best squats of the 83kg Men's weight class from past Raw Nationals. This data was further filtered to include only the top 20 lifters of the Open and Junior categories to ensure that the highest levels of competition are selected to be represented.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/plift/pic_7.png&quot; alt=&quot;picture 7&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;Over the last 7 years, we can clearly see that both the median and highest squat weight have increased consistently, with the exception of the median squat weight 2017-2018 (while not discernible from the graph, even the highest squat weight has improved from 300kg in 2016 to 300.5kg in 2017, and to 301kg in 2018). It is highly plausible that the accelerated baseline interest in raw powerlifting played a role in driving top-end competitiveness forwards steadily over time, something worth taking note of as powerlifting becomes even more popular.&lt;/p&gt;
+
+&lt;h3&gt;&lt;b&gt;Conclusion&lt;/b&gt;&lt;/h3&gt;
+
+&lt;p&gt;Even within powerlifting itself, we can see nuances between the raw and equipped categories. The former focuses on raw strength (as the name implies), and the latter requires an additional degree of technical skill to truly perform as well as possible. Consequently, raw lifters tend to have their deadlift represented strongly as a proportion as their total, while equipped lifters see greater gains in their squat and bench, lifts that see the largest enhancements from assistive gear. However, it also seems as if the proportions of each individual lift towards the total isn't as relevant to the average powerlifting enthusiast, who could benefit more towards simply training to the best of their ability.&lt;/p&gt;
+
+&lt;p&gt;The differences between raw and equipped has also resulted in far different rates of growth, which we can attribute to increased perceptions of powerlifting as a pure strength sport, a mindset that raw powerlifting serves far better than equipped powerlifting. Together with raw's far greater accessibility for general strength trainees, it is no wonder that the popularity of raw powerlifting has surged at a staggering rate while equipped powerlifting has stagnated. Overall, the growth of powerlifting is critical because this helps to push the ceiling of the sport even further, allowing us to see even crazier weights lifted that not only generate massive entertainment, but also fulfilment in pushing the strength limits of the human body.&lt;/p&gt;
+
+&lt;p&gt;Powerlifting is a relatively new sport. Therefore, I believe that there is abundant potential for further data analysis in the future, whether that be generating an &lt;a href=&quot;https://www.strongerbyscience.com/whos-the-most-impressive-powerlifter/&quot;&gt;accurate method to compare relative strength levels between weight classes&lt;/a&gt; or means to use data to compare the training methods themselves even. These possibilities become even more relevant when considering the fact that in 2017, the IPF was able to receive official &lt;a href=&quot;https://www.powerlifting.sport/federation/presidents-corner/presidents-corner-detail.html?tx_news_pi1%5Bnews%5D=207&amp;tx_news_pi1%5Bcontroller%5D=News&amp;tx_news_pi1%5Baction%5D=detail&amp;cHash=de329d8a86a39c27610df738e303f536&quot;&gt;FISU recognition&lt;/a&gt; (International University Sports Federation), an organization recognized by the IOC. Steps like these brings about renewed hopes of future IOC recognition and possible future acceptance of powerlifting as a mainstream strength sport in its own right.&lt;/p&gt;
+
+&lt;p&gt;This article uses data from the OpenPowerlifting project, &lt;a href=&quot;https://www.openpowerlifting.org&quot;&gt;https://www.openpowerlifting.org&lt;/a&gt;. A copy of the data can be found at &lt;a href=&quot;https://gitlab.com/openpowerlifting/opl-data&quot;&gt;https://gitlab.com/openpowerlifting/opl-data&lt;/a&gt;.&lt;/p&gt;</content><author><name>Qi Jing Yap</name></author><summary type="html">On first glance, powerlifting appears to be a sport destined for greatness, featuring incredible feats of strength through the squat, bench, and deadlift, some of the most ubiquitous exercises in the gym. In addition to that, the basic rules of the sport are mind-numbingly simple to understand - the best of three attempts at each lift are added together to form a total, which is then compared among competitors in the same weight class. In the right moments, the battle to become the strongest lifter can play out in dramatic conditions, such as John Haack's 315kg (694lb) pull at 83kg (183lb) to secure the IPF World Classic Powerlifting Championships title.</summary></entry><entry><title type="html">How ‘Mexican Style’ Came Back to Haunt GGG</title><link href="http://localhost:4000/mexicanStyle" rel="alternate" type="text/html" title="How 'Mexican Style' Came Back to Haunt GGG" /><published>2018-10-26T20:25:27-07:00</published><updated>2018-10-26T20:25:27-07:00</updated><id>http://localhost:4000/mexicanStyle</id><content type="html" xml:base="http://localhost:4000/mexicanStyle">&lt;figure&gt;
 	&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/mexicanS/image11.png&quot; alt=&quot;cover photo&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
@@ -948,73 +1067,4 @@ That makes the statistics simple. All we care about is the score given to a gymn
 &lt;p&gt;&lt;u&gt;Beam&lt;/u&gt;:Peng-Peng Lee – Katelyn Ohashi – Grace Glenn – Kyla Ross – Madison Kocian – Brielle Nguyen&lt;/p&gt;
 &lt;p&gt;&lt;u&gt;Floor&lt;/u&gt;:Katelyn Ohashi – Felicia Hano – Kyla Ross – Pauline Tratz – Madison Kocian – Gracie Kramer/Sonya Meraz&lt;/p&gt;
 
-&lt;p&gt;Kyla Ross will be likely be doing all-around, which she has done eight times this year. Interesting storylines to follow include Madison Kocian’s potential return to the bars, and the decision to be made regarding floor lineup. We will see who delivers clutch performances late in the season and how the freshmen handle increased pressure. UCLA will need to be firing on all cylinders to come out of St. Louis with a national championship on April 21st.&lt;/p&gt;</content><author><name>Joey Maurer</name></author><summary type="html">The most exciting time of the year for women’s collegiate gymnastics is just around the corner. UCLA, currently ranked 3rd in the country, will compete for a conference, regional, and hopefully national championship in the coming weeks. Boasting a roster littered with former Olympians and elite gymnasts, the Bruins are in a great position to challenge Oklahoma, LSU, and the rest of the best programs in America for a NCAA title.</summary></entry><entry><title type="html">Blake Griffin: Sharpshooter or Bricklayer?</title><link href="http://localhost:4000/blakegriffin" rel="alternate" type="text/html" title="Blake Griffin: Sharpshooter or Bricklayer?" /><published>2018-03-11T15:55:20-07:00</published><updated>2018-03-11T15:55:20-07:00</updated><id>http://localhost:4000/blakegriffin</id><content type="html" xml:base="http://localhost:4000/blakegriffin">&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/griffin/image4.png&quot; alt=&quot;Blake Griffin&quot;&gt;&lt;/center&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;From a decorated high-school recruit, to Naismith College Player of the Year, to apparent resuscitator of the &lt;a href=&quot;https://www.youtube.com/watch?v=41EFwuBqEUA&quot;&gt;Dunk Contest&lt;/a&gt;, to &lt;a href=&quot;https://deadspin.com/blake-griffin-decked-equipment-manager-over-teasing-gon-1755656136&quot;&gt;slugger&lt;/a&gt; of an equipment manager, to highly &lt;a href=&quot;https://fivethirtyeight.com/features/the-pistons-trade-for-blake-griffin-was-a-desperate-move-and-it-may-backfire/&quot;&gt;controversial&lt;/a&gt; trade chip, Blake Griffin’s basketball career has had quite the peaks and valleys.&lt;/p&gt;
-
-&lt;p&gt;Blake Griffin came into the league in 2009 (but was sidelined by injury until the 2010-11 season) as a supremely athletic, bullish brute who could overpower players in the paint. This style of play lended to some amazing highlight plays that will entertain fans for years to come, like this reel of his whopping 214 dunks during his rookie season.&lt;/p&gt;
-
-&lt;div class=&quot;video-container&quot;&gt;
-&lt;iframe width=&quot;1425&quot; height=&quot;641&quot; src=&quot;https://www.youtube.com/embed/YWzLFqptmhw&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;As his career progressed, he started expanding his offensive repertoire, frequently performing some &lt;a href=&quot;https://youtu.be/fDXe_wvo-Ug?t=27s&quot;&gt;clumsy albeit effective post moves&lt;/a&gt; to score on defenders. After becoming teammates with pick-and-roll maestro Chris Paul during the 2011-12 season, Griffin assumed a hefty role in the pick-and-roll with Chris Paul. Not only did this partnership allow him to make some &lt;a href=&quot;https://youtu.be/b7qvdDyg8pw?t=21s&quot;&gt;dazzling plays in the paint from perfect CP3 dimes&lt;/a&gt;, but it also opened up his game to learn how to &lt;a href=&quot;https://youtu.be/bAenu52u5Ow?t=4m46s&quot;&gt;knock down mid-range jumpers out of pick-and-pop situations&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;However, the league has become drastically different since the early 2010s. After the sudden success of Steph Curry and the Steve Kerr-coached Golden State Warrior teams, the NBA as a whole has realized that long mid-range shots are nearly obsolete, since there is so much more value in stepping back a few feet to take a 3-pointer and scoring an extra point.&lt;/p&gt;
-
-&lt;p&gt;As this change happened, Griffin faced a significant conundrum. As he played more and more with Chris Paul, he was shooting more and more of those mid-range shots as he got more and more comfortable popping out from the pick-and-roll.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/griffin/table_griff.png&quot; alt=&quot;table&quot;&gt;&lt;/center&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;As seen in the table, Griffin clearly took less of those mid-range attempts after the 2015-16 season. In the offseason before the 2016-17 season, he spoke on wanting to shoot “&lt;a href=&quot;https://www.ocregister.com/2016/09/29/clippers-blake-griffin-ready-to-extend-range-shoot-more-3-pointers/&quot;&gt;confidently&lt;/a&gt;” from 3-point land as he saw some of his contemporaries, such as Anthony Davis and Lamarcus Aldridge, doing the same.&lt;/p&gt;
-
-&lt;p&gt;The numbers certainly reflect his desire to shoot more 3-pointers. The season after he made these comments (2016-17), Griffin increased his 3-point attempts per game to 1.9 per game from just 0.5 per game. This season, he has shot them even more, taking 5.5 per game. This graphic illustrates his offensive game stretching away from the basket as his career has continued.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/griffin/image2.png&quot; alt=&quot;Spider Plot&quot;&gt;&lt;/center&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;In this chart, we can see that in the last two seasons, he has drastically increased the amount of 3-pointers he takes. As seen in the chart, Griffin has also reduced those shots from 10 to 16 feet and 16 feet to the 3-point arc, instead opting to shoot more 3-pointers. He has clearly seen the direction in which the league is headed, and has made adjustments to try and keep up.&lt;/p&gt;
-
-&lt;p&gt;However, while it is good that he is shooting more 3s, there is a more important question here: how well is he shooting these 3s?&lt;/p&gt;
-
-&lt;p&gt;The answer, sadly, is a resounding “meh.”&lt;/p&gt;
-
-&lt;p&gt;For this season, Griffin is shooting 33.5% from 3-point land, putting him below the league average mark of 36.2% from 3. On top of this, he is shooting about 5.6 3-point attempts per game. Let’s look at how players of comparable size at the same forward position that Griffin plays shoot the 3.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/griffin/image3.png&quot; alt=&quot;Three pt FG%&quot;&gt;&lt;/center&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;This does not look pretty for Griffin. Out of these 21 players, Griffin is second-to-last in 3-point FG%, with only Danilo Gallinari trailing him. Some may say this comparison is unfair, as the classification of “Forwards Taller Than 6'7&quot; (at least 5 3-Point Attempts/Game)” includes players like Paul George and Trevor Ariza: guys who could easily double as guards and predicate their games more on shooting. It can be easily argued that in today’s NBA, the forward and the shooting guard positions are almost fluid, with many so-called “death lineups” featuring traditional shooting guards/small forwards occupying the power forward spot. Thus, it can be fair to compare Griffin to these players, especially when he is taking 5.5 3-pointers per game.&lt;/p&gt;
-
-&lt;p&gt;However, for argument's sake, let’s just look at how Griffin compares to players that traditionally fill a role similar to his on offense in terms of 3-point accuracy.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/griffin/image1.png&quot; alt=&quot;Three pt FG% 6foot10&quot;&gt;&lt;/center&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The results are still ugly, as he is still second-to-last among these players, with only our returning friend Danilo Gallinari behind him.&lt;/p&gt;
-
-&lt;p&gt;Towards the beginning of the season, when he was still with the Clippers, there was a lot of &lt;a href=&quot;https://www.sbnation.com/2017/10/27/16557294/blake-griffin-3-point-shooting-clippers-trend-mid-range-shot-history&quot;&gt;hoopla&lt;/a&gt; surrounding his seemingly sudden pinpoint accuracy from beyond the arc. However, this was a classic case of looking at too small a sample size; while he might have been shooting 43.5% from 3 through 4 games, he is now shooting below league average after 60+ games into the season.&lt;/p&gt;
-
-&lt;p&gt;Teams are aware of his lackluster shooting, too. Take a look at this clip; even though Griffin makes the shot, note how his defender, Serge Ibaka, does not even try to fight through the screen to close out on Griffin. Players on opposing teams will let him take those all day, since he’s shooting them at a low accuracy.&lt;/p&gt;
-
-
-&lt;div class=&quot;video-container&quot;&gt;
-&lt;iframe width=&quot;1425&quot; height=&quot;641&quot; src=&quot;https://www.youtube.com/embed/QpPiyOepYbg?start=76&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Perhaps in the offseason, he can work on developing a more fluid motion on his jumpers. As seen in these warm-up shots (and also in his in-game shots), his release is not quite fluid - he very sharply flicks his wrist, causing the ball to fling out of his hands rather than smoothly glide to the basket. Working on ironing out minute shooting mechanics such as these has helped players in the past, and can maybe elevate Griffin’s 3-point game.&lt;/p&gt;
-
-&lt;div class=&quot;video-container&quot;&gt;
-&lt;iframe width=&quot;1425&quot; height=&quot;641&quot; src=&quot;https://www.youtube.com/embed/QpPiyOepYbg?start=22&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Overall, Griffin is going to have to improve on his 3-point shooting to sustain the latter years of his career. In addition to adapting to the new NBA, improving his perimeter shooting might help his durability as a player. At age 28, with a significant injury history behind him, his athleticism is waning, and he is not going to be able to make zany shots like &lt;a href=&quot;https://www.youtube.com/watch?v=SG4pKhPMZ6I&quot;&gt;these&lt;/a&gt; on a regular basis. While he is on the right track, Griffin will have to practice hard this offseason to become a superior outside shooter. Otherwise, the Detroit Pistons might regret taking on his $173 million contract for many years to come.&lt;/p&gt;
-
-&lt;p&gt;All statistics courtesy of stats.nba.com and basketball-reference.com. Image courtesy of Carlos Osorio, Associated Press.&lt;/p&gt;</content><author><name>Nikhil Sharma</name></author><summary type="html">From a decorated high-school recruit, to Naismith College Player of the Year, to apparent resuscitator of the Dunk Contest, to slugger of an equipment manager, to highly controversial trade chip, Blake Griffin’s basketball career has had quite the peaks and valleys.</summary></entry></feed>
+&lt;p&gt;Kyla Ross will be likely be doing all-around, which she has done eight times this year. Interesting storylines to follow include Madison Kocian’s potential return to the bars, and the decision to be made regarding floor lineup. We will see who delivers clutch performances late in the season and how the freshmen handle increased pressure. UCLA will need to be firing on all cylinders to come out of St. Louis with a national championship on April 21st.&lt;/p&gt;</content><author><name>Joey Maurer</name></author><summary type="html">The most exciting time of the year for women’s collegiate gymnastics is just around the corner. UCLA, currently ranked 3rd in the country, will compete for a conference, regional, and hopefully national championship in the coming weeks. Boasting a roster littered with former Olympians and elite gymnasts, the Bruins are in a great position to challenge Oklahoma, LSU, and the rest of the best programs in America for a NCAA title.</summary></entry></feed>
