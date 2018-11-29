@@ -1,4 +1,4 @@
-vedant_sahu: {bio: '', name: Vedant Sahu, web: 'http://www.bruinsportsanalytics.com/vedantsahu'}
+joe_dunham: {bio: '', name: Joe Dunham, web: 'http://www.bruinsportsanalytics.com/joedunham'}
 albert_pan: {bio: null, name: Albert Pan, web: 'http://www.bruinsportsanalytics.com/albertpan'}
 alex_veroulis: {bio: 'I''m Alex Veroulis, a first-year student with the academic standing
     of a sophomore for the 2017-2018 academic year. My major is statistics, as I have
@@ -61,6 +61,7 @@ subash_raman: {bio: "Hi, I'm Subash, a first-year Mathematics of Computation maj
     \ dream job is yet but I\u2019d like for it to be one where I have the freedom\
     \ to explore and analyze any topic that I am interested in.", name: Subash Sundar
     Raman, web: 'http://www.bruinsportsanalytics.com/subashraman'}
+vedant_sahu: {bio: '', name: Vedant Sahu, web: 'http://www.bruinsportsanalytics.com/vedantsahu'}
 zane_winston: {bio: 'Zane is a first year-business economics student at UCLA. He has
     been interested in sports since a young age, and loves writing about basketball.',
   name: Zane Winston, web: 'http://www.bruinsportsanalytics.com/zanewinston'}
