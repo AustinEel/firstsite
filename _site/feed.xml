@@ -1,4 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-29T00:22:37-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bruin Sports Analytics</title><author><name>Bruin Sports Analytics</name></author><entry><title type="html">2018 Ballon d’Or: A Look at the Contenders and their Numbers</title><link href="http://localhost:4000/ballonDOr" rel="alternate" type="text/html" title="2018 Ballon d'Or: A Look at the Contenders and their Numbers" /><published>2018-11-28T22:23:26-08:00</published><updated>2018-11-28T22:23:26-08:00</updated><id>http://localhost:4000/ballonDOr</id><content type="html" xml:base="http://localhost:4000/ballonDOr">&lt;figure&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-11-29T15:27:25-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bruin Sports Analytics</title><author><name>Bruin Sports Analytics</name></author><entry><title type="html">Bust to Beast: The Jared Goff Story</title><link href="http://localhost:4000/jaredGoffStory" rel="alternate" type="text/html" title="Bust to Beast: The Jared Goff Story" /><published>2018-11-29T14:03:25-08:00</published><updated>2018-11-29T14:03:25-08:00</updated><id>http://localhost:4000/jaredGoffStory</id><content type="html" xml:base="http://localhost:4000/jaredGoffStory">&lt;p&gt;Jared Goff's rookie year was anything but positive. After taking nearly half of the season to earn the starting job, his performance caused major concern for the future. As noted in a May 2017 &lt;a href=&quot;http://www.rotoworld.com/articles/nfl/72405/57/nfls-best-qb-situations-2017?pg=3&quot;&gt;Rotoworld article&lt;/a&gt;, Goff's rookie season was historically bad: &quot;Of the 49 rookie quarterbacks to make at least seven starts since 2000, Goff posted the fourth-lowest touchdown total (five), sixth-lowest YPA (5.31), 15th-worst QB rating (63.6) and 22nd-worst completion percentage (54.6).&quot; Coming into the 2017 NFL football season, some even postulated that new coach Sean McVay might select QB Sean Mannion to lead the team.&lt;/p&gt;
+
+&lt;p&gt;Two years later, and the narrative surrounding Goff has changed tremendously. Not only is he at the helm of the new generation of a great Rams offense, but his numbers are also at the top of the league. In addition to grading out as the 3rd best quarterback by Pro Football Focus (behind Drew Brees and Patrick Mahomes), Goff is 3rd in QBR, Yards Thrown, and Yards per Attempt. Even as part of a star studded team which boasts Todd Gurley, Aaron Donald, and Brandin Cooks, Goff is third in MVP odds at +1600.&lt;/p&gt;
+
+&lt;p&gt;With such a rapid improvement in quarterback performance, there are many possible explanation for such success. It seems clear that while the improvements in skill position talent and scheme have allowed Goff to flourish, he has also seen a natural progression in performance that showcases the talent that got him drafted number one overall.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/goffStory/pic_1.png&quot; alt=&quot;picture 1&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;Todd Gurley and Robert Woods are two of Goff's biggest weapons in a stacked offense&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;h4&gt;&lt;b&gt;Theory #1: Goff is a product of the playmakers around him&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;When a quarterback has both the Offensive Player of the Year (Todd Gurley) and Defensive Player of the Year (Aaron Donald) on their team, it would seem likely that their success is largely based on the skill players around them. In fact, when Goff began to succeed in the 2017 season, much of his role seemed to be due to handing the ball off or throwing screen passes to Gurley.&lt;/p&gt;
+
+&lt;p&gt;However, Goff's role in the offense is far larger than handoffs, bubble screens and short passes. In fact, according to Pro Football Focus, Jared Goff leads the NFL this season with 29 &quot;big time throws&quot;, which are throws that &quot;require special ball placement and timing down the field.&quot; Another great statistic that indicates that Goff is not simply a dink and dunk player is the Next Gen Stat &quot;Air Yards to the Sticks.&quot; This statistic indicates how far in the air a quarterback throws the ball beyond the first down marker.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/goffStory/pic_2.png&quot; alt=&quot;picture 1&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;The variable dAYTS represents the change in the statistic over the last two years (between Goff's rookie year and current year), and the graph shows all quarterbacks over the last two years. While this is not a great measurement of quarterback performance, since it measures attempts rather than completions, it does show that Goff is pushing the ball further down the field rather than sticking with short throws.&lt;/p&gt;
+
+&lt;p&gt;When looking at the actual number, Goff went from -2.1 to 0.0 in AYTS, exhibiting a huge jump of 2.1 air yards. What's most important to note regarding this is that even as the skill of the position players around Goff has improved, the throws he has started to attempt have been further down the field. Usually, a system quarterback with good skill position players will have a negative AYTS because they will rely on the skill player to gain the yards. To contrast with Goff, you can look at Eli Manning's value of -2.3 AYTS this year. While both players have dynamic running backs with pass catching ability (Gurley and Barkley) as well as talented receivers (Beckham and Cooks), Manning's AYTS is 2.3 yards lower than Goff's. This shows that Goff has innate skill in his game that is outside the talent around him.&lt;/p&gt;
+
+&lt;p&gt;General Manager Les Snead made a key move during the 2017 NFL offseason by signing All-Pro tackle Andrew Whitworth. Coming off a season in which tackle Greg Robinson gave up 8 sacks and 40 QB pressures on pass blocking plays (according to &lt;a href=&quot;https://www.profootballfocus.com/news/pro-ranking-all-32-nfl-offensive-lines-this-season&quot;&gt;Pro Football Focus&lt;/a&gt;), the Rams recognized the need to protect their young quarterback. The improvement of the line has been clear, as they currently rank as the &lt;a href=&quot;https://www.profootballfocus.com/news/pro-2018-nfl-offensive-line-rankings-all-32-teams-units-after-week-12&quot;&gt;number 2&lt;/a&gt; overall offensive line unit in the league according to Pro Football Focus. The biggest beneficiary of the improved offensive line has been Jared Goff, specifically in the amount of time he has to throw.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/goffStory/pic_3.png&quot; alt=&quot;picture 1&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;With a greater amount of time to throw, quarterbacks are able to sit back in the pocket and make better throws. While not all great quarterbacks need time to throw, allowing them to be in a pocket with more time and less pressure is usually a recipe for success. Therefore, while Goff has improved his own game in terms of decision-making and down the field throwing, he has also benefited from improved offensive line personnel.&lt;/p&gt;
+
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/goffStory/pic_4.png&quot; alt=&quot;picture 1&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;Head Coach Sean McVay has helped turn around Goff's career&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;h4&gt;&lt;b&gt;Theory #2: Goff is a product of the McVay's Offensive Scheme&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;Sean McVay, hired as the youngest ever head coach in 2017, quickly turned around the offense. After concerns over a limited track record, McVay silenced the critics by turning the Rams from the lowest scoring offense in 2016 to the highest scoring offense in 2017, a historically unprecedented improvement. With Goff improving under McVay's system, the media rushed to categorize Goff a &quot;system quarterback&quot;. However, McVay himself has scoffed at the claim, stating Goff does the majority of the on the field work: &quot;&lt;a href=&quot;https://www.therams.com/news/goff-unbothered-by-talk-of-system-qb&quot;&gt;He's making the throws, he's making the calls at the line of scrimmage, he's making the calls in the huddle.&lt;/a&gt;&quot; The best way to determine how much of Goff's success is due to McVay is to compare his performance with a previous quarterback's performance with McVay at the helm. The following graph compares Kirk Cousins' 2016 season (with McVay as Offensive Coordinator) with Jared Goff's 2018 season.&lt;/p&gt;
+
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/goffStory/pic_5.png&quot; alt=&quot;picture 1&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;The graph indicates that Goff is a statistically superior version of Cousins in nearly every category. Goff has nearly identical Aggressiveness and Completion Percentages, but has a greater Rating and QBR. DVOA and VOA, statistics measuring a quarterbacks performance against a defense compared to a theoretical backup, also conclude that Goff has performed at a greater level than Cousins. However, it should be stated that part of this better performance can be attributed to the better talent surrounding Goff.&lt;/p&gt;
+
+&lt;p&gt;A perfect example of the combination between McVay's offensive scheme marrying Goff's precision passing came in the earlier this year in a Thursday Night Football game against the Minnesota Vikings. After faking the handoff to Todd Gurley, Goff waits in the pocket while reading the defense. Soon, he sees Cooper Kupp streaking down the field covered by linebacker Anthony Barr. Recognizing the mismatch, Goff catches Kupp perfectly in stride as he runs in for a touchdown.&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/pGtHAWxEtSc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;McVay's offensive genius used Gurley to bait the defensive line into thinking it was a run play, while sending other wide receivers Robert Woods and Brandin Cooks streaking towards the left side of the field. Gurley, running a wheel route, drew safety Harrison Smith, which opened up the entire right side of the field to Kupp. However, Goff still needed to place the ball correctly in order to allow Kupp to make the catch and score. McVay deserves credit for putting Goff in a position to succeed, but by no means does he baby him with an offense any quarterback could execute. Rather, McVay has crafted an offense that maximizes the abilities of Goff.&lt;/p&gt;
+
+&lt;h4&gt;&lt;b&gt;Theory #3: Goff has independently improved over the last two years&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;Turn on the tape of Goff as a rookie and you'll see a player who is making erratic short throws, running for his life, and forcing the issue. Watch the tape of Goff this year and the change is dramatic. Goff stands with poise, fires dimes, and nearly always makes the right read.&lt;/p&gt;
+
+&lt;p&gt;One statistic that can show this change is the next generation statistic known as &quot;Aggressiveness Percentage.&quot; According to the Next Gen Stats glossary, &quot;aggressiveness tracks the amount of passing attempts a quarterback makes that are into tight coverage, where there is a defender within 1 yard or less of the receiver at the time of completion or incompletion.&quot; Therefore, aggressiveness is a good measurement of proper decision making, as an aggressive quarterback takes more risks and therefore has a greater chance of turning the ball over.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/goffStory/pic_6.png&quot; alt=&quot;picture 1&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;Over the last two seasons, Goff has had one of the sharpest drops in aggressiveness. He went from leading the league with more than one-fourth of his passes being within 1 yard or less of a defender to a reasonable 14.7% in 2018. This would indicate that Goff has become more comfortable with his offense and is not forcing passes into tight windows.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/goffStory/pic_7.png&quot; alt=&quot;picture 1&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+	
+
+
+&lt;p&gt;In addition to being less reckless with the football, Goff's passer rating has improved by nearly 50 points over the last two years. Once again, his improvement leads all quarterbacks over the two year period. The basic formula for passer rating attempts to maximize touchdowns, completions and yards while minimizing attempts and interceptions. On a more holistic level, Goff's quarterback performance has gone from one of the worst in the league to one of the best in the league.&lt;/p&gt;
+
+&lt;p&gt;One play that truly shows the improvement Goff has made from his rookie season came in a week 4 game against the Minnesota Vikings. Rather than throw the ball out of bounds or overshoot the receiver, Goff floats a spiraling ball over two defenders right into the hands of Cooper Kupp for the touchdown.&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_zyUKe7u9Ws&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;That play highlighted the marquee game of Goff's young career. Putting up a statline of 465 yards on 26 completions, 5 touchdowns and 0 interceptions, Goff became the 70th quarterback in NFL history to earn a perfect passer rating in a game. Even more impressive, according to a &lt;a href=&quot;https://twitter.com/ESPNStatsInfo/status/1045513608426184704?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1045513608426184704&amp;ref_url=https%3A%2F%2Ftwitter.com%2FESPNStatsInfo%2Fstatus%2F1045513608426184704&quot;&gt;tweet by @ESPNStatsandInfo&lt;/a&gt;, Goff was the first quarterback to throw 400+ yards and 5 TD on 3 days of rest. No matter how good an offensive scheme is, pure talent is necessary to put on a performance like that.&lt;/p&gt;
+
+&lt;p&gt;The article attempted to find a totalizing theory for Goff's rapid improvement, but the truth of the matter is that all have validity. It's obvious that surrounding Goff with a better offensive line, more explosive wide receivers, and a stacked defensive line will improve his numbers. However, similar talent situations exists on other teams (such as Dallas and New York), and those teams clearly do not have the same level of success. Obviously having a genius mind like Sean McVay calling the shots allows Goff to be put in good schematic situations with easy reads and throws. However, Goff still represents an improvement over McVay's previous quarterback, Kirk Cousins. In addition, Goff's abysmal rookie season has several confounding variables- an incompetent head coach, a lack of an offensive line and terrible game scripts that forced Goff to make plays he wasn't able to. Any quarterback could have success under McVay's system, but Goff's performance doesn't fit the mold of a system quarterback. He has been able to transcend defensive schemes and produce big plays, something he couldn't do before. Therefore, Goff's improvement is a combination of the talent and coach around him along with the innate skill he possesses as a franchise quarterback.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/goffStory/pic_8.png&quot; alt=&quot;picture 1&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+	
+
+&lt;p&gt;Goff celebrates a touchdown in a Rams win over Kansas City in Week 11&lt;/p&gt;
+
+&lt;p&gt;Jared Goff may not have the arm talent of Patrick Mahomes, the dual-threat ability of Deshaun Watson, or the toughness of Carson Wentz, but the Rams did not make a mistake by using their first overall pick on him in the 2016 draft. He has shown massive improvement, topping the league in terms of change in nearly every single statistical category. The Rams have their quarterback for the future, and their window for a Super Bowl run is wide open.&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;*Next Gen Stats as of Week 10 in the 2018 NFL Season&lt;/i&gt;&lt;/p&gt;</content><author><name>Anirudh Mani</name></author><summary type="html">Jared Goff's rookie year was anything but positive. After taking nearly half of the season to earn the starting job, his performance caused major concern for the future. As noted in a May 2017 Rotoworld article, Goff's rookie season was historically bad&amp;#58; &quot;Of the 49 rookie quarterbacks to make at least seven starts since 2000, Goff posted the fourth-lowest touchdown total (five), sixth-lowest YPA (5.31), 15th-worst QB rating (63.6) and 22nd-worst completion percentage (54.6).&quot; Coming into the 2017 NFL football season, some even postulated that new coach Sean McVay might select QB Sean Mannion to lead the team.</summary></entry><entry><title type="html">2018 Ballon d’Or: A Look at the Contenders and their Numbers</title><link href="http://localhost:4000/ballonDOr" rel="alternate" type="text/html" title="2018 Ballon d'Or: A Look at the Contenders and their Numbers" /><published>2018-11-28T22:23:26-08:00</published><updated>2018-11-28T22:23:26-08:00</updated><id>http://localhost:4000/ballonDOr</id><content type="html" xml:base="http://localhost:4000/ballonDOr">&lt;figure&gt;
 	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/messiDor/cover.jpg&quot; alt=&quot;cover photo&quot;&gt;&lt;figcaption&gt;Lionel Messi winning the 2016 Ballon d'Or (Credit: Getty Images)&lt;/figcaption&gt;&lt;/center&gt;
 &lt;/figure&gt;
 
@@ -908,104 +1004,4 @@ Vegas was competitive right off the bat. By midseason mark, they created a sizab
 &lt;p&gt;
     &lt;i&gt;All analytics computed in R&lt;/i&gt; &lt;/br&gt;
     &lt;i&gt;Graphics produced in Tableau&lt;/i&gt;
-&lt;/p&gt;</content><author><name>Don Vu</name></author><summary type="html">Jed Jacobsohn/Getty ImagesWith 2 minutes left on the clock, Richard Hamilton stepped up to the free throw line. He dribbled the ball a few times and calmly knocked down both shots to seal one of the most stunning upsets in playoff history. The Detroit Pistons had defeated the heavily favored Los Angeles Lakers to become the 2004 NBA Champions. Hardly anyone could have predicted that this team would overcome the combined talents of Kobe Bryant and Shaquille O’Neal along with the brilliance of Phil Jackson. Most analysts give credit to the outstanding defense the Pistons displayed. Though their offense just placed 7th, this Pistons team had the best ranked defense throughout the playoffs and actually had the highest average defensive rating in postseason history.</summary></entry><entry><title type="html">Why Has Alexander Zverev Failed to Deliver at Grand Slams?</title><link href="http://localhost:4000/zverevGS" rel="alternate" type="text/html" title="Why Has Alexander Zverev Failed to Deliver at Grand Slams?" /><published>2018-05-09T00:00:20-07:00</published><updated>2018-05-09T00:00:20-07:00</updated><id>http://localhost:4000/zverevGS</id><content type="html" xml:base="http://localhost:4000/zverevGS">&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/zverev/cover.png&quot; alt=&quot;zverev backhand&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Since 2004, the ATP “World Number 1” ranking in tennis has been controlled by four men. In fact, no one else has been able to even enter the top 2 over the last decade and a half. But all good things must come to an end. The Big Four are not getting any younger, and they cannot sustain this era of unparalleled dominance forever. So what’s next for men’s tennis? Who will take up the mantle of world number 1 after Federer, Nadal, Djokovic, and Murray can no longer play as they have? Look no further than Alexander “Sascha” Zverev Jr, the 21 year old German youngster who took the tennis world by storm this past year. Of all of the “Next Gen” players on tour, Zverev has made the most progress as he is currently ranked number 3 in the world. In 2017, at just 20 years old, he legitimized his potential for greatness when he finished the year at world number 4. Along the way, he captured 5 singles titles overall, including 2 Masters 1000 titles over Djokovic and Federer in each final, respectively.&lt;/p&gt;
-
-&lt;p&gt;With a six-foot-six frame, excellent footwork and speed, fantastic mechanics, and an engaging personality, Zverev has everything it takes to be the face of the sport for many years to come. However, there is one glaring issue. Despite all of his success last year, he has been unable to make any kind of mark on the most prestigious part of the ATP world tour: Grand Slams. Having never made it past the 4th round of a major, he has given many people reason to doubt his capability of someday becoming the best player in the world. This article takes a closer look at his game and what to take away from this young man’s career thus far.&lt;/p&gt;
-
-&lt;h4&gt;
-	&lt;b&gt;Best of 3 Dominance&lt;/b&gt;
-&lt;/h4&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/zverev/pic1.png&quot; alt=&quot;confetti&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;In best of 3 matches (all matches not including Slams and Davis Cup) since the beginning of 2017, Zverev has been on cruise control. He has played in more tournaments than any other player on tour and had incredible success. The chart below shows the performance of 32 of the top ranked players in best of 3 matches, where the size of the bubbles represents how much above 1800 their average opponent’s elo rating is:&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/zverev/pic2.png&quot; alt=&quot;bubbles&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Despite playing more matches than anyone else, Zverev boasts a fantastic win percentage of 73.2%. He has also accomplished this against more difficult opposition, with his average opponent’s elo rating sitting at 2010.4 (his own elo being 2129.4 and the highest being 2380.1).&lt;/p&gt;
-
-&lt;p&gt;Zverev’s speed in best of 3 matches is also noteworthy. Since the beginning of 2017, no player in the current ATP top 10 has won more games per minute than he:&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/zverev/pic3.png&quot; alt=&quot;games per minute&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Not only is he winning a lot against difficult opposition, but he is also winning games at the highest rate. The combination of his stellar consistency throughout the tour and the speed with which he wins games underscores how dominant he has been in all matches outside of Grand Slams on the tour. It is the reason why he has reached more rounds of 32, rounds of 16, quarter-finals, and semifinals than any other man since the beginning of 2017.&lt;/p&gt;
-
-&lt;h4&gt;
-	&lt;b&gt;Grand Slam Disappointment&lt;/b&gt;
-&lt;/h4&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/zverev/pic4.png&quot; alt=&quot;break that racket&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;It’s not as if Zverev’s game falls off of a cliff the second he enters a Grand Slam; it’s just that he has never reached the quarterfinal of a Grand Slam, let alone won one. He has posted very similar in-game numbers in his Grand Slam matches as he has during the rest of the tour. There must be a reason, then, for his disproportionate lack of success in Slams. There are a few important differences in the spider chart below that can explain this:&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/zverev/pic5.png&quot; alt=&quot;spider chart&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;In Grand Slams, Zverev sees roughly 4 more break point opportunities than in his best of 3 set matches. Moreover, he saves 7% more break points faced in Slams at a clutch 69.7% clip. If he holds his serve this well and has more break point chances, then why is he consistently coming up short in these Grand Slam matches? One possible factor is a nearly 9% decrease in break points won, or in other words, a 9% increase in break point opportunities squandered. Fewer break point conversions entails much tighter sets and possibly longer matches. Coupled with a 5% decrease in tiebreaks won, Zverev’s wasted break point opportunities have proven to be costly. Consequently, he finds himself in more high-pressure situations with even smaller margins of error because losing a tiebreaker, which can literally come down to just one bad service point, can easily change the momentum of an entire match and be extremely demoralizing for the player who loses it.&lt;/p&gt;
-
-&lt;p&gt;Another interesting indicator of his dip in form in Grand Slams is seen through 2 key ratios:&lt;/p&gt;
-&lt;ol&gt;
-	&lt;li&gt;Points Dominance (% of return points won divided by % of service points lost)&lt;/li&gt;
-	&lt;li&gt;Break Points Ratio (% of break points converted divided by % of faced break points lost)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/zverev/pic6.png&quot; alt=&quot;key ratios&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;These 2 ratios progressively decline and dip below tour average (1.00) as he advances to deeper stages of slams. However, in best-of-3 contests, his ratios stabilize and still remain well above the tour average as he goes further into the tournaments. Though one may argue that the quality of opposition likely increases in the later phases of a tournament, Zverev’s freefall in Grand Slams detracts from his consistency in all rounds of best-of-3 tournaments and accentuates his shortcomings on tennis’ brightest stage.&lt;/p&gt;
-
-&lt;h4&gt;
-	&lt;b&gt;Time is the Enemy...&lt;/b&gt;
-&lt;/h4&gt;
-
-&lt;p&gt;It’s clear that Zverev’s numbers drop in Grand Slams enough to derail his prospects of groundbreaking success so far in any of the four majors. But why? Our guess is fatigue and a lack of mental and physical endurance. The most obvious difference between a 3 set match and a 5 set match is the most important one for Zverev: match time. In 3 set matches, he spends 96 minutes on the court in wins and 99 in losses. Win or lose, he is on the court for a little more than an hour and a half. In Grand Slams, however, he spends 160 minutes on the court in wins and 202 minutes in losses. He tends to lose matches when they drag on past 3 hours. A lack of ability to perform well in very long matches strongly suggests a lack of the physical conditioning that is required to succeed at this level.&lt;/p&gt;
-
-&lt;p&gt;More intriguingly, when a Grand Slam match is tied 1-1 in the set score, it essentially becomes a best of 3 match. Considering the fact that Zverev is a phenomenal 3 set player, he should be able to win most of his Slam matches when they go 1-1. But he doesn’t. Of his six Slam matches that have gone 1-1 through the first two sets, he has won a grand total of one. The only difference between this type of 3 set match and a normal 3 set match is the extra hour or so that Zverev has spent on the court. A match in a grand slam is a marathon and players need to manage their bodies to go the distance if necessary. Zverev does not yet have the ability to do that.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/zverev/pic7.png&quot; alt=&quot;mad zverev&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Taking all of this into consideration, it’s not just a physical issue with Zverev. Here are the scores of the final set in Grand Slam matches that Zverev has lost:&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/zverev/pic8.png&quot; alt=&quot;table&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Except for his 4 set loss to Coric last year, he’s gotten annihilated in the final set of matches that he loses. This is demonstrative not only of exhaustion physically but also of a lack of mental toughness. It appears as though Zverev loses interest towards the later sets of matches that are not quite going his way and therefore ends up getting demolished in the final sets of losing efforts. It’s a combination of relatively poor endurance and a lack of mental discipline and concentration that cause his Grand Slam numbers to drop, denying him the opportunity to reach the second week of a Major.&lt;/p&gt;
-
-&lt;h4&gt;
-	&lt;b&gt;But Time is Also a Friend&lt;/b&gt;
-&lt;/h4&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/zverev/pic9.png&quot; alt=&quot;fist pump&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;It is important to note through all of this that Alexander Zverev is still 21 years old. Although Grand Slam success continues to elude him, he is still the future of men’s tennis and is spearheading the Next Gen youth movement. The tour has not seen a player as young as Zverev dominate the way he has since the Big Four made their mark. At the moment, he may lack the necessary stamina for five set matches, but with more experience and gameplay, he can only become better. To put things into perspective, at 21 years of age, Rafael Nadal and Novak Djokovic certainly weren’t the unbreakable five-set marathoners that they are now. Roger Federer didn’t even crack the top 3 until a month before his 22nd birthday. Andy Murray didn’t win his first Grand Slam until he was 25. Time is on Zverev’s side.&lt;/p&gt;
-
-&lt;p&gt;Moreover, there are virtually no weaknesses in Zverev’s game technique-wise. The dual-threat of the speed with which he wins games and covers the court for someone of his size is just one of many weapons in his burgeoning arsenal. His blistering groundstrokes are enough to blast his opponent off the court. His agile, towering 6’6” frame allows for impeccable precision of serve placement. One can only expect so much early on from a generational talent like Zverev, who has certainly not disappointed through his age-21 season so far, relative to other highly touted youngsters like Nick Kyrgios and Hyeon Chung. Zverev himself has admitted to suffering from mental issues during decisive moments at Slams, which gives us additional context for his fifth set meltdowns. He has all the right tools but simply doesn’t know how to put them altogether just yet. With a great ATP ranking comes great expectations, and it is up to Zverev to make the necessary adjustments to prove his doubters wrong.&lt;/p&gt;</content><author><name>Kevin Hahn</name></author><summary type="html">Since 2004, the ATP “World Number 1” ranking in tennis has been controlled by four men. In fact, no one else has been able to even enter the top 2 over the last decade and a half. But all good things must come to an end. The Big Four are not getting any younger, and they cannot sustain this era of unparalleled dominance forever. So what’s next for men’s tennis? Who will take up the mantle of world number 1 after Federer, Nadal, Djokovic, and Murray can no longer play as they have? Look no further than Alexander “Sascha” Zverev Jr, the 21 year old German youngster who took the tennis world by storm this past year. Of all of the “Next Gen” players on tour, Zverev has made the most progress as he is currently ranked number 3 in the world. In 2017, at just 20 years old, he legitimized his potential for greatness when he finished the year at world number 4. Along the way, he captured 5 singles titles overall, including 2 Masters 1000 titles over Djokovic and Federer in each final, respectively.</summary></entry></feed>
+&lt;/p&gt;</content><author><name>Don Vu</name></author><summary type="html">Jed Jacobsohn/Getty ImagesWith 2 minutes left on the clock, Richard Hamilton stepped up to the free throw line. He dribbled the ball a few times and calmly knocked down both shots to seal one of the most stunning upsets in playoff history. The Detroit Pistons had defeated the heavily favored Los Angeles Lakers to become the 2004 NBA Champions. Hardly anyone could have predicted that this team would overcome the combined talents of Kobe Bryant and Shaquille O’Neal along with the brilliance of Phil Jackson. Most analysts give credit to the outstanding defense the Pistons displayed. Though their offense just placed 7th, this Pistons team had the best ranked defense throughout the playoffs and actually had the highest average defensive rating in postseason history.</summary></entry></feed>
