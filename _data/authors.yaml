@@ -1,4 +1,3 @@
-anirudh_mani: {bio: '', name: Anirudh Mani, web: 'http://www.bruinsportsanalytics.com/anirudhmani'}
 albert_pan: {bio: null, name: Albert Pan, web: 'http://www.bruinsportsanalytics.com/albertpan'}
 alex_veroulis: {bio: 'I''m Alex Veroulis, a first-year student with the academic standing
     of a sophomore for the 2017-2018 academic year. My major is statistics, as I have
@@ -7,6 +6,7 @@ alex_veroulis: {bio: 'I''m Alex Veroulis, a first-year student with the academic
     play are water polo, racquetball, and golf. In addition, I follow football, basketball,
     hockey, soccer, and baseball, so I would love to become a data scientist in the
     sports world one day.', name: Alex Veroulis, web: 'http://www.bruinsportsanalytics.com/alexveroulis'}
+anirudh_mani: {bio: '', name: Anirudh Mani, web: 'http://www.bruinsportsanalytics.com/anirudhmani'}
 ben_messinger: {bio: 'Born and raised in Porter Ranch, California, Ben has been obsessed
     with playing, watching, and analyzing basketball for as long as he can remember.
     After winning a state championship at Sierra Canyon in 2015, Ben began college
@@ -16,12 +16,7 @@ ben_messinger: {bio: 'Born and raised in Porter Ranch, California, Ben has been 
 chad_shimozaki: {bio: '', name: Chad Shimozaki, web: 'http://www.bruinsportsanalytics.com/chadshimozaki'}
 don_vu: {bio: null, name: Don Vu, web: 'http://www.bruinsportsanalytics.com/donvu'}
 joe_dunham: {bio: '', name: Joe Dunham, web: 'http://www.bruinsportsanalytics.com/joedunham'}
-joey_maurer: {bio: 'I am a second year Statistics major from Temecula, CA. I grew
-    up playing and watching hockey; my favorite team is the San Jose Sharks. I also
-    enjoy most of the other major sports, as well as college soccer and gymnastics.
-    My additional hobbies include astronomy, SCUBA diving, and fish/reptile breeding.
-    I hope to pursue a career in biostatistics or sports analytics, and am thrilled
-    to be at a school like UCLA that is a powerhouse in academics and athletics.',
+joey_maurer: {bio: 'I am a third year Statistics major from Temecula, CA. I grew up playing and watching hockey; my favorite team is the San Jose Sharks. I also enjoy most of the other major sports, as well as college soccer and gymnastics. I like applying analysis techniques to some of the lesser-known sports out there. My additional hobbies include astronomy, SCUBA diving, and fish/reptile breeding. I hope to pursue a career in biostatistics or sports analytics, and am thrilled to be at a school like UCLA that is a powerhouse in academics and athletics.',
   name: Joey Maurer, web: 'http://www.bruinsportsanalytics.com/joeymaurer'}
 kathir_ilango: {bio: 'I''m Kathir and I''m a first year Computer Science and Engineering
     major at UCLA. I''ve lived in the Bay Area my whole life and I''m a massive 49ers
@@ -33,17 +28,9 @@ kevin_hahn: {bio: 'My name is Kevin Hahn, and I''m a first-year Math/Econ major 
     my dream job would be working for the Los Angeles Dodgers in their player development
     development, ultimately helping the team bring a World Series championship back
     to LA.', name: Kevin Hahn, web: 'http://www.bruinsportsanalytics.com/kevinhahn'}
-konner_macias: {bio: "I\u2019m a third year Mathematics of Computation major and a\
-    \ Statistics minor at UCLA. I\u2019m from the Sacramento Area and have grown up\
-    \ with sports my whole life. I mainly played junior competitive tennis and got\
-    \ good enough to receive some DII scholarships, but school will always come first!\
-    \ I am now the Team Captain of UCLA\u2019s Competitive Club Tennis Team, and with\
-    \ a love for data science, I decided to combine my passions by creating Bruin\
-    \ Sports Analytics! If you see me around town, please make sure to say hi!", name: Konner
+konner_macias: {bio: "I’m a fourth year Mathematics of Computation major and Statistics minor at UCLA, aiming to become a software engineer. I’m from the Sacramento Area and have grown up with sports my whole life. I mainly played junior competitive tennis and even received some DII college offers, but I couldn't turn down studying here! Formally the President of this club and the Team Captain of UCLA's competitive club tennis club, I have stepped down from the head roles to focus on my studies and the job search. My main sports of interest are tennis and basketball, though I'm a fan of all. Looking forward to a great year of sports research!<br><br>Feel free to reach out at konnermacias@ucla.edu.", name: Konner
     Macias, web: 'http://www.bruinsportsanalytics.com/konnermacias'}
-nikhil_sharma: {bio: "I am Nikhil Sharma, a second-year statistics major. I\u2019\
-    m a huge basketball fan and love my Lakers. One day, I hope to become a Big Baller\
-    \ Brand Ambassador.", name: Nikhil Sharma, web: 'http://www.bruinsportsanalytics.com/nikhilsharma'}
+nikhil_sharma: {bio: "I’m a third-year Statistics major from Cherry Hill, New Jersey. My favorite sport is basketball, as I’ve been obsessively following the NBA since I was a child. My favorite team is the Lakers, and I credit Kobe Bryant with getting me into sports as a whole. Since I am also a Stats major, I love participating in BSA, where I can combine two things I love in numbers and sports. I hope that I can jump off from what I learn in this club into an analyst role at an NBA team. Aside from sports, I love hip-hop music; some of my favorite artists include Pusha T, ScHoolboy Q, Danny Brown, and Denzel Curry.", name: Nikhil Sharma, web: 'http://www.bruinsportsanalytics.com/nikhilsharma'}
 qijing_yap: {bio: null, name: Qi Jing Yap, web: 'http://www.bruinsportsanalytics.com/qijingyap'}
 ronaq_virdi: {bio: "Hi, I\u2019m Ronaq, a fourth year Computer Science major. My favorite\
     \ sports are basketball and football and more recently I started playing golf.\
