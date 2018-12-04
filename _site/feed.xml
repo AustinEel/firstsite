@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-01T16:04:06-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bruin Sports Analytics</title><author><name>Bruin Sports Analytics</name></author><entry><title type="html">Do Summary Statistics Really Mean Anything in Tennis?</title><link href="http://localhost:4000/summaryStatisticsTennis" rel="alternate" type="text/html" title="Do Summary Statistics Really Mean Anything in Tennis?" /><published>2018-12-01T14:53:33-08:00</published><updated>2018-12-01T14:53:33-08:00</updated><id>http://localhost:4000/summaryStatisticsTennis</id><content type="html" xml:base="http://localhost:4000/summaryStatisticsTennis">&lt;p&gt;Four times a year, the entire tennis community gathers to witness one of the most spectacular events: The Grand Slams. Fans young and old crowd around laptops and televisions, host watch parties with friends, and some even witness the magic in person if lucky enough. From watching new upcomers like Denis Shapovalov and Borna Coric, to legends such as Roger Federer and Novak Djokovic, each match is always fun to watch. Of course, just like with every other sport, debating and betting about who will win each match in casual settings as well as in fantasy draws is a crucial part of the entire experience.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-03T16:54:46-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bruin Sports Analytics</title><author><name>Bruin Sports Analytics</name></author><entry><title type="html">Keys to Success for the Young Lakers Core</title><link href="http://localhost:4000/youngCore" rel="alternate" type="text/html" title="Keys to Success for the Young Lakers Core" /><published>2018-12-03T15:41:15-08:00</published><updated>2018-12-03T15:41:15-08:00</updated><id>http://localhost:4000/youngCore</id><content type="html" xml:base="http://localhost:4000/youngCore">&lt;p&gt;With Lebron coming to Los Angeles, the expectations surrounding the Lakers havent't been this high since the Kobe Bryant, Dwight Howard, and Steve Nash team-up. After missing the playoffs for blank consecutive years, the Lakers look to make a playoff run and possibly contend for a championship title with the addition of the NBA's most prominent star. In addition to Lebron James, the Lakers added notable veterans such as Rajon Rondo, Javale McGee, and Lance Stephenson. However, the Lakers remain at their core a very young team, with blossoming players with high potentials. These young players who look to be the future of the franchise are Brandon Ingram, Kyle Kuzma, Josh Hart, and Lonzo Ball. In this article, I will focus on these young players, analyzing their individual game log data I retrieved from &lt;a href=&quot;https://www.basketball-reference.com/&quot;&gt;Basketball-Reference.com&lt;/a&gt; and using John Hollinger's Game Score statistic as a metric in determining the success each player had the last 2017-18 season in each game they played in. Game Score is a more complex metric that was designed to roughly estimate the success of a player's single game. If you are interested in knowing how Game Score is exactly calculated, you can find the informaion in this &lt;a href=&quot;https://www.nbastuffer.com/analytics101/game-score/&quot;&gt;link&lt;/a&gt;. My goal in analyzing this data is to highlight the strengths and weaknesses of each player from the perspective of exactly how each succeeded relative to their average performances of the season.&lt;/p&gt;
+
+&lt;h4&gt;&lt;b&gt;Why GameScore&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;I made the choice of analyzing the young core's strengths and weaknesses through the lens of GameScore based upon GameScore's reptuable history and also based upon a convenience standpoint.&lt;/p&gt;
+
+&lt;p&gt;John Hollinger, the man who devised the formula for GameScore, is known as an early leader of basketball analytics, and is currently the Vice President of Basketball Operations for the Memphis Grizzlies. To verify the accuracy of Gamescore as a metric for individual success, I found that two of the most iconic individual performances, Michael Jordan's 69 point, 18 rebound game against Cleveland in 1990 and Kobe Bryant's 81 point game against Toronto in 2006, were the highest GameScores since 1983.&lt;/p&gt;
+
+&lt;p&gt;Conveniently, Basketball-Reference.com provides individual player boxscore data with GameScore included. Thus, GameScore became both a logical and convenient choice to use as a measurement of individual success for the young Lakers core.&lt;/p&gt;
+
+&lt;h4&gt;&lt;b&gt;Exploring the Data&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;To start my stastical analyisis, I began by exploring the data. First, we can take a quick look at the distributions of Game Score for each player, as well as comparing the mean Game Score for each player in the following charts.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/youngC/pic1.png&quot; alt=&quot;picture 1&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;lonzowire.usatoday.com&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/youngC/pic2.png&quot; alt=&quot;picture 1&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;From these histograms, we can notice that the distribution of the Game Score's were roughly similiar to normal distributions with the exception of outliers. We want to capture what the greatest predictors are of each individual's Game Score relative to their own average performance on the year. In other words, we want to find out exactly what that player did exceptionally well or exceptionally poorly to merit a good or bad game score.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/youngC/pic3.png&quot; alt=&quot;picture 1&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;In the above chart we can see the average Game Scores for each player for the 2017-2018 season. Visually, we can see that the young core all have about the same average Game Scores, with the exception of Hart, who played the least amount of minutes.&lt;/p&gt;
+
+&lt;h4&gt;&lt;b&gt;Methodology and Rationale&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;From a statistical standpoint, my primary methodology predicting the Game Score statstic using variables from the game logs as my predictive variables through a multiple linear regression model. The rationale behind choosing such a model is for interperatable purposes, as it is clear from the output of this model the effects of each variable in predicting the statistic Game Score.&lt;/p&gt;
+
+&lt;p&gt;An essential part of building these models is the question of normalizing the data. Ultimately, I decided I wanted to normalize by individual since this will tell us what the individual should work on more for their own personal game, not compared to everyone else.&lt;/p&gt;
+
+&lt;p&gt;To build the models, I tested the subsets up to a total of five predictors through an exhaustive search, choosing the model with the highest adjusted R2. If you are interested in learning more about the models built or datasets you can visit the datasets and code on my &lt;a href=&quot;https://github.com/jgyee/BSA-Young-Lakers-Data-Game-Score-Analysis&quot;&gt;github&lt;/a&gt;. The following charts below summarize my results for these models.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/youngC/pic4.png&quot; alt=&quot;picture 1&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;lonzowire.usatoday.com&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/youngC/pic5.png&quot; alt=&quot;picture 1&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;h4&gt;&lt;b&gt;Finding the Keys to Success&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;Let us now break up the models and analyze each separately, giving recommendations to each player their &quot;keys to success&quot;, and what parts of their game they should work on more, basing our suggestions on the coefficients of the models.&lt;/p&gt;
+
+&lt;p&gt;For Hart, his field goal atempts most drastically affects his Gamescore negatively relative to his fellow teammates, meaning he should &lt;b&gt;focus on better shot attempts&lt;/b&gt;. The other coefficients of Hart's model rank all fairly high compared to the rest of the young core, alluding to Hart's strong overall game and lack of offensive deficiencies.&lt;/p&gt;
+
+&lt;p&gt;For Kuzma, his turnovers most adversely affect his Gamescore negatively in comparison to the other players, meaning he should focus on being more careful with the ball. In addition, his field goal attempts do not dramatically decrease his Gamescore compared to his fellow teammates. These two factors may be indicative of Kuzma &lt;b&gt;continuing to be aggressive shooting the ball&lt;/b&gt;, but to temper that aggression with more patience when driving or passing, which can lead to costly turnovers.&lt;/p&gt;
+
+&lt;p&gt;For Ingram, his field goals most positively improve his performance, so he should focus on staying aggressive and &lt;b&gt;being a primary scoring option&lt;/b&gt;. His free throw coefficient is lagging behind that of Kuzma and Hart. To improve, he can focus on drawing more fouls and get to the line more. Additionally, he can &lt;b&gt;improve his free throw percentage&lt;/b&gt;, so that when he does get to the line, he converts those attempts into points.&lt;/p&gt;
+
+&lt;p&gt;For Ball, his assists and steals most positively affect his Gamescore relative to the other three players. Unsurprisingly, Lonzo's passing is the strongest part of his game and contributes to the majority of his success in his best games. For him to succeed, he must &lt;b&gt;keep his assists up&lt;/b&gt;, maintain aggressive on defensive possessions, as well as &lt;b&gt;improve on his scoring ability.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Looking across the various models, we have noticed some differences between the players. These results are somewhat suprising, as they give us a different perspective than looking at a player's overall season statistics, such as Josh Hart's 47% FG% on the season telling us that he is an efficient scorer. This compared to Lonzo Ball's shockingly-low 36% FG% from last season. However, we must keep in mind that these statistics are normalized, so they are adjusted for in respect to that player's average performance. This is the key lens of our models we must look through in order to interpret and know why the results are the way they are.&lt;/p&gt;
+
+&lt;h4&gt;&lt;b&gt;Conclusion and Further Remarks&lt;/b&gt;&lt;/h4&gt;
+
+&lt;p&gt;There are two key aspects of our analysis that differentiate it from the typical, more basic analysis of a player's performance. From the perspective of looking at singular games rather than a whole season, we can find different results that may give us deeper insight into the success of these players solely on a game-to-game basis. Addtionally, choosing to normalize based on that player's own performances, we can see statistical differences in their own games rather than comparing it to a metric of other players, such as league averages for box-score statistics. I hope by reaading this article, you have gained some extra insight into the games of the Young Lakers Core. If you wish to read more about further remarks and potential pitfalls, please check out my &lt;a href=&quot;https://github.com/jgyee/BSA-Young-Lakers-Data-Game-Score-Analysis&quot;&gt;github&lt;/a&gt;.&lt;/p&gt;</content><author><name>Justin Yee</name></author><summary type="html">With Lebron coming to Los Angeles, the expectations surrounding the Lakers havent't been this high since the Kobe Bryant, Dwight Howard, and Steve Nash team-up. After missing the playoffs for blank consecutive years, the Lakers look to make a playoff run and possibly contend for a championship title with the addition of the NBA's most prominent star. In addition to Lebron James, the Lakers added notable veterans such as Rajon Rondo, Javale McGee, and Lance Stephenson. However, the Lakers remain at their core a very young team, with blossoming players with high potentials.</summary></entry><entry><title type="html">Do Summary Statistics Really Mean Anything in Tennis?</title><link href="http://localhost:4000/summaryStatisticsTennis" rel="alternate" type="text/html" title="Do Summary Statistics Really Mean Anything in Tennis?" /><published>2018-12-01T14:53:33-08:00</published><updated>2018-12-01T14:53:33-08:00</updated><id>http://localhost:4000/summaryStatisticsTennis</id><content type="html" xml:base="http://localhost:4000/summaryStatisticsTennis">&lt;p&gt;Four times a year, the entire tennis community gathers to witness one of the most spectacular events: The Grand Slams. Fans young and old crowd around laptops and televisions, host watch parties with friends, and some even witness the magic in person if lucky enough. From watching new upcomers like Denis Shapovalov and Borna Coric, to legends such as Roger Federer and Novak Djokovic, each match is always fun to watch. Of course, just like with every other sport, debating and betting about who will win each match in casual settings as well as in fantasy draws is a crucial part of the entire experience.&lt;/p&gt;
 
 &lt;p&gt;And in determining these winners, many people use blind intuition, flip a coin or pick the players they know. We all have that one friend who sees the 26th seed with a record for the most double faults and puts them in the finals of their fantasy draw. But for every ten people using this technique, there is one savvy person looking for data metrics and statistics to help them pick a winner. Tennis data can be obtained from various places, with little to no information of the accuracy of the data. Still, there are clearly reliable, verified sites such at the &lt;a href=&quot;https://www.usopen.org/en_US/scores/ stats/1701.html?promo=matchchanger&quot;&gt;IBM SlamTracker data&lt;/a&gt;, which is the site from which this data was obtained. However, there is no real indication for the person trying to predict the winner of a match whether these statistics actually matter, or which statistics matter more than others.&lt;/p&gt;
 
@@ -779,167 +840,4 @@ Vegas was competitive right off the bat. By midseason mark, they created a sizab
 
 &lt;p&gt;Fleury fell back down to Earth. Heading into the SCF, he was on track to have the best playoff run by a goaltender in terms of save percentage since the 2005 lockout (at least 10GP). His numbers fell off a cliff against Washington, although he was hardly to blame for the series loss. Vegas’ defense was carved up by the Capitals attack, leaving Fleury out to dry. Caps goalie Braden Holtby stole the spotlight. Evgeny Kuznetsov had the most productive spring since Evgeni Malkin and Sidney Crosby of the ’08-09 Penguins. Alex Ovechkin, starved of postseason success throughout his career, played inspired hockey to lead Washington to its first Stanley Cup in franchise history. There are very few people in the entirety of the sports world who deserved a championship more than him.&lt;/p&gt;
 
-&lt;p&gt;Although this incredible run by Vegas did not get its storybook ending, their inaugural season was an overwhelming success. They’ve accomplished more in one year than many teams have in decades. With a core of young studs, a franchise goaltender, and plenty of cap space, it will be an exciting summer and future for the Golden Knights.&lt;/p&gt;</content><author><name>Joey Maurer</name></author><summary type="html">The Associated PressThis wasn’t supposed to happen. The first major professional sports team to ever grace the city of Las Vegas wasn’t supposed to be this good. Hockey wasn’t meant to be played in the desert. A team full of disposable parts and cast-offs wasn’t supposed to mesh this well together. It must be a fluke.</summary></entry><entry><title type="html">BSA Exclusive: Our Journey Through Research</title><link href="http://localhost:4000/pred_NBA_salaries_journey" rel="alternate" type="text/html" title="BSA Exclusive: Our Journey Through Research" /><published>2018-06-03T00:00:20-07:00</published><updated>2018-06-03T00:00:20-07:00</updated><id>http://localhost:4000/pred_NBA_salaries_journey</id><content type="html" xml:base="http://localhost:4000/pred_NBA_salaries_journey">&lt;h4&gt;
-	&lt;b&gt;Goal of this Article&lt;/b&gt;
-&lt;/h4&gt;
-&lt;p&gt;With this article, we hope to detail our process as members of Bruin Sports Analytics to work towards getting a well-done research paper completed, with guidance given by our club advisor, Professor Almohalwas of the UCLA Statistics department. We wish to detail our journey, and all the lessons we have taken from each one to move us closer to completing our desired task. In hopes of creating a paper worthy of being published in an official sports analytics journal, we have decided to take more time in working towards our final result. However, we have decided to write this extended article to provide a checkpoint of where currently stand in hopes for others to get inspired to do research as an undergrad, and learn more about the interesting attempts we have tried to solve our problem.&lt;/p&gt;
-
-&lt;center&gt;&lt;b&gt;Predicting NBA Free Agent Salaries&lt;/b&gt;&lt;/center&gt;
-
-&lt;h4&gt;
-	&lt;b&gt;&lt;u&gt;Introduction&lt;/u&gt;&lt;/b&gt;
-&lt;/h4&gt;
-
-&lt;p&gt;&lt;b&gt;Relevance&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;Front offices and player agents alike would benefit from a model that can assess a free agent’s true value given the player’s performance in an array of statistical categories. In 2016, teams were clearly unsure how much free agents were actually worth due to the increased salary cap (it increased by over $24 million). As the salary cap continues to increase with the influx of more league revenue from television contracts, this problem will continue. Our research attempts to lay the groundwork for a tool to accurately gauge the true worth of a player’s on-court contributions in relation to the salary cap.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Background&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;More so than any of the other big four American sports, the NBA is a superstar-driven league. Every championship team this millennium aside from the 2004 Detroit Pistons and the 2011 Dallas Mavericks have featured at least two bona-fide superstars. This trend has been accentuated by the 2010-2014 Miami Heat featuring three superstars and the current Golden State Warriors featuring four.&lt;/p&gt;
-
-&lt;p&gt;By far the easiest way to acquire superstars is through signing a superstar through free agency, which requires no sacrifice of time or assets except money of course. The player and his new team need only agree to a maximum contract, without the team compensating his previous team. Thus, signing free agent superstars is, on paper, the easiest way to get a superstar.&lt;/p&gt;
-
-&lt;p&gt;The NBA CBA designates a salary cap and a maximum contract, which complicate the signing of multiple high-salary superstars while keeping a strong roster of complementary players. This leaves little to no room for overpaying players - every dollar counts. Thus, there is a need for a model that can analyze statistics to accurately predict any player’s appropriate salary for the next season, a tool which can help teams avoid overspending and help free agents know their clients’ worth.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Understanding Contracts and Free Agency&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;First round draft picks enter the league on two-year guaranteed contracts dictated by the CBA and its “rookie scale”. The rookie scale outlines how first rounders’ pay is based on a range tied to the salary cap in their draft year. This means players on rookie contracts are paid based on draft position, NOT on-court performance.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/salJourney/pic1.png&quot; alt=&quot;Rookie scale&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;This rookie scale makes players on rookie contracts irrelevant to our research, and thus we removed these players from our data. Players like Donovan Mitchell (13th pick) and Kyle Kuzma (27th pick) have greatly outperformed their draft positions’ salaries while other players (busts) would underperform. Either way, both types of players would damage our model.&lt;/p&gt;
-
-&lt;h4&gt;
-	&lt;b&gt;&lt;u&gt;Methodology&lt;/u&gt;&lt;/b&gt;
-&lt;/h4&gt;
-
-&lt;p&gt;&lt;b&gt;Organizing the Data&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;We obtained player metrics (both basic box-score and advanced numbers) from basketball-reference.com for players from the 2013-2014 through 2016-17 season. These metrics included the player’s Per Game and Advanced statistics, as these statistics do an adequate job of detailing the skill of a particular player. Each player was matched with average salary data for the corresponding player for the next season via spotrac.com. Our reason for using the next season’s salary was so that the model would be trained to predict player salary in the following season based on their performance in the previous season.&lt;/p&gt;
-
-&lt;p&gt;Once we had a dataframe of four seasons, we decided to optimize our data to focus our attention on players who were relevant over the course of an NBA season. Thus, we cleaned the data by removing duplicates and players who played less than 25 games in a season. These are generally players who are either injured or do not have much impact in games. In the case that a player was injured during the season, it would not make sense to predict their salary based on the performance from a season in which they were injured. Also, players that are generally unproductive when they are on the floor often bounce around teams on shorter contracts and thus have a greater variability in salaries over seasons. Cases like these could affect the model unfavorably.&lt;/p&gt;
-
-&lt;p&gt;Another step taken to clean the data for the model was to take out players on rookie contracts. As stated earlier, when a player is on a rookie contract, their salaries are set in stone for a certain amount of years. This means that predicting a player’s salary while on a rookie contract would be futile, since their salaries are set in stone for a fixed amount of years after they are drafted, and are not based on performance.&lt;/p&gt;
-
-&lt;p&gt;Finally, we had to re-examine the goal of this project, which was to create a statistically valid model that could predict NBA player salaries for next season, the 2018-19 season. To do this, we decided to train the model on predicting player salaries for the 2017-18 season based on player performance in the 2016-17 season. We found that using the larger dataset of data from the previous seasons (2013-16) posed some issues in our methodology, namely in that the “local model” with just one season’s worth of data was more accurate.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Interesting Notes&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;Once the data had been prepared, one of the first statistics we looked at was whether there was a significant difference in terms of average salary by player position.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/salJourney/pic2.png&quot; alt=&quot;By Position&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;To our surprise, after running a One-way ANOVA test comparing whether the average salary between groups was different, we concluded no significant difference between position thus did not add this factor into our multiple linear regression model.&lt;/p&gt;
-
-&lt;p&gt;Another factor we explored was if playing for a specific team impacted the type of salary a player is expected to get.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/salJourney/pic3.png&quot; alt=&quot;By Team&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;After performing another another ANOVA test, there was a significant difference in terms of average salary by Team. However, after performing Post-hoc Tukey’s test to discover which pair was significant and adding that to our model, it also proved insignificant compared to our other variables.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;An Attempt to Create our Own Statistic&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;One of the other aspects that we worked on was creating a new statistic that we could eventually use in our regression model. The goal was to create a metric that would quantify how much a player was overachieving or underachieving with respect to their contract. Our belief was that a player who was underpaid would eventually see a pay raise in their next contract and a player that was underperforming would more than likely have to take a pay cut.&lt;/p&gt;
-
-&lt;p&gt;The first step in creating this new metric was to place the players into salary brackets according to how much they were being paid. We worked with the 2016-2017 player data and used their next year’s salary  (2017-2018 season) to place them into salary brackets. We chose to have eight different salary brackets, where bracket eight represented players who received a max level contract, which was over 21% of the salary cap. The lowest bracket belonged to players on a minimum contract and from there the brackets went up in increments of roughly 3-4% of the overall cap. The following chart displays the distribution of players in each of the eight salary brackets.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/salJourney/pic4.png&quot; alt=&quot;Salary Bracket&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;After assigning each of the players in the 2016-2017 season into a salary bracket, the next step was to group the players into clusters based on their performance. We used the K-Means clustering algorithm to create the groups. We chose to use a k-value of 8, because we wanted to be consistent with the number of salary brackets that we had previously created. After running the K-Means algorithm, each player was assigned into a performance cluster from one to eight. The eighth performance cluster represented the top performing players in the league and not surprisingly contained players like Lebron James, Stephen Curry, and Russell Westbrook. The chart below highlights the number of players in each of the respective performance clusters based on the 2016-2017 player data.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/salJourney/pic5.png&quot; alt=&quot;Performance Cluster&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;After assigning each player a performance cluster and a salary bracket, we had the information needed in order to create our new metric, which we called over/under. The formula for over/under was the following:&lt;/p&gt;
-
-&lt;center&gt;over/under = performance cluster - salary bracket&lt;/center&gt;
-
-&lt;p&gt;A positive over/under score meant that the player was outperforming their contract and was in line for a pay raise. Conversely, a negative over/under score represented a player that was underachieving and was most likely due for a decrease in pay in their next contract. The chart below shows a few players from our 2016-2017 dataset and their over/under score.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/salJourney/table1.png&quot; alt=&quot;Prediction Table&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;As shown, Lebron James, who belongs to both the highest performance cluster and highest salary bracket, has an over/under score of 0 which means that he should see similar pay in his future contract. In the cases of the Isaiah Thomas, who was an MVP candidate, and Will Barton, a sixth man of the year candidate, both had some of the highest over/under scores, which makes sense because they both significantly outperformed with respect to their contract. Joakim Noah achieved a negative score because of his limited production even though he belonged to such a high salary bracket.&lt;/p&gt;
-
-&lt;p&gt;Overall, after adding the over/under statistic into our regression model, we received an R^2 value of 82%, which was one of the best models that we had produced. However, the issue was that the over/under statistic relied on know the next year’s player salary, which was not possible if you were working with the most current NBA season. One way that we will use to solve this issue is by scaling the years back when calculating a player’s salary bracket. This would mean that for example with the 2016-2017 player data we would use the 2016-2017 player salary and not the 2017-2018 player salary. We also tried to use just the performance cluster metric for each player in a model and see if that had any statistical significance, but unfortunately it did not. Going forward there are numerous aspects that we can tune such as changing the number of performance clusters/salary brackets and scaling the salary years back in order to create a new metric that may improve our eventual regression model. &lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Final Variable Selection &amp; Model Creation&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Since we decided a multiple linear regression model would do the job in predicting average salary given a combination of various statistics, we had to require our model follow a large number of assumptions in order draw adequate conclusions. To begin with, we had to ensure that the player salaries were as close to normally distributed as possible. Average salary’s Gaussian Kernel Density estimation shape was greatly skewed but after applying the square root transformation, the assumption of normality was satisfied. Had this transformation not been applied, the standard errors would have been biased leading to faulty conclusions.&lt;/p&gt;
-
-&lt;p&gt;Next, we took a look at how the variables correlated with each other to better understand relationships.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/salJourney/pic6.png&quot; alt=&quot;Correlation Table&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;When analyzing data as large as this, it is vital to view how the other statistics interact with average salary (the far right column). Next, for the variables which correlate greatly, you need to check how they correlate with each other. By checking for possible multicollinearity, we can avoid adding variables into our model which give the same information and just choose the one who provides us with the most information. For instance, the number of free throws made per game and free throw percentage tell nearly the same story in how a player performs at the line.&lt;/p&gt;
-
-&lt;p&gt;Next, we decided to use a powerful function within R, regsubsets, for regression subset selection which basically finds the best combination of variables at various subset sizes in terms of a given criterion. We decided Adjusted R^2 was an adequate criteria to base our ability to explain average salary.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/salJourney/pic7.png&quot; alt=&quot;regsubsets&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Our task then became selecting the subset which provides the highest adjust R^2 and cutting the model down while taking VIF into account. The variance inflation factor of a variable gives us a sign of multicollinearity which we obviously want to avoid from our model. Finally, we worked our model down while keeping VIF of each variable under 5 to obtain:&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/salJourney/pic8.png&quot; alt=&quot;regsubsets&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;We noticed that Minutes played per game, Win Shares, Steals per game, True Shooting %, Games played in the season, and offensive rebound % proved the most significant variables in predicting average salary according to this model. When checking for validity of a model, diagnostics must be examined.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/salJourney/pic9.png&quot; alt=&quot;regsubsets&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;These four plots prove to us that our assumptions of normality and constant variance are all satisfied meaning that the conclusions we draw from the model can be taken seriously.&lt;/p&gt;
-
-&lt;p&gt;The model is nowhere near perfect yet, it has a low adjusted R^2, and some of the coefficients are negative when intuitively should be positive. We are still in progress to rework the regression model to raise our adjusted R^2 and explore different interactions between variables. However, we were able to satisfy all model assumption which at least gives a checkpoint to build off of as we begin to tune or rework this project.&lt;/p&gt;
-
-&lt;h4&gt;
-	&lt;b&gt;Results&lt;/b&gt;
-&lt;/h4&gt;
-
-&lt;p&gt;Based off this model for predicting 17-18 salaries, we decided to approximate what free agents for the 18-19 season should earn. Since the salary cap for the 18-19 season is so close to the 17-18 season, we decided to reuse this model to create approximate predictions.&lt;/p&gt;
-
-&lt;p&gt;Some top performers:&lt;/p&gt;
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/salJourney/table2.png&quot; alt=&quot;top performers&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Editor's Picks&lt;/p&gt;
-&lt;figure&gt;
-    &lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/salJourney/table3.png&quot; alt=&quot;editor picks&quot;&gt;&lt;/center&gt;
-    &lt;figcaption&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Not too shabby, but there’s so much more to go with the project if we want to improve our accuracy.&lt;/p&gt;
-
-&lt;h4&gt;
-	&lt;b&gt;Next Steps&lt;/b&gt;
-&lt;/h4&gt;
-&lt;p&gt;We are currently working with the professor on obtaining a model using Principal Component Analysis, and also exploring unsupervised methods to help create predictions on data with no attached labels. We also will try to incorporate more statistics such as offensive and defensive rating to hopefully give us more insight into detailing what a player is worth. Additionally, we will working to create extra statistics, such as our performance cluster and another which takes into account previous years.&lt;/p&gt;
-
-&lt;p&gt;We hope to one day predict full contracts with contract length attached, and possibly a web application for people to easily check a player’s worth in terms of what they deserve in salary against what they are currently earning.&lt;/p&gt;
-
-&lt;h4&gt;
-	&lt;b&gt;Conclusion&lt;/b&gt;
-&lt;/h4&gt;
-&lt;p&gt;This piece was just an update of where we are at so far, and to hopefully lay out a foundation on which we or others can build upon. All of our data from 2011-2017 of player’s perGame, advStats, salaries, free agent lists, etc is all our our &lt;a href=&quot;https://github.com/konnermacias/Free-Agents&quot;&gt;github&lt;/a&gt; for you to use. Working towards getting this project completed has been an extremely rewarding experience, allowing us to get closer with our club members and working with our club advisory. It is highly recommended if you ever want to work towards solving a difficult problem and doing something you’re passionate about.&lt;/p&gt;</content><author><name>Konner Macias</name></author><summary type="html">With this article, we hope to detail our process as members of Bruin Sports Analytics to work towards getting a well-done research paper completed, with guidance given by our club advisor, Professor Almohalwas of the UCLA Statistics department. We wish to detail our journey, and all the lessons we have taken from each one to move us closer to completing our desired task. In hopes of creating a paper worthy of being published in an official sports analytics journal, we have decided to take more time in working towards our final result. However, we have decided to write this extended article to provide a checkpoint of where currently stand in hopes for others to get inspired to do research as an undergrad, and learn more about the interesting attempts we have tried to solve our problem.</summary></entry></feed>
+&lt;p&gt;Although this incredible run by Vegas did not get its storybook ending, their inaugural season was an overwhelming success. They’ve accomplished more in one year than many teams have in decades. With a core of young studs, a franchise goaltender, and plenty of cap space, it will be an exciting summer and future for the Golden Knights.&lt;/p&gt;</content><author><name>Joey Maurer</name></author><summary type="html">The Associated PressThis wasn’t supposed to happen. The first major professional sports team to ever grace the city of Las Vegas wasn’t supposed to be this good. Hockey wasn’t meant to be played in the desert. A team full of disposable parts and cast-offs wasn’t supposed to mesh this well together. It must be a fluke.</summary></entry></feed>
