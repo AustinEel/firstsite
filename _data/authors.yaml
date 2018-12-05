@@ -1,4 +1,3 @@
-jack_ma: {bio: '', name: Jack Ma, web: 'http://www.bruinsportsanalytics.com/jackma'}
 albert_pan: {bio: null, name: Albert Pan, web: 'http://www.bruinsportsanalytics.com/albertpan'}
 alex_veroulis: {bio: 'I''m Alex Veroulis, a first-year student with the academic standing
     of a sophomore for the 2017-2018 academic year. My major is statistics, as I have
@@ -20,6 +19,7 @@ don_vu: {bio: null, name: Don Vu, web: 'http://www.bruinsportsanalytics.com/donv
 faraz_murshed: {bio: '', name: Faraz Murshed, web: 'http://www.bruinsportsanalytics.com/farazmurshed'}
 gautham_pasupathy: {bio: '', name: Gautham Pasupathy, web: 'http://www.bruinsportsanalytics.com/gauthampasupathy'}
 haley_rao: {bio: '', name: Haley Rao, web: 'http://www.bruinsportsanalytics.com/haleyrao'}
+jack_ma: {bio: '', name: Jack Ma, web: 'http://www.bruinsportsanalytics.com/jackma'}
 joe_dunham: {bio: '', name: Joe Dunham, web: 'http://www.bruinsportsanalytics.com/joedunham'}
 joey_maurer: {bio: 'I am a third year Statistics major from Temecula, CA. I grew up
     playing and watching hockey; my favorite team is the San Jose Sharks. I also enjoy
