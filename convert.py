@@ -191,7 +191,7 @@ def main():
 
     # gather titles
     title = content[0].split("Title:")[1].strip()
-    authors = content[1].strip().split("Authors:")[1].split(',')
+    authors = content[1].strip().split("Authors: ")[1].split(',')
     my_date = strftime("%Y-%m-%d %H:%M:%S", localtime())
     file_name = f.name.split(".txt", 1)[0]
 
