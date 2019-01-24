@@ -1,3 +1,4 @@
+borna_nazari: {bio: '', name: Borna Nazari, web: 'http://www.bruinsportsanalytics.com/bornanazari'}
 albert_pan: {bio: null, name: Albert Pan, web: 'http://www.bruinsportsanalytics.com/albertpan'}
 alex_veroulis: {bio: 'I''m Alex Veroulis, a first-year student with the academic standing
     of a sophomore for the 2017-2018 academic year. My major is statistics, as I have
@@ -50,6 +51,7 @@ konner_macias: {bio: "I\u2019m a fourth year Mathematics of Computation major an
     \ and basketball, though I'm a fan of all. Looking forward to a great year of\
     \ sports research!<br><br>Feel free to reach out at konnermacias@ucla.edu.", name: Konner
     Macias, web: 'http://www.bruinsportsanalytics.com/konnermacias'}
+max_blane: {bio: '', name: Max Blane, web: 'http://www.bruinsportsanalytics.com/maxblane'}
 nikhil_sharma: {bio: "I\u2019m a third-year Statistics major from Cherry Hill, New\
     \ Jersey. My favorite sport is basketball, as I\u2019ve been obsessively following\
     \ the NBA since I was a child. My favorite team is the Lakers, and I credit Kobe\
