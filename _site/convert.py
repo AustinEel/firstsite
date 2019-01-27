@@ -62,7 +62,7 @@ def print_cover(title, authors, my_date, cov_par):
     body += 'categories: jekyll update\n'\
         'excerpt_separator: <!-- end excerpt here -->\n'\
         'excerpt: '
-    body += '<center><img class=\"materialboxed responsive-img\" src =\"/assets/pic_folder/photo\" alt=\"cover photo\"></center>'
+    body += '<center><img class=\"excerptpics\" src =\"/assets/pic_folder/photo\" alt=\"cover photo\"></center>'
     body += '<p>{}</p>\n'.format(cov_par)
     body += '---\n'
     return body
@@ -204,7 +204,7 @@ def main():
     body = print_cover(title, authors, my_date, cov_par)
 
     # add cover photo
-    body += '<figure>\n\t<center><img class=\"excerptpics\" src =\"/assets/pic_folder/photo\" alt=\"cover photo\"><figcaption></figcaption></center>\n</figure>\n\n'
+    body += '<figure>\n\t<center><img class=\"materialboxed responsive-img\" src =\"/assets/pic_folder/photo\" alt=\"cover photo\"><figcaption></figcaption></center>\n</figure>\n\n'
     # wrap the rest
     for i in range(3, len(content)):
         if content[i]:
