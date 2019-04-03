@@ -5,7 +5,7 @@ members = []
 with open('member_bios.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     for i, row in enumerate(csv_reader):
-        if i != 0: # skip first column row
+        if i != 0: # skip first row
             member = {}
             member['Name'] = row[1]
             member['Email'] = row[2]
