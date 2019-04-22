@@ -1,4 +1,4 @@
-borna_nazari: {bio: '', name: Borna Nazari, web: 'http://www.bruinsportsanalytics.com/bornanazari'}
+
 albert_pan: {bio: null, name: Albert Pan, web: 'http://www.bruinsportsanalytics.com/albertpan'}
 alex_veroulis: {bio: 'I''m Alex Veroulis, a first-year student with the academic standing
     of a sophomore for the 2017-2018 academic year. My major is statistics, as I have
@@ -15,6 +15,7 @@ ben_messinger: {bio: 'Born and raised in Porter Ranch, California, Ben has been 
     at UCLA where he studies Political Science with a focus on International Relations.
     Ben is also passionate about his basketball-centered nonprofit, Hoops with Heart.',
   name: Ben Messinger, web: 'http://www.bruinsportsanalytics.com/benmessinger'}
+borna_nazari: {bio: '', name: Borna Nazari, web: 'http://www.bruinsportsanalytics.com/bornanazari'}
 chad_shimozaki: {bio: '', name: Chad Shimozaki, web: 'http://www.bruinsportsanalytics.com/chadshimozaki'}
 don_vu: {bio: null, name: Don Vu, web: 'http://www.bruinsportsanalytics.com/donvu'}
 faraz_murshed: {bio: '', name: Faraz Murshed, web: 'http://www.bruinsportsanalytics.com/farazmurshed'}
