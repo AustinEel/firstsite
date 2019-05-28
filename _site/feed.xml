@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-26T11:21:44-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bruin Sports Analytics</title><author><name>Bruin Sports Analytics</name></author><entry><title type="html">Home Runs in the Air</title><link href="http://localhost:4000/homerunsInTheAir" rel="alternate" type="text/html" title="Home Runs in the Air" /><published>2019-05-26T11:05:40-07:00</published><updated>2019-05-26T11:05:40-07:00</updated><id>http://localhost:4000/homerunsInTheAir</id><content type="html" xml:base="http://localhost:4000/homerunsInTheAir">&lt;style&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-27T22:23:03-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Bruin Sports Analytics</title><author><name>Bruin Sports Analytics</name></author><entry><title type="html">What It Takes To Be World Number 1: An Analysis of the ATP Tour</title><link href="http://localhost:4000/ATPTour" rel="alternate" type="text/html" title="What It Takes To Be World Number 1: An Analysis of the ATP Tour" /><published>2019-05-27T21:41:31-07:00</published><updated>2019-05-27T21:41:31-07:00</updated><id>http://localhost:4000/ATPTour</id><content type="html" xml:base="http://localhost:4000/ATPTour">&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/ATPTour/cover.png&quot; alt=&quot;cover photo&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The ATP Tour, the circuit that men's professional tennis runs on, consists of several tiers that vary in prestige and quality of competition. The tier of a given tournament determines how many ATP points a player earns for winning matches in that tournament. The four main playing fields are the ATP 250, ATP 500, ATP Masters 1000, and Grand Slams. A player can participate in as many tournaments as he wants, but outside of Slams and Masters, only his six best results from all other events will count towards his ranking points. The number of points a player receives at an event increases as he wins more rounds, with the winner receiving the number of points indicated by the tournament's tier (the winner of a Slam gets 2000). Furthermore, the ranking system runs on a rolling basis and players must constantly defend the points they have. Essentially, a player only gains points from a tournament if he makes it to a further round than he did at that tournament the year before. If he cannot do this, he loses the points he failed to defend (or breaks even if he has the same result as he did a year prior). Through this point system, at the beginning of each week, the player with the most ATP points is the current World Number One.&lt;/p&gt;
+
+&lt;p&gt;The system is very straightforward, but becoming World Number One is easier said than done. Since the conception of this ranking system in 1973, only 26 men have sat atop the perch of men's tennis. Considering the rigid structure of the ATP Tour, scheduling is crucial to a player's road to relevance. To reach number one in the rankings, the question that players should ask themselves is, &quot;How can I optimize my ATP schedule to maximize the points I earn?&quot;&lt;/p&gt;
+
+&lt;p&gt;In recent years, there has been a noticeable trend in the activity level of the reigning World Number One:&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;div style=&quot;width:50%; float: left;&quot;&gt;
+		&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/ATPTour/pic1.png&quot; alt=&quot;picture 1&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;
+	&lt;/div&gt;
+	&lt;div style=&quot;width:50%; float:right&quot;&gt;
+		&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/ATPTour/pic2.png&quot; alt=&quot;picture 2&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;
+	&lt;/div&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;-&lt;/p&gt;
+
+&lt;p&gt;Year by year, the World Number Ones are generally finishing with more points despite playing fewer tournaments per year. It is clear that careful selectivity plays a key role in the path to the top. Attending a large number of tournaments is unnecessary if a player can plan his year out in such a way that he maximizes his performance in the events that he does attend. For instance, going deep in a Masters 1000 is far more valuable than trying to win two ATP 250 tournaments in the same time span. To further examine such selective scheduling among top players, we need not look past the last fifteen years. This era of tennis has featured an unprecedented control of the top spot by three players who are clearly a cut above the rest.&lt;/p&gt;
+
+&lt;h3&gt;The Big Three&lt;/h3&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/ATPTour/pic3.png&quot; alt=&quot;picture 3&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;Time Magazine&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;Of the 782 weeks from 2004 to 2018, Roger Federer, Novak Djokovic, and Rafael Nadal have combined to hold the number one ranking for 738 weeks. While they are all brilliant tennis players who are capable of racking up points through talent alone, sustaining that level of success over the course of nearly two decades requires intelligent tour scheduling as well. Looking back to the 2004 season (the first full year where all three played tour level matches), here is how the Big 3 have split up their tours:&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/ATPTour/pic4.png&quot; alt=&quot;picture 4&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;Time Magazine&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+
+
+&lt;p&gt;When gunning for world number one, the Grand Slams and almost all Masters events are essentially non-negotiable. However, the attendance of the Big 3 at 250 and 500 events is extremely similar as well. Although these lower-level events are the most abundant on tour, the fact that all three of them play roughly four per year suggests that they do not place much value on these tournaments. While these events offer ample opportunities to gain chunks of points quite easily, the Big 3 most likely use them as tuneups to keep themselves in form as they head into the top-tier tournaments. Consequently, the line between the lower two tiers becomes blurred as the Big 3 categorize them under one umbrella.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, there are notable similarities in the way that the Big 3 space out their tournaments. Below are maps that depict the activity levels of each of the Big 3 based on the ATP points they earned each week in the years that they finished as World Number One:&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/ATPTour/pic5.png&quot; alt=&quot;picture 5&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/ATPTour/pic6.png&quot; alt=&quot;picture 6&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/ATPTour/pic7.png&quot; alt=&quot;picture 7&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;One thing that jumps out is the way that all three of them make it a point to be active in the weeks leading up to Grand Slams and then rest in the weeks following them. Coming off of a one-month layover from the previous season, they all play an ATP 250 tournament in the two weeks right before the Australian Open. Similarly, they all play nearly the entire month of May heading into the French Open. Because clay is a slower surface that requires lots of stamina and the clay court season is relatively short compared to the hard court swings, they need to gain as much match play as possible on the red dirt before Roland Garros rolls around. Moreover, this pattern of tuning up for Slams is especially clear during August, as they each play at least two tournaments to prepare for the U.S. Open at the end of the month. The time leading up to Wimbledon is unique in that there is less than a month between it and the conclusion of the French Open. Regardless, the Big 3 still make sure to squeeze in exactly one grass tournament during this brief period. Given that grass is the fastest surface and favors shorter points, it does not require as much conditioning as clay. Therefore, one week on and one week off allows them to achieve the optimal balance between getting in form for Wimbledon and having ample recovery time from Roland Garros.&lt;/p&gt;
+
+&lt;p&gt;Once the Slams have finished, the Big 3 take their rest. After the Australian Open, Wimbledon, and U.S. Open, they all take at least two weeks off. As discussed earlier, the time after the French Open is an exception because of how quickly Wimbledon arrives, so they have no choice but to play a tune-up grass tournament immediately after Roland Garros (although they still make sure to take a week off). The tournaments that take place immediately after Slams conclude are of little to no benefit for the Big 3. To them, the entire purpose of smaller events is to build up their confidence and sharpen their form heading into the larger ones. Therefore, resting after Slams is the most practical course of action, especially since all three of them are over 30 years of age.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/ATPTour/pic8.png&quot; alt=&quot;picture 8&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;Federer, Nadal, and Djokovic all specialize on different surfaces (grass, clay, and hard court respectively) and possess strikingly distinct play styles. Despite these differences, they demonstrate a clear similarity with the way that they cater their tournament scheduling to the Grand Slams. From a simple mathematical perspective, this is a sound formula for capitalizing on the limited opportunities they have throughout the year to reap the largest rewards on the tour. But not everyone is talented enough to take this approach.&lt;/p&gt;
+
+&lt;h3&gt;What About Everyone Else?&lt;/h3&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/ATPTour/pic9.png&quot; alt=&quot;picture 9&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The aforementioned formula makes plenty of sense, provided that the player in question is actually capable of consistently going deep in Grand Slams. Unfortunately, for most of the world, this is not the case. The Big 3 have claimed the lion's share of Grand Slam success for the last fifteen years. Of the 60 Grand Slams from 2004 to 2018, the Big 3 have won 50. On top of that, only four Grand Slam finals since 2004 have not featured a member of the Big 3. This level of dominance does not exist in any other sport and has completely shut down the natural transition from one generation to the next that sports typically go through. No player born in the 1990's or later has ever won a Grand Slam. In fact, only two have ever made it to a Grand Slam final. Essentially, Grand Slam trophies are a distant dream for the mere mortal tennis players of today's world. In order to stay alive in the race for World Number One, the rest of the top ten players must offset this deficit by playing many more tournaments in general. Below is a display of the paths that the Big 3 took last year to earn their ATP Points compared to those of five other top 10 players: Alexander Zverev, Kevin Anderson, Dominic Thiem, Kei Nishikori, and John Isner.&lt;/p&gt;
+
+
+&lt;figure&gt;
+	&lt;div style=&quot;width:50%; float: left;&quot;&gt;
+		&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/ATPTour/pic10.png&quot; alt=&quot;picture 10&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;
+	&lt;/div&gt;
+	&lt;div style=&quot;width:50%; float:right&quot;&gt;
+		&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/ATPTour/pic11.png&quot; alt=&quot;picture 11&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;
+	&lt;/div&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;center&gt;-&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;The workload disparity between the two parties is quite glaring. While the Big 3 had long, flat periods and moved up large chunks at a time, the other top ten players' paths were very busy. At a substantially high rate, they generally moved up small steps at a time in order to counteract the Grand Slam points that the Big 3 consistently racked up. On average, these five players roughly played 3 ATP 250 events and 5.5 ATP 500 events last year while the Big 3 averaged only 0.3 250s and 2 500s. Through such a high attendance rate, Alexander Zverev was able to finish within 40 points of Roger Federer for the number 3 spot, with Djokovic and Nadal at 1 and 2 respectively. It should be noted that Federer is 37 years old and has generally skipped the entire clay court season the last few years whereas Zverev is 22 years young and extremely hungry to become the face of men's tennis one day. That is no knock against Zverev; this high-frequency strategy makes plenty of sense for young players whose bodies can handle 25+ tournaments per year. And for those especially talented youngsters like Zverev and Thiem, it's the only chance they have of fighting for World Number One.&lt;/p&gt;
+
+&lt;p&gt;Overall, the approach that the rest of the top ten players take to shoot for World Number One is very different from that of the Big 3. While the Big 3 focus their entire year on the four Slams, there is a consensus among the rest of the tour in that the Slam trophies are extremely difficult for them. Despite being years younger, they would need the stars to align in order to outsmart Federer, outwork Nadal, or outclass Djokovic over five sets. So instead of banking on Slams, they feed on the many other tournaments throughout the year in order to get themselves within striking distance of a top ranking.&lt;/p&gt;
+
+&lt;h3&gt;No Way Around Perfection&lt;/h3&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/ATPTour/pic12.png&quot; alt=&quot;picture 12&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Naturally, becoming World Number One ultimately comes down to a matter of who collects the most ATP points. A player who wins six ATP 500 events and makes it to the semi-finals of all of the Masters events and Grand Slams already has more than 9000 points, which is generally enough to contend for World Number One. But in reality, there is a limit to how much one can game the system. In the history of tennis, there has only been one man (Marcelo Rios) to hold the number one ranking without ever winning a Grand Slam in his career.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/ATPTour/pic13.png&quot; alt=&quot;picture 13&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;As obvious as it may sound, becoming World Number One requires sensational tennis, far beyond what that player normally puts on display. The Elo Rating System is an all-encompassing metric that calculates the relative skill levels of players based on factors such as quality of opposition and magnitude of matches won. Below is a comparative chart (dating back to 1973) of the Elo ratings of every year-end World Number One that year relative to his career Elo:&lt;/p&gt;
+
+&lt;p&gt;The average career Elo of all Year-End World Number Ones since 1973 is 2092.58, so the fact that players improve their Elo ratings by hundreds of points in their number one years underscores just how much they elevated their levels of play. We should acknowledge the two negative bars at the end that represent Nadal's 2017 and Djokovic's 2018 seasons. They finished those years with lower Elo ratings than years prior, but these lesser versions of themselves were still easily enough to end those years at atop the rankings. Generally speaking, World Number Ones reach new heights en route to claiming the ATP's top spot.&lt;/p&gt;
+
+&lt;h3&gt;2000 is the Magic Number&lt;/h3&gt;
+
+
+&lt;figure&gt;
+	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/ATPTour/pic14.png&quot; alt=&quot;picture 14&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
+&lt;/figure&gt;
+
+
+&lt;p&gt;As we've discussed, the ATP tour has many layers, all of which factor into a player's world ranking. But it is clear that the road to World Number One goes through the Grand Slams. It is no coincidence that the Big 3 have won 52 combined Slams and controlled the number one ranking for almost 95% of the last fifteen years. Despite the efforts of other top players who play far more tournaments to make up for the Slams, the 2000 points gained from these four events is still too much to overcome.&lt;/p&gt;
+
+&lt;p&gt;Once the Slams have separated the contenders from the rest of the pack, the remaining tour events then determine who belongs at the top. Stan Wawrinka and Andy Murray each have 3 Grand Slam titles, yet their careers have played out quite differently. Outside of the Slams, Murray has won 42 titles, 14 of which are Masters, whereas Wawrinka has won just 13 titles, only one of which is a Masters. Not surprisingly, Murray was the World Number One for 41 straight weeks, while Wawrinka has never even reached number 2. Slams are paramount, but what truly separates the top player from everyone else is the full body of work over 52 weeks. So, the next time you see a World Number One on TV, you'll have a better understanding of exactly how much weight that title carries.&lt;/p&gt;
+
+&lt;p&gt;Sources: ESPN, ATPTour, UltimateTennisStatistics&lt;/p&gt;</content><author><name>Kevin Hahn</name></author><summary type="html">The ATP Tour, the circuit that men's professional tennis runs on, consists of several tiers that vary in prestige and quality of competition. The tier of a given tournament determines how many ATP points a player earns for winning matches in that tournament. The four main playing fields are the ATP 250, ATP 500, ATP Masters 1000, and Grand Slams. A player can participate in as many tournaments as he wants, but outside of Slams and Masters, only his six best results from all other events will count towards his ranking points. The number of points a player receives at an event increases as he wins more rounds, with the winner receiving the number of points indicated by the tournament's tier (the winner of a Slam gets 2000). Furthermore, the ranking system runs on a rolling basis and players must constantly defend the points they have. Essentially, a player only gains points from a tournament if he makes it to a further round than he did at that tournament the year before. If he cannot do this, he loses the points he failed to defend (or breaks even if he has the same result as he did a year prior). Through this point system, at the beginning of each week, the player with the most ATP points is the current World Number One.</summary></entry><entry><title type="html">Home Runs in the Air</title><link href="http://localhost:4000/homerunsInTheAir" rel="alternate" type="text/html" title="Home Runs in the Air" /><published>2019-05-26T11:05:40-07:00</published><updated>2019-05-26T11:05:40-07:00</updated><id>http://localhost:4000/homerunsInTheAir</id><content type="html" xml:base="http://localhost:4000/homerunsInTheAir">&lt;style&gt;
 table, th, td {
   border: 1px solid black;
   text-align: center;
@@ -678,74 +795,4 @@ Middleton and Siakam are both future All-Stars and the second best players on th
 
 &lt;p&gt;We would like to credit a number of sources. StatsBomb, Stats Zone and Opta were used for passing networks and visualizations. The mock pitch tool was inspired by Ben Torvaney's 'soccer event tracker'. Full match videos from the 2016-17 soccer season onwards (this would probably interest a lot of people!) were found on fullmatchsports.com/fullmatch.&lt;/p&gt;
 
-&lt;p&gt;Please feel free to write to me at &lt;a href=&quot;salil1999@gmail.com&quot;&gt;salil1999@gmail.com&lt;/a&gt; if you have any suggestions or ideas on other metrics we could add to our model or any thoughts in general!&lt;/p&gt;</content><author><name>Salil Akundi</name></author><summary type="html">It is true that a goalkeeper's main job is to keep the ball out of the net. However, in the modern game, where margins are much tighter and errors are easily punished, it is a valuable advantage for a goalkeeper to be an adept passer of the ball. This is particularly useful when a team plays a style with the intent of creating spaces to attack by drawing the opposition to press high, such as the style employed (with success, in the past with Napoli) by Chelsea manager Maurizio Sarri. It is no coincidence, either, to see big clubs spending record sums of money on goalkeepers these days, goalkeepers that are not just shot-stoppers, but also excellent footballers.</summary></entry><entry><title type="html">The Impact of Pitches Seen on Offensive Production</title><link href="http://localhost:4000/PitchesOffensiveProduction" rel="alternate" type="text/html" title="The Impact of Pitches Seen on Offensive Production" /><published>2019-01-23T18:11:15-08:00</published><updated>2019-01-23T18:11:15-08:00</updated><id>http://localhost:4000/PitchesOffensiveProduction</id><content type="html" xml:base="http://localhost:4000/PitchesOffensiveProduction">&lt;figure&gt;
-	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/pitch_off/cover.png&quot; alt=&quot;cover photo&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Due to the effects of a major knee surgery suffered during a September 2016 matchup vs. the &lt;i&gt;Toronto Blue Jays&lt;/i&gt;, and a reinjury that was followed by a second surgery in April of 2017, the 2018 season came and went with Boston Red Sox second baseman Dustin Pedroia compiling thirteen total plate appearances; he accumulated just a single hit.&lt;/p&gt;
-
-&lt;p&gt;Though the Boston Red Sox went on to capture their 9th World Series Championship, the team's first since 2013 and 4th since 2000, they had to do so without contributions from the 2007 American League Rookie of the Year and 2008 AL MVP.&lt;/p&gt;
-
-&lt;p&gt;The team's journey through the playoffs this past season featured series wins against the 100-win Yankees 3-1, the 103-win Astros 4-1, and the NL Champion, 92-win Dodgers 4-1. The team, without Pedroia in the lineup, had to instead rely on a platoon at second base that featured utility man Brock Holt, natural third baseman Eduardo Nunez and 36-year old midseason acquisition Ian Kinsler (who, as of December 14th, 2018, is no longer on the team).&lt;/p&gt;
-
-&lt;p&gt;Pedroia, the face of Boston's franchise until the arrival of 2018 MVP Mookie Betts, is locked up under contact until 2022. Signing for 8 years, $110 Million during the summer of 2013, even Pedroia indicated a sense of uncertainty about his longevity to reporters, stating &quot;&lt;a href=&quot;https://www.google.com/url?q=https://www.usatoday.com/story/sports/mlb/redsox/2013/07/24/red-sox-dustin-pedroia-finalize-110m-8-year-deal/2583911/&amp;sa=D&amp;ust=1548303230749000&quot;&gt;I don't know if I'll be done by then, man&lt;/a&gt;&quot;.&lt;/p&gt;
-
-&lt;p&gt;In a league where the average age of a player on a given team lands between a minimum of 26.2 (Chicago White Sox) and a maximum of 30.3 (Toronto Blue Jays), the Red Sox must decide whether to implement the 35-year old Pedroia immediately into the starting lineup as the everyday second baseman for 2019, or stick with the Brock Holt (30yrs)/Eduardo Nunez (31yrs) platoon at the position.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.google.com/url?q=https://www.boston.com/sports/boston-red-sox/2018/06/07/dustin-pedroia-injury-red-sox-future&amp;sa=D&amp;ust=1548303230750000&quot;&gt;The Boston Herald's Jason Mastrodonato reports that there exists just six full-time position players 35 or older in the major leagues this past year -- of which five are designated hitters&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In complying with this statistic, it would certainly be easy for the Red Sox to maintain the playoff platoon, or turn to a younger substitute in the form of Michael Chavis (23), Marco Hernandez (26) or Tzu-Wei Lin (24). With that being said, it will be difficult for the club to sit Pedroia on a regular basis as a result of his previous success in the league, his leadership value, and the fact that the team still owes him roughly 40 million dollars on his current deal.&lt;/p&gt;
-
-&lt;p&gt;Watching Red Sox games throughout the years, Dustin Pedroia can be seen taking the first pitch of many at-bats, even though the offering will often come directly down the heart of the plate. In contrast to pitches later in his at-bats, Pedroia acts generally unprepared for the first delivery, doing minimal set-up before the pitch is fired, as if he has no intention to swing at all.&lt;/p&gt;
-
-&lt;div class=&quot;video-container&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/r7TbWAOhZXo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
-
-
-&lt;p&gt;As our research indicates, there may exist a different offensive approach that can keep Pedroia relevant in the Red Sox lineup by boosting his productivity at the plate.&lt;/p&gt;
-
-&lt;p&gt;Below we have two graphs: one showing Pedroia's year by year Offensive Wins above Replacement and the other Pedroia's Pitches seen Per Plate Appearance average (P/PA) for each season.&lt;/p&gt;
-
-&lt;figure&gt;
-	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/pitch_off/pic1.png&quot; alt=&quot;picture 1&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/pitch_off/pic2.png&quot; alt=&quot;picture 2&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Looking in depth at the statistical side of Pedroia's production, it became noticeable that some sort of trend exists between an increasing average of Pitches Seen per Plate Appearance and a decreasing yearly Offensive Wins Over Replacement.&lt;/p&gt;
-
-&lt;p&gt;We then conducted a significance test, comparing Pedroia's &lt;b&gt;P/PA&lt;/b&gt; during his &lt;b&gt;2008 MVP season&lt;/b&gt; (in which he saw his 2nd highest oWAR and his lowest P/PA) to his &lt;b&gt;average career P/PA&lt;/b&gt;.&lt;/p&gt;
-
-&lt;p&gt;The t-test, satisfying all conditions of normality, independence, and randomization, indicated a low enough p-value, and therefore established a significant difference in Dustin Pedroia's plate approach in his 2008 MVP season compared to the rest of his career as a whole. This suggests an explanation for the differences seen in production levels year-to-year.&lt;/p&gt;
-
-&lt;p&gt;For further evidence into the relationship, we developed a line graph comparing the two variables to each other, placing oWAR on the y-axis, and P/PA on the x-axis.&lt;/p&gt;
-
-&lt;p&gt;The implementation of a line of best fit produced the following graph:&lt;/p&gt;
-
-
-&lt;figure&gt;
-	&lt;center&gt;&lt;img class=&quot;materialboxed responsive-img&quot; src =&quot;/assets/pitch_off/pic3.png&quot; alt=&quot;picture 3&quot; style=&quot;max-width: 95%;&quot;&gt;&lt;figcaption&gt;&lt;/figcaption&gt;&lt;/center&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Although not a perfectly negative correlation, the slope of -1.45 and R-squared value of 0.017 indicate that P/PA is a factor that impacts oWAR, but is not the &lt;b&gt;only&lt;/b&gt; influencer that determines Pedroia's offensive production.&lt;/p&gt;
-
-&lt;p&gt;As is evidenced through the t-test and analytical graphs, Dustin Pedroia has often experienced more success when he sees less pitches per each individual plate appearance. We equate the term &quot;success&quot; numerically with the value of oWAR in order to develop a clear understanding of his offensive productivity and results.&lt;/p&gt;
-
-&lt;p&gt;WAR is the value (in wins) lost by a team if a player gets injured, and thus replaced, in a given season. The point of WAR isn't meant to be an exact measure, but rather an estimate of a particular player's value to their team. Below are the attached equations that are used to calculate both a player's total WAR and their oWAR:&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;WAR = (Batting Runs + Baserunning Runs + &lt;b&gt;Fielding Runs&lt;/b&gt; + Positional Adjustment + League Adjustment +Replacement Runs) / (Runs Per Win)&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;oWAR= (Batting Runs + Baserunning Runs + Positional Adjustment + League Adjustment +Replacement Runs) / (Runs Per Win)&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;As is shown by the bold term, the lone difference between WAR and oWAR is that oWAR does not include the amount of fielding runs that the player has saved/contributed.&lt;/p&gt;
-
-&lt;p&gt;As a result of Pedroia's increased success at the plate with a decreased number of pitches seen, it would be advantageous to &lt;span style=&quot;text-decoration: underline;&quot;&gt;move Pedroia down towards the bottom of the order&lt;/span&gt;, but still &lt;span style=&quot;text-decoration: underline;&quot;&gt;keep him in the everyday lineup&lt;/span&gt;. In reference to his positioning in the batting order, often times, the role of batters at the top of the order is to tire out the starting pitcher by seeing more pitches. For the Red Sox to maximize both team success and individual success, an ideal spot for Pedroia to bat in the batting order would be the &lt;i&gt;7th spot&lt;/i&gt;. The 7th position, taken up by hitters such as Jason Kipnis (CLE), Dexter Fowler (STL), and Daniel Murphy (WSH/CHC) is often given to older, yet still impactful players, who hit mostly for contact at this point in their careers. This spot in the order would allow Pedroia to be more aggressive early in the count, giving him a better chance to make a difference when provided with everyday playing time.&lt;/p&gt;
-
-&lt;p&gt;However, Red Sox Manager Alex Cora should be careful about his usage of Pedroia at second base on a regular basis. Instead, using Pedroia in the DH spot semi-regularly will maximize his chances to produce offensively without wearing him down, a beneficial move with respect to his injury-filled past.&lt;/p&gt;
-
-&lt;p&gt;Pedroia's production at second base, indicated by his dWAR (Defensive Wins Above Replacement) seemingly peaked in the 2014 season, when it maxed out at a career high of 2.5 and won him his 3rd Gold Glove Award. Since then, in seasons in which he has eclipsed 90 games, he has posted dWAR's of 0.0, 1.8 and 0.1. His diminishing value at second base shows that the Red Sox would not be taking a serious hit by playing a replacement once or twice in a given series, and would, by placing him in the DH spot, retain his health for both when he does play second, and for his frequent plate appearances.&lt;/p&gt;
-
-&lt;p&gt;Lastly, seeing less pitches in each at bat will also limit Pedroia's opportunity for injury at the plate (less pitches seen, less chance to get HBP).&lt;/p&gt;
-
-&lt;p&gt;Dustin Pedroia, still an offensive weapon for the Boston Red Sox should be provided regular playing time, whether at DH or at second base, for seasons to come. With his playing time, Pedroia should make an effort to restore his approach highlighted during his 2008 MVP year, as an aggressive hitter early in the count.&lt;/p&gt;</content><author><name>Max Blane</name></author><summary type="html">Due to the effects of a major knee surgery suffered during a September 2016 matchup vs. the Toronto Blue Jays, and a reinjury that was followed by a second surgery in April of 2017, the 2018 season came and went with Boston Red Sox second baseman Dustin Pedroia compiling thirteen total plate appearances; he accumulated just a single hit.</summary></entry></feed>
+&lt;p&gt;Please feel free to write to me at &lt;a href=&quot;salil1999@gmail.com&quot;&gt;salil1999@gmail.com&lt;/a&gt; if you have any suggestions or ideas on other metrics we could add to our model or any thoughts in general!&lt;/p&gt;</content><author><name>Salil Akundi</name></author><summary type="html">It is true that a goalkeeper's main job is to keep the ball out of the net. However, in the modern game, where margins are much tighter and errors are easily punished, it is a valuable advantage for a goalkeeper to be an adept passer of the ball. This is particularly useful when a team plays a style with the intent of creating spaces to attack by drawing the opposition to press high, such as the style employed (with success, in the past with Napoli) by Chelsea manager Maurizio Sarri. It is no coincidence, either, to see big clubs spending record sums of money on goalkeepers these days, goalkeepers that are not just shot-stoppers, but also excellent footballers.</summary></entry></feed>
