@@ -62,7 +62,7 @@ def print_cover(title, authors, my_date, cov_par):
     body += 'categories: jekyll update\n'\
         'excerpt_separator: <!-- end excerpt here -->\n'\
         'excerpt: '
-    body += '<center><img class=\"excerptpics\" src =\"/assets/pic_folder/photo\" alt=\"cover photo\"></center>'
+    body += '<center><img class=\"excerptpics\" src =\"/assets\" alt=\"cover photo\"></center>'
     body += '<p>{}</p>\n'.format(cov_par)
     body += '---\n'
     return body
